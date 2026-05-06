@@ -1,0 +1,23 @@
+Count,Crash Type Group,Label
+3,All others,Waymo rider only
+6,Cyclist,Waymo rider only
+5,Motorcycle,Waymo rider only
+4,Pedestrian,Waymo rider only
+8,Secondary crash,Waymo rider only
+2,Single vehicle,Waymo rider only
+3,V2V backing,Waymo rider only
+44,V2V F2R,Waymo rider only
+3,V2V head-on,Waymo rider only
+8,V2V intersection,Waymo rider only
+8,V2V lateral,Waymo rider only
+11,All others,Avg. human-driven benchmark
+36,Cyclist,Avg. human-driven benchmark
+24,Motorcycle,Avg. human-driven benchmark
+51,Pedestrian,Avg. human-driven benchmark
+25,Secondary crash,Avg. human-driven benchmark
+34,Single vehicle,Avg. human-driven benchmark
+4,V2V backing,Avg. human-driven benchmark
+76,V2V F2R,Avg. human-driven benchmark
+8,V2V head-on,Avg. human-driven benchmark
+198,V2V intersection,Avg. human-driven benchmark
+34,V2V lateral,Avg. human-driven benchmark

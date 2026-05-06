@@ -1,0 +1,9 @@
+{
+  "source_id": "bok_genai",
+  "url": "https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=201150&menuNo=200433&nttId=10093071&oldMenuNo=201150&pageIndex=1&pageUnit=10&programType=newsData&searchCnd=1&searchKwd=",
+  "retrieved_at": "2026-05-03T04:50:04+00:00",
+  "status_code": 200,
+  "file_path": "C:\\Users\\ASUS\\Desktop\\SAIS Playground\\ROKxAI\\korea-ai-industry-dashboard\\data\\raw\\bok_genai\\2026-05-03\\bok_genai.html",
+  "content_type": "text/html;charset=utf-8",
+  "notes": ""
+}

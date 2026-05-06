@@ -1,0 +1,16 @@
+model,arena_elo_rating,95_CI_upper,95_CI_lower,Error Lower,Error Upper
+gpt-5.1-high,1457,1461,1453,4,4
+claude-sonnet-4-6,1458,1468,1448,10,10
+gemini-3-flash (thinking-minimal),1461,1466,1456,5,5
+grok-4.1,1462,1466,1458,4,4
+claude-opus-4-5-20251101,1467,1471,1463,4,4
+dola-seed-2.0-preview,1470,1479,1461,9,9
+claude-opus-4-5-20251101-thinking-32k,1471,1475,1467,4,4
+gemini-3-flash,1473,1478,1468,5,5
+grok-4.1-thinking,1473,1477,1469,4,4
+gpt-5.2-chat-latest-20260210,1481,1491,1471,10,10
+gemini-3-pro,1486,1490,1482,4,4
+grok-4.20-beta1,1495,1505,1485,10,10
+gemini-3.1-pro-preview,1500,1509,1491,9,9
+claude-opus-4-6-thinking,1503,1511,1495,8,8
+claude-opus-4-6,1503,1510,1496,7,7

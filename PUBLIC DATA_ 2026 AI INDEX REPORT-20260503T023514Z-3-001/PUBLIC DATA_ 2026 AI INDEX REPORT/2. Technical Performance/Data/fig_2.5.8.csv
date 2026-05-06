@@ -1,0 +1,16 @@
+Model,Accuracy
+Kimi K2.5,0.742
+o1,0.7428
+Claude Opus 4.5 (Nonthinking),0.7433
+GPT 4o (2024-11-20),0.7453
+o3,0.7456999999999999
+o4 Mini,0.7478
+Claude Opus 4.5 (Thinking),0.7486
+GPT 5.1,0.7486
+GPT 4.1,0.7506
+GPT 5 Mini,0.7522
+Grok 4 Fast (Reasoning),0.757
+GPT 5.2,0.7576
+Grok 3,0.7587999999999999
+Claude Opus 4.6 (Thinking),0.7595999999999999
+Claude Sonnet 4.6,0.7711

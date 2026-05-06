@@ -1,0 +1,73 @@
+Function,Year,Variable,Value
+Software engineering,2024,Decrease by ≥20%,0.06
+Software engineering,2024,Decrease by 10%–19%,0.14
+Software engineering,2024,Decrease by <10%,0.35
+Software engineering,2024,Total Decrease,0.56
+Manufacturing,2024,Decrease by ≥20%,0.04
+Manufacturing,2024,Decrease by 10%–19%,0.07
+Manufacturing,2024,Decrease by <10%,0.45
+Manufacturing,2024,Total Decrease,0.56
+IT,2024,Decrease by ≥20%,0.08
+IT,2024,Decrease by 10%–19%,0.1
+IT,2024,Decrease by <10%,0.36
+IT,2024,Total Decrease,0.54
+Strategy and corporate finance,2024,Decrease by ≥20%,0.08
+Strategy and corporate finance,2024,Decrease by 10%–19%,0.17
+Strategy and corporate finance,2024,Decrease by <10%,0.28
+Strategy and corporate finance,2024,Total Decrease,0.53
+Service operations,2024,Decrease by ≥20%,0.06
+Service operations,2024,Decrease by 10%–19%,0.08
+Service operations,2024,Decrease by <10%,0.37
+Service operations,2024,Total Decrease,0.51
+Human resources,2024,Decrease by ≥20%,0.07
+Human resources,2024,Decrease by 10%–19%,0.11
+Human resources,2024,Decrease by <10%,0.33
+Human resources,2024,Total Decrease,0.51
+Supply chain management,2024,Decrease by ≥20%,0.07
+Supply chain management,2024,Decrease by 10%–19%,0.03
+Supply chain management,2024,Decrease by <10%,0.39
+Supply chain management,2024,Total Decrease,0.49
+Marketing and sales,2024,Decrease by ≥20%,0.07
+Marketing and sales,2024,Decrease by 10%–19%,0.08
+Marketing and sales,2024,Decrease by <10%,0.33
+Marketing and sales,2024,Total Decrease,0.49
+Product and/or service development,2024,Decrease by ≥20%,0.1
+Product and/or service development,2024,Decrease by 10%–19%,0.1
+Product and/or service development,2024,Decrease by <10%,0.28
+Product and/or service development,2024,Total Decrease,0.47
+Risk,2024,Decrease by ≥20%,0.1
+Risk,2024,Decrease by 10%–19%,0.11
+Risk,2024,Decrease by <10%,0.24
+Risk,2024,Total Decrease,0.45
+Knowledge management,2024,Decrease by ≥20%,0.09
+Knowledge management,2024,Decrease by 10%–19%,0.08
+Knowledge management,2024,Decrease by <10%,0.28
+Knowledge management,2024,Total Decrease,0.44
+Marketing and sales,2024,Increase by >10%,0.1
+Marketing and sales,2024,Increase by 6%–10%,0.14
+Marketing and sales,2024,Increase by ≤5%,0.43
+Marketing and sales,2024,Total Increase,0.67
+Strategy and corporate finance,2024,Increase by >10%,0.12
+Strategy and corporate finance,2024,Increase by 6%–10%,0.22
+Strategy and corporate finance,2024,Increase by ≤5%,0.31
+Strategy and corporate finance,2024,Total Increase,0.65
+Product and/or service development,2024,Increase by >10%,0.1
+Product and/or service development,2024,Increase by 6%–10%,0.15
+Product and/or service development,2024,Increase by ≤5%,0.38
+Product and/or service development,2024,Total Increase,0.62
+Supply chain management,2024,Increase by >10%,0.05
+Supply chain management,2024,Increase by 6%–10%,0.11
+Supply chain management,2024,Increase by ≤5%,0.42
+Supply chain management,2024,Total Increase,0.59
+Service operations,2024,Increase by >10%,0.05
+Service operations,2024,Increase by 6%–10%,0.16
+Service operations,2024,Increase by ≤5%,0.36
+Service operations,2024,Total Increase,0.57
+Software engineering,2024,Increase by >10%,0.09
+Software engineering,2024,Increase by 6%–10%,0.13
+Software engineering,2024,Increase by ≤5%,0.35
+Software engineering,2024,Total Increase,0.57
+IT,2024,Increase by >10%,0.05
+IT,2024,Increase by 6%–10%,0.18
+IT,2024,Increase by ≤5%,0.3
+IT,2024,Total Increase,0.52

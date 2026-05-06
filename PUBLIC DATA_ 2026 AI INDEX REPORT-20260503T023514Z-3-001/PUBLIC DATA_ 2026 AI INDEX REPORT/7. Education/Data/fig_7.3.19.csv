@@ -1,0 +1,218 @@
+Country,Country Code,Status
+Andorra,AND,CS mandatory in primary and/or secondary school
+Armenia,ARM,CS mandatory in primary and/or secondary school
+Australia,AUS,CS mandatory in primary and/or secondary school
+Austria,AUT,CS mandatory in primary and/or secondary school
+Azerbaijan,AZE,CS mandatory in primary and/or secondary school
+Bangladesh,BGD,CS mandatory in primary and/or secondary school
+Belarus,BLR,CS mandatory in primary and/or secondary school
+Bhutan,BTN,CS mandatory in primary and/or secondary school
+Brazil,BRA,CS mandatory in primary and/or secondary school
+Bulgaria,BGR,CS mandatory in primary and/or secondary school
+Cabo Verde,CPV,CS mandatory in primary and/or secondary school
+Channel Islands,CHI,CS mandatory in primary and/or secondary school
+China,CHN,CS mandatory in primary and/or secondary school
+Costa Rica,CRI,CS mandatory in primary and/or secondary school
+Czech Republic,CZE,CS mandatory in primary and/or secondary school
+Denmark,DNK,CS mandatory in primary and/or secondary school
+Ecuador,ECU,CS mandatory in primary and/or secondary school
+Estonia,EST,CS mandatory in primary and/or secondary school
+Finland,FIN,CS mandatory in primary and/or secondary school
+France,FRA,CS mandatory in primary and/or secondary school
+French Polynesia,PYF,CS mandatory in primary and/or secondary school
+Ghana,GHA,CS mandatory in primary and/or secondary school
+Gibraltar,GIB,CS mandatory in primary and/or secondary school
+"Hong Kong SAR, China",HKG,CS mandatory in primary and/or secondary school
+Iceland,ISL,CS mandatory in primary and/or secondary school
+Isle of Man,IMN,CS mandatory in primary and/or secondary school
+Japan,JPN,CS mandatory in primary and/or secondary school
+South Korea (Rep.of Korea),KOR,CS mandatory in primary and/or secondary school
+Latvia,LVA,CS mandatory in primary and/or secondary school
+Liechtenstein,LIE,CS mandatory in primary and/or secondary school
+Lithuania,LTU,CS mandatory in primary and/or secondary school
+Luxembourg,LUX,CS mandatory in primary and/or secondary school
+Malaysia,MYS,CS mandatory in primary and/or secondary school
+Malta,MLT,CS mandatory in primary and/or secondary school
+Moldova,MDA,CS mandatory in primary and/or secondary school
+Monaco,MCO,CS mandatory in primary and/or secondary school
+Morocco,MAR,CS mandatory in primary and/or secondary school
+New Zealand,NZL,CS mandatory in primary and/or secondary school
+North Macedonia,MKD,CS mandatory in primary and/or secondary school
+Pakistan,PAK,CS mandatory in primary and/or secondary school
+Panama,PAN,CS mandatory in primary and/or secondary school
+Poland,POL,CS mandatory in primary and/or secondary school
+Qatar,QAT,CS mandatory in primary and/or secondary school
+Romania,ROU,CS mandatory in primary and/or secondary school
+Russian Federation,RUS,CS mandatory in primary and/or secondary school
+Rwanda,RWA,CS mandatory in primary and/or secondary school
+Serbia,SRB,CS mandatory in primary and/or secondary school
+Singapore,SGP,CS mandatory in primary and/or secondary school
+Slovak Republic,SVK,CS mandatory in primary and/or secondary school
+Slovenia,SVN,CS mandatory in primary and/or secondary school
+South Africa,ZAF,CS mandatory in primary and/or secondary school
+Spain,ESP,CS mandatory in primary and/or secondary school
+St. Lucia,LCA,CS mandatory in primary and/or secondary school
+St. Martin (French part),MAF,CS mandatory in primary and/or secondary school
+Sweden,SWE,CS mandatory in primary and/or secondary school
+Switzerland,CHE,CS mandatory in primary and/or secondary school
+"Taiwan, China",TWN,CS mandatory in primary and/or secondary school
+Thailand,THA,CS mandatory in primary and/or secondary school
+Turkey,TUR,CS mandatory in primary and/or secondary school
+Turks and Caicos Islands,TCA,CS mandatory in primary and/or secondary school
+Ukraine,UKR,CS mandatory in primary and/or secondary school
+United Arab Emirates,ARE,CS mandatory in primary and/or secondary school
+United Kingdom of Great Britin and Northern Ireland,GBR,CS mandatory in primary and/or secondary school
+Uzbekistan,UZB,CS mandatory in primary and/or secondary school
+Vietnam,VNM,CS mandatory in primary and/or secondary school
+Zambia,ZMB,CS mandatory in primary and/or secondary school
+Canada,CAN,CS available everywhere as an elective course
+Georgia,GEO,CS available everywhere as an elective course
+Greece,GRC,CS available everywhere as an elective course
+Greenland,GRL,CS available everywhere as an elective course
+Mauritius,MUS,CS available everywhere as an elective course
+San Marino,SMR,CS available everywhere as an elective course
+Afghanistan,AFG,CS courses available in some schools or districts
+Albania,ALB,CS courses available in some schools or districts
+Algeria,DZA,CS courses available in some schools or districts
+American Samoa,ASM,CS courses available in some schools or districts
+Angola,AGO,CS courses available in some schools or districts
+Antigua and Barbuda,ATG,CS courses available in some schools or districts
+Argentina,ARG,CS courses available in some schools or districts
+Aruba,ABW,CS courses available in some schools or districts
+"Bahamas, The",BHS,CS courses available in some schools or districts
+Bahrain,BHR,CS courses available in some schools or districts
+Barbados,BRB,CS courses available in some schools or districts
+Belgium,BEL,CS courses available in some schools or districts
+Belize,BLZ,CS courses available in some schools or districts
+Benin,BEN,CS courses available in some schools or districts
+Bolivia,BOL,CS courses available in some schools or districts
+Bosnia and Herzegovina,BIH,CS courses available in some schools or districts
+Botswana,BWA,CS courses available in some schools or districts
+British Virgin Islands,VGB,CS courses available in some schools or districts
+Brunei Darussalam,BRN,CS courses available in some schools or districts
+Burkina Faso,BFA,CS courses available in some schools or districts
+Burundi,BDI,CS courses available in some schools or districts
+Cambodia,KHM,CS courses available in some schools or districts
+Cameroon,CMR,CS courses available in some schools or districts
+Cayman Islands,CYM,CS courses available in some schools or districts
+Chile,CHL,CS courses available in some schools or districts
+Colombia,COL,CS courses available in some schools or districts
+Comoros,COM,CS courses available in some schools or districts
+"Congo, Dem. Rep.",COD,CS courses available in some schools or districts
+"Congo, Rep.",COG,CS courses available in some schools or districts
+Côte d'Ivoire,CIV,CS courses available in some schools or districts
+Croatia,HRV,CS courses available in some schools or districts
+Cuba,CUB,CS courses available in some schools or districts
+Curaçao,CUW,CS courses available in some schools or districts
+Cyprus,CYP,CS courses available in some schools or districts
+Djibouti,DJI,CS courses available in some schools or districts
+Dominica,DMA,CS courses available in some schools or districts
+Dominican Republic,DOM,CS courses available in some schools or districts
+"Egypt, Arab Rep.",EGY,CS courses available in some schools or districts
+El Salvador,SLV,CS courses available in some schools or districts
+Faroe Islands,FRO,CS courses available in some schools or districts
+Fiji,FJI,CS courses available in some schools or districts
+Gabon,GAB,CS courses available in some schools or districts
+"Gambia, The",GMB,CS courses available in some schools or districts
+Germany,DEU,CS courses available in some schools or districts
+Guatemala,GTM,CS courses available in some schools or districts
+Guinea,GIN,CS courses available in some schools or districts
+Guinea-Bissau,GNB,CS courses available in some schools or districts
+Guyana,GUY,CS courses available in some schools or districts
+Haiti,HTI,CS courses available in some schools or districts
+Honduras,HND,CS courses available in some schools or districts
+India,IND,CS courses available in some schools or districts
+Indonesia,IDN,CS courses available in some schools or districts
+"Iran, Islamic Rep.",IRN,CS courses available in some schools or districts
+Iraq,IRQ,CS courses available in some schools or districts
+Ireland,IRL,CS courses available in some schools or districts
+Israel,ISR,CS courses available in some schools or districts
+Italy,ITA,CS courses available in some schools or districts
+Jamaica,JAM,CS courses available in some schools or districts
+Kazakhstan,KAZ,CS courses available in some schools or districts
+Kenya,KEN,CS courses available in some schools or districts
+Kiribati,KIR,CS courses available in some schools or districts
+"North Korea, (Dem. People's Rep. of Korea)",PRK,CS courses available in some schools or districts
+Kosovo,XKX,CS courses available in some schools or districts
+Kuwait,KWT,CS courses available in some schools or districts
+Kyrgyz Republic,KGZ,CS courses available in some schools or districts
+Lao PDR,LAO,CS courses available in some schools or districts
+Lebanon,LBN,CS courses available in some schools or districts
+Lesotho,LSO,CS courses available in some schools or districts
+Liberia,LBR,CS courses available in some schools or districts
+Libya,LBY,CS courses available in some schools or districts
+Madagascar,MDG,CS courses available in some schools or districts
+Malawi,MWI,CS courses available in some schools or districts
+Maldives,MDV,CS courses available in some schools or districts
+Mali,MLI,CS courses available in some schools or districts
+Marshall Islands,MHL,CS courses available in some schools or districts
+Mexico,MEX,CS courses available in some schools or districts
+"Micronesia, Fed. Sts.",FSM,CS courses available in some schools or districts
+Mongolia,MNG,CS courses available in some schools or districts
+Montenegro,MNE,CS courses available in some schools or districts
+Mozambique,MOZ,CS courses available in some schools or districts
+Myanmar,MMR,CS courses available in some schools or districts
+Namibia,NAM,CS courses available in some schools or districts
+Nauru,NRU,CS courses available in some schools or districts
+Nepal,NPL,CS courses available in some schools or districts
+New Caledonia,NCL,CS courses available in some schools or districts
+Nicaragua,NIC,CS courses available in some schools or districts
+Niger,NER,CS courses available in some schools or districts
+Nigeria,NGA,CS courses available in some schools or districts
+Northern Mariana Islands,MNP,CS courses available in some schools or districts
+Norway,NOR,CS courses available in some schools or districts
+Oman,OMN,CS courses available in some schools or districts
+Palau,PLW,CS courses available in some schools or districts
+Papua New Guinea,PNG,CS courses available in some schools or districts
+Paraguay,PRY,CS courses available in some schools or districts
+Peru,PER,CS courses available in some schools or districts
+Philippines,PHL,CS courses available in some schools or districts
+Portugal,PRT,CS courses available in some schools or districts
+Puerto Rico,PRI,CS courses available in some schools or districts
+Samoa,WSM,CS courses available in some schools or districts
+São Tomé and Principe,STP,CS courses available in some schools or districts
+Saudi Arabia,SAU,CS courses available in some schools or districts
+Senegal,SEN,CS courses available in some schools or districts
+Seychelles,SYC,CS courses available in some schools or districts
+Sierra Leone,SLE,CS courses available in some schools or districts
+Sint Maarten (Dutch part),SXM,CS courses available in some schools or districts
+Solomon Islands,SLB,CS courses available in some schools or districts
+Somalia,SOM,CS courses available in some schools or districts
+South Sudan,SSD,CS courses available in some schools or districts
+Sri Lanka,LKA,CS courses available in some schools or districts
+St. Kitts and Nevis,KNA,CS courses available in some schools or districts
+St. Vincent and the Grenadines,VCT,CS courses available in some schools or districts
+Sudan,SDN,CS courses available in some schools or districts
+Suriname,SUR,CS courses available in some schools or districts
+Syrian Arab Republic,SYR,CS courses available in some schools or districts
+Tajikistan,TJK,CS courses available in some schools or districts
+Tanzania,TZA,CS courses available in some schools or districts
+Timor-Leste,TLS,CS courses available in some schools or districts
+Togo,TGO,CS courses available in some schools or districts
+Tonga,TON,CS courses available in some schools or districts
+Trinidad and Tobago,TTO,CS courses available in some schools or districts
+Tunisia,TUN,CS courses available in some schools or districts
+Tuvalu,TUV,CS courses available in some schools or districts
+Uganda,UGA,CS courses available in some schools or districts
+United States of America,USA,CS courses available in some schools or districts
+Vanuatu,VUT,CS courses available in some schools or districts
+Venezuela,VEN,CS courses available in some schools or districts
+Virgin Islands (U.S.),VIR,CS courses available in some schools or districts
+West Bank and Gaza,PSE,CS courses available in some schools or districts
+Yemen,YEM,CS courses available in some schools or districts
+Zimbabwe,ZWE,CS courses available in some schools or districts
+Bermuda,BMU,"Government announced CS expansion, plan or pilot"
+Eswatini,SWZ,"Government announced CS expansion, plan or pilot"
+Ethiopia,ETH,"Government announced CS expansion, plan or pilot"
+Grenada,GRD,"Government announced CS expansion, plan or pilot"
+Guam,GUM,"Government announced CS expansion, plan or pilot"
+Hungary,HUN,"Government announced CS expansion, plan or pilot"
+Jordan,JOR,"Government announced CS expansion, plan or pilot"
+Netherlands,NLD,"Government announced CS expansion, plan or pilot"
+Turkmenistan,TKM,"Government announced CS expansion, plan or pilot"
+Uruguay,URY,"Government announced CS expansion, plan or pilot"
+Central African Republic,CAF,No online evidence of in-school CS
+Chad,TCD,No online evidence of in-school CS
+Equatorial Guinea,GNQ,No online evidence of in-school CS
+Eritrea,ERI,No online evidence of in-school CS
+Mauritania,MRT,No online evidence of in-school CS

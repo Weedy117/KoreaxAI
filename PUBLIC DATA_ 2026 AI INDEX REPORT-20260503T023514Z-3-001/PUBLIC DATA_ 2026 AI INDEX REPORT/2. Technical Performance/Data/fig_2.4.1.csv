@@ -1,0 +1,15 @@
+Model,Year,Accuracy (%)
+o3,2025,80.42
+Gemini 2.5 Flash Preview,2025,80.75
+Claude Opus 4.5 (Nonthinking),2025,81.1
+Gemini 2.5 Pro Exp,2025,81.34
+GPT 5,2025,81.5
+Claude Opus 4.5 (Thinking),2025,82.95
+GPT 5.1,2025,83.18
+GPT 5.2,2025,86.67
+Gemini 3 Pro (11/25),2025,87.51
+Gemini 3 Flash (12/25.),2025,87.63
+Gemini 3.1 Pro Preview,2025,88.21
+Claude Sonnet 4.6,2026,83.58
+Claude Opus 4.6 (Thinking),2026,83.87
+Kimi K2.5,2026,84.34

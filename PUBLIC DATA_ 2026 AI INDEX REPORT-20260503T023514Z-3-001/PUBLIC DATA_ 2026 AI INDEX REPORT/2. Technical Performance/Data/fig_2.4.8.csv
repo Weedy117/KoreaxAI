@@ -1,0 +1,16 @@
+Model,Average accuracy (%)
+Claude Opus 4.6,8.9
+Mistral Medium 3.1,10
+GPT-5 Pro,11.1
+GPT-5 High,11.1
+Gemini 2.5 Flash,11.1
+o3 High,12.2
+o3 Pro,14.4
+Qwen 3-VL 235B Thinking,14.4
+GPT-5.2 High,15
+Gemini Robotics ER 1.5,15
+Gemini 2.5 Pro,18.9
+Gemini 3 Pro,28.9
+Gemini 3.1 Pro,32.2
+Qwen 3-VL 235B Instruct,39.4
+GPT-5.4 High,50.6

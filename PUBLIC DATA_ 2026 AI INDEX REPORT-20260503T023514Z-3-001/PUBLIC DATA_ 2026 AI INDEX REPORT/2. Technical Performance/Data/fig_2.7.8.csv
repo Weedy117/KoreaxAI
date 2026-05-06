@@ -1,0 +1,14 @@
+Dataset / Benchmark,Version (Year),Hours
+KITTI Vision Benchmark Suite,2012-01-01,6.0
+nuScenes,2019-01-01,5.56
+Argoverse v1,2019-01-01,0.6
+Argoverse v2,2022-01-01,4.2
+Waymo Open Dataset,2019-01-01,574.0
+Waymo Open Dataset - E2E,2025-01-01,12.0
+nuPlan,2024-01-01,1282.0
+NVIDIA PhysicalAI-AV,2025-01-01,1727.0
+DriveE2E,2025-01-01,100.0
+NuPlanQA*,2025-01-01,119.44
+DriveLMM-o1*,2025-01-01,0.35
+RAMBLE (Imitation to Exploration)*,2024-01-01,0.68
+CARLA Leaderboard*,2020-01-01,11.08

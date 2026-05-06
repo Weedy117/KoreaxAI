@@ -1,0 +1,16 @@
+Model,Accuracy
+GPT 4.1,0.6305
+Gemini 3 Pro (11/25),0.6368
+GPT 5.1,0.6383
+Gemini 3.1 Pro Preview (02/26),0.6448999999999999
+Claude Opus 4.5 (Thinking),0.6507
+Qwen 3.5 Plus,0.6531
+Claude Sonnet 4.6,0.6531
+GPT 5.2,0.6589
+Grok 4.1 Fast (Reasoning),0.6597
+Grok 4,0.6605
+Gemini 3 Flash (12/25),0.6643000000000001
+Grok 4 Fast (Reasoning),0.669
+Claude Opus 4.6 (Thinking),0.6701999999999999
+Qwen 3 Max Thinking,0.6803
+Kimi K2.5,0.6826000000000001

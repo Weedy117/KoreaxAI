@@ -1,0 +1,459 @@
+Country,Skills Diffusion Index (AI Engineering skills),Skills Diffusion Index (AI Literacy skills),Year
+Argentina,2.51952,,2016
+Argentina,4.08665,,2017
+Argentina,6.04934,,2018
+Argentina,8.87307,,2019
+Argentina,13.30612,,2020
+Argentina,15.12744,,2021
+Argentina,17.29018,,2022
+Argentina,33.68029,1.32576,2023
+Argentina,61.9838,16.49589,2024
+Argentina,96.73973,48.4202,2025
+Australia,1.98816,,2016
+Australia,2.87151,,2017
+Australia,4.1036,,2018
+Australia,6.19463,,2019
+Australia,8.46728,,2020
+Australia,9.91706,,2021
+Australia,11.27705,,2022
+Australia,19.69582,2.49239,2023
+Australia,32.88712,27.7642,2024
+Australia,45.1165,69.97947,2025
+Austria,1.90955,,2016
+Austria,2.56001,,2017
+Austria,3.31537,,2018
+Austria,4.73158,,2019
+Austria,5.61455,,2020
+Austria,6.63116,,2021
+Austria,7.25668,,2022
+Austria,11.61864,,2023
+Austria,16.71927,6.87283,2024
+Austria,23.15869,16.77362,2025
+Belgium,2.06436,,2016
+Belgium,2.90656,,2017
+Belgium,3.83088,,2018
+Belgium,5.34566,,2019
+Belgium,7.04035,,2020
+Belgium,8.05984,,2021
+Belgium,9.33692,,2022
+Belgium,14.6812,,2023
+Belgium,22.12086,6.60738,2024
+Belgium,28.51838,16.9444,2025
+Brazil,1.86724,,2016
+Brazil,2.98232,,2017
+Brazil,4.39224,,2018
+Brazil,6.43053,,2019
+Brazil,7.86858,,2020
+Brazil,8.70438,,2021
+Brazil,9.41811,,2022
+Brazil,16.96995,4.15069,2023
+Brazil,32.78761,61.35044,2024
+Brazil,51.21757,167.31347,2025
+Canada,1.83504,,2016
+Canada,2.722,,2017
+Canada,4.041,,2018
+Canada,5.99843,,2019
+Canada,8.32456,,2020
+Canada,10.13852,,2021
+Canada,12.73719,,2022
+Canada,21.51189,6.69013,2023
+Canada,30.86588,58.76745,2024
+Canada,39.05152,142.96793,2025
+Chile,1.82303,,2016
+Chile,3.33793,,2017
+Chile,4.48523,,2018
+Chile,7.81805,,2019
+Chile,11.40316,,2020
+Chile,13.48443,,2021
+Chile,16.09093,,2022
+Chile,32.1722,,2023
+Chile,61.50546,6.03155,2024
+Chile,99.84325,27.17377,2025
+Costa Rica,1.97868,,2019
+Costa Rica,3.13947,,2020
+Costa Rica,4.08774,,2021
+Costa Rica,5.0718,,2022
+Costa Rica,11.65062,,2023
+Costa Rica,23.06763,2.89714,2024
+Costa Rica,39.55473,11.59371,2025
+Croatia,1.65192,,2016
+Croatia,2.28229,,2017
+Croatia,3.18689,,2018
+Croatia,4.42198,,2019
+Croatia,5.83151,,2020
+Croatia,6.58333,,2021
+Croatia,7.00535,,2022
+Croatia,10.85678,,2023
+Croatia,15.596,1.13005,2024
+Croatia,20.36437,3.05539,2025
+Cyprus,1.28963,,2017
+Cyprus,1.87523,,2018
+Cyprus,2.97383,,2019
+Cyprus,3.96351,,2020
+Cyprus,4.72352,,2021
+Cyprus,6.21059,,2022
+Cyprus,10.07069,,2023
+Cyprus,15.7448,1.08654,2024
+Cyprus,23.10188,2.33396,2025
+Czech Republic,1.33756,,2016
+Czech Republic,1.62898,,2017
+Czech Republic,2.03835,,2018
+Czech Republic,2.61489,,2019
+Czech Republic,3.15322,,2020
+Czech Republic,3.46305,,2021
+Czech Republic,3.78808,,2022
+Czech Republic,5.96921,,2023
+Czech Republic,9.05648,6.01003,2024
+Czech Republic,12.7372,16.41945,2025
+Denmark,1.64013,,2016
+Denmark,2.5273,,2017
+Denmark,3.62911,,2018
+Denmark,5.33203,,2019
+Denmark,7.16769,,2020
+Denmark,8.39641,,2021
+Denmark,9.79829,,2022
+Denmark,15.32925,,2023
+Denmark,22.93447,10.00347,2024
+Denmark,30.84606,20.72658,2025
+Estonia,1.46853,,2017
+Estonia,2.14625,,2018
+Estonia,3.30544,,2019
+Estonia,4.13458,,2020
+Estonia,5.45809,,2021
+Estonia,5.97988,,2022
+Estonia,8.79634,,2023
+Estonia,12.87359,,2024
+Estonia,17.53038,2.72035,2025
+Finland,1.88933,,2016
+Finland,2.87407,,2017
+Finland,4.17039,,2018
+Finland,6.03546,,2019
+Finland,7.67488,,2020
+Finland,8.63265,,2021
+Finland,9.54389,,2022
+Finland,14.96648,,2023
+Finland,22.86314,6.72879,2024
+Finland,31.23495,17.0329,2025
+France,1.74454,,2016
+France,2.34022,,2017
+France,3.08772,,2018
+France,4.27112,,2019
+France,5.24378,,2020
+France,6.0104,,2021
+France,7.30396,,2022
+France,11.78673,5.13705,2023
+France,15.50635,35.75699,2024
+France,19.29161,91.72581,2025
+Germany,1.70371,,2016
+Germany,2.24821,,2017
+Germany,3.1682,,2018
+Germany,4.33585,,2019
+Germany,5.493,,2020
+Germany,6.36882,,2021
+Germany,7.45454,,2022
+Germany,10.90715,8.41177,2023
+Germany,14.18029,59.42402,2024
+Germany,17.5,153.2035,2025
+Greece,1.77453,,2016
+Greece,2.48665,,2017
+Greece,3.16535,,2018
+Greece,4.24283,,2019
+Greece,5.28825,,2020
+Greece,6.12327,,2021
+Greece,7.08158,,2022
+Greece,11.56096,,2023
+Greece,16.15528,5.8179,2024
+Greece,21.09864,21.69645,2025
+Hong Kong,2.56958,,2016
+Hong Kong,4.7433,,2017
+Hong Kong,8.2444,,2018
+Hong Kong,11.56896,,2019
+Hong Kong,14.97646,,2020
+Hong Kong,18.23584,,2021
+Hong Kong,20.54805,,2022
+Hong Kong,35.39917,1.08116,2023
+Hong Kong,58.91686,9.21551,2024
+Hong Kong,81.90685,20.45518,2025
+Iceland,0.99693,,2019
+Iceland,1.38501,,2020
+Iceland,1.56985,,2021
+Iceland,1.87742,,2022
+Iceland,2.72794,,2023
+Iceland,3.68323,,2024
+Iceland,5.1671,,2025
+India*,1.88741,,2016
+India*,3.21433,,2017
+India*,6.08693,,2018
+India*,9.98918,,2019
+India*,15.4408,,2020
+India*,15.9531,,2021
+India*,16.19051,,2022
+India*,26.17735,19.48166,2023
+India*,39.27974,163.54108,2024
+India*,52.94252,381.98802,2025
+Indonesia,2.52215,,2016
+Indonesia,4.08653,,2017
+Indonesia,5.9515,,2018
+Indonesia,8.94554,,2019
+Indonesia,12.01868,,2020
+Indonesia,13.59429,,2021
+Indonesia,15.65504,,2022
+Indonesia,35.63447,,2023
+Indonesia,59.22916,15.02826,2024
+Indonesia,84.67373,46.53406,2025
+Ireland,2.16793,,2016
+Ireland,3.02547,,2017
+Ireland,4.69923,,2018
+Ireland,7.02662,,2019
+Ireland,9.86963,,2020
+Ireland,11.43029,,2021
+Ireland,12.5785,,2022
+Ireland,22.39531,,2023
+Ireland,34.37752,12.21906,2024
+Ireland,49.29798,34.91728,2025
+Israel,1.81329,,2016
+Israel,2.68845,,2017
+Israel,3.51414,,2018
+Israel,4.54172,,2019
+Israel,5.73192,,2020
+Israel,6.35289,,2021
+Israel,7.01898,,2022
+Israel,10.6935,1.3019,2023
+Israel,14.30108,10.06165,2024
+Israel,17.61967,22.37287,2025
+Italy,1.96703,,2016
+Italy,2.63387,,2017
+Italy,3.48681,,2018
+Italy,4.93005,,2019
+Italy,6.32451,,2020
+Italy,7.41734,,2021
+Italy,8.32109,,2022
+Italy,13.42517,1.99354,2023
+Italy,19.92137,28.65381,2024
+Italy,27.32971,77.95444,2025
+Latvia,1.24886,,2018
+Latvia,1.81214,,2019
+Latvia,2.83963,,2020
+Latvia,3.27542,,2021
+Latvia,3.82647,,2022
+Latvia,6.37851,,2023
+Latvia,9.94678,,2024
+Latvia,16.63252,2.40331,2025
+Lithuania,1.63656,,2017
+Lithuania,2.32292,,2018
+Lithuania,4.04022,,2019
+Lithuania,5.2941,,2020
+Lithuania,5.83562,,2021
+Lithuania,6.753,,2022
+Lithuania,9.81685,,2023
+Lithuania,16.42853,2.2368,2024
+Lithuania,24.18016,6.36671,2025
+Luxembourg,1.14664,,2016
+Luxembourg,1.81021,,2017
+Luxembourg,2.56225,,2018
+Luxembourg,3.53715,,2019
+Luxembourg,4.91361,,2020
+Luxembourg,5.97441,,2021
+Luxembourg,7.24068,,2022
+Luxembourg,11.31166,,2023
+Luxembourg,17.39924,,2024
+Luxembourg,24.3755,2.15075,2025
+Mexico,1.72996,,2016
+Mexico,2.58684,,2017
+Mexico,3.77961,,2018
+Mexico,5.59147,,2019
+Mexico,8.40185,,2020
+Mexico,9.77911,,2021
+Mexico,10.78901,,2022
+Mexico,19.92447,1.23059,2023
+Mexico,37.86489,17.04538,2024
+Mexico,59.70553,64.84035,2025
+Netherlands,1.73037,,2016
+Netherlands,2.36625,,2017
+Netherlands,3.23408,,2018
+Netherlands,4.43622,,2019
+Netherlands,5.79695,,2020
+Netherlands,6.84495,,2021
+Netherlands,7.99609,,2022
+Netherlands,13.50619,3.80925,2023
+Netherlands,19.14065,26.46208,2024
+Netherlands,25.0228,64.43503,2025
+New Zealand,2.18887,,2016
+New Zealand,3.56084,,2017
+New Zealand,5.71761,,2018
+New Zealand,8.81881,,2019
+New Zealand,11.75378,,2020
+New Zealand,13.44437,,2021
+New Zealand,16.16109,,2022
+New Zealand,27.89336,,2023
+New Zealand,46.40839,3.78386,2024
+New Zealand,71.31244,15.47951,2025
+Norway,2.59247,,2016
+Norway,4.42883,,2017
+Norway,6.73846,,2018
+Norway,9.87219,,2019
+Norway,12.52643,,2020
+Norway,14.84308,,2021
+Norway,16.97833,,2022
+Norway,26.04778,,2023
+Norway,36.12967,2.55892,2024
+Norway,45.31301,5.82391,2025
+Poland,1.48101,,2016
+Poland,1.86974,,2017
+Poland,2.54965,,2018
+Poland,3.40026,,2019
+Poland,4.29751,,2020
+Poland,4.6418,,2021
+Poland,5.14524,,2022
+Poland,8.09549,5.01468,2023
+Poland,12.42177,27.80818,2024
+Poland,18.99088,84.40914,2025
+Portugal,2.05685,,2016
+Portugal,2.77009,,2017
+Portugal,3.49394,,2018
+Portugal,4.92745,,2019
+Portugal,6.24599,,2020
+Portugal,7.11297,,2021
+Portugal,8.14147,,2022
+Portugal,15.34683,,2023
+Portugal,24.48194,9.7479,2024
+Portugal,35.40697,25.34958,2025
+Romania,1.63056,,2016
+Romania,2.34406,,2017
+Romania,3.58503,,2018
+Romania,5.55894,,2019
+Romania,7.1838,,2020
+Romania,8.25373,,2021
+Romania,8.94196,,2022
+Romania,14.27818,,2023
+Romania,22.98275,6.79817,2024
+Romania,36.69726,18.35337,2025
+Saudi Arabia,1.44864,,2016
+Saudi Arabia,2.07098,,2017
+Saudi Arabia,3.18764,,2018
+Saudi Arabia,5.33223,,2019
+Saudi Arabia,8.9642,,2020
+Saudi Arabia,11.17982,,2021
+Saudi Arabia,13.10217,,2022
+Saudi Arabia,23.10583,,2023
+Saudi Arabia,40.24219,5.4908,2024
+Saudi Arabia,63.60107,16.15637,2025
+Singapore,2.64044,,2016
+Singapore,3.87724,,2017
+Singapore,5.77877,,2018
+Singapore,7.99363,,2019
+Singapore,11.12818,,2020
+Singapore,13.03633,,2021
+Singapore,15.91703,,2022
+Singapore,28.11047,1.33527,2023
+Singapore,44.66741,21.91162,2024
+Singapore,58.02193,59.9343,2025
+Slovenia,1.65072,,2016
+Slovenia,2.06093,,2017
+Slovenia,3.05742,,2018
+Slovenia,3.9211,,2019
+Slovenia,4.71748,,2020
+Slovenia,5.15072,,2021
+Slovenia,5.77827,,2022
+Slovenia,8.51082,,2023
+Slovenia,13.2647,,2024
+Slovenia,16.9579,1.68931,2025
+South Africa,2.15983,,2016
+South Africa,3.58324,,2017
+South Africa,5.9818,,2018
+South Africa,10.60508,,2019
+South Africa,15.6324,,2020
+South Africa,17.65366,,2021
+South Africa,18.85567,,2022
+South Africa,33.63254,1.0,2023
+South Africa,65.76651,15.26965,2024
+South Africa,97.71895,37.87503,2025
+South Korea,1.93996,,2016
+South Korea,2.79102,,2017
+South Korea,3.83111,,2018
+South Korea,5.29847,,2019
+South Korea,6.4784,,2020
+South Korea,7.55073,,2021
+South Korea,8.58156,,2022
+South Korea,11.81183,,2023
+South Korea,14.62626,2.70988,2024
+South Korea,16.7816,5.63842,2025
+Spain,1.87923,,2016
+Spain,2.49684,,2017
+Spain,3.249,,2018
+Spain,4.33307,,2019
+Spain,5.55468,,2020
+Spain,6.26856,,2021
+Spain,7.20021,,2022
+Spain,12.77278,3.63635,2023
+Spain,21.17613,39.91895,2024
+Spain,29.68381,120.68226,2025
+Sweden,1.6769,,2016
+Sweden,2.2441,,2017
+Sweden,3.33809,,2018
+Sweden,4.545,,2019
+Sweden,5.56633,,2020
+Sweden,6.5191,,2021
+Sweden,7.87227,,2022
+Sweden,11.87849,1.19756,2023
+Sweden,16.53325,12.68188,2024
+Sweden,21.20231,26.98325,2025
+Switzerland,2.06014,,2016
+Switzerland,2.6372,,2017
+Switzerland,3.71301,,2018
+Switzerland,4.92872,,2019
+Switzerland,6.60793,,2020
+Switzerland,7.40162,,2021
+Switzerland,8.36273,,2022
+Switzerland,13.74057,1.94846,2023
+Switzerland,19.66364,17.32891,2024
+Switzerland,25.56832,39.76747,2025
+Turkey,1.35013,,2016
+Turkey,1.72764,,2017
+Turkey,2.58318,,2018
+Turkey,3.69875,,2019
+Turkey,5.04174,,2020
+Turkey,5.64941,,2021
+Turkey,6.07799,,2022
+Turkey,9.71263,1.28898,2023
+Turkey,13.69228,15.31919,2024
+Turkey,17.64844,31.05711,2025
+United Arab Emirates,3.14554,,2016
+United Arab Emirates,4.89059,,2017
+United Arab Emirates,7.93479,,2018
+United Arab Emirates,13.27169,,2019
+United Arab Emirates,21.78664,,2020
+United Arab Emirates,25.11172,,2021
+United Arab Emirates,29.72082,,2022
+United Arab Emirates,55.60323,1.17369,2023
+United Arab Emirates,100.04866,19.53481,2024
+United Arab Emirates,153.74,54.41161,2025
+United Kingdom,1.65602,,2016
+United Kingdom,2.33694,,2017
+United Kingdom,3.26694,,2018
+United Kingdom,4.98288,,2019
+United Kingdom,6.64285,,2020
+United Kingdom,7.76999,,2021
+United Kingdom,9.24028,,2022
+United Kingdom,16.89736,5.92159,2023
+United Kingdom,24.69562,49.89834,2024
+United Kingdom,32.39516,129.92546,2025
+United States*,1.77121,,2016
+United States*,2.61745,,2017
+United States*,3.90974,,2018
+United States*,5.81741,,2019
+United States*,7.60933,,2020
+United States*,8.80905,,2021
+United States*,10.65925,,2022
+United States*,16.74884,27.90975,2023
+United States*,24.11888,170.18443,2024
+United States*,31.88032,458.07385,2025
+Uruguay,1.0,,2017
+Uruguay,1.54088,,2018
+Uruguay,2.18037,,2019
+Uruguay,2.88821,,2020
+Uruguay,3.76558,,2021
+Uruguay,4.64809,,2022
+Uruguay,8.04792,,2023
+Uruguay,15.55372,1.12376,2024
+Uruguay,23.97838,3.71466,2025

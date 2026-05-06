@@ -1,0 +1,9 @@
+Model,Accuracy
+GLM 5.1,0.3146
+Gemini 3.1 Pro Preview (02/26),0.3203
+GPT 5.2 Codex,0.3791
+GPT 5.4 Mini,0.4797
+Claude Sonnet 4.6,0.5148
+Claude Opus 4.6 (Thinking),0.535
+GPT 5.2,0.535
+Claude Opus 4.6 (Nonthinking),0.5757

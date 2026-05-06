@@ -1,0 +1,62 @@
+model_accessibility,year,num_models
+Open weights (unrestricted),2014,1
+Unknown,2014,27
+Unreleased,2014,5
+Unknown,2015,13
+Unreleased,2015,11
+Open weights (unrestricted),2015,5
+Hosted access (no API),2016,1
+Open weights (restricted use),2016,1
+Unreleased,2016,18
+Open weights (noncommercial),2016,2
+Open weights (unrestricted),2016,8
+Unknown,2016,19
+Unknown,2017,29
+Unreleased,2017,24
+Open weights (unrestricted),2017,1
+Hosted access (no API),2017,1
+Unreleased,2018,20
+Open weights (noncommercial),2018,2
+Hosted access (no API),2018,1
+Open weights (unrestricted),2018,7
+Unknown,2018,7
+Unreleased,2019,37
+Open weights (unrestricted),2019,22
+Open weights (restricted use),2019,1
+Open weights (noncommercial),2019,8
+Unreleased,2020,21
+Open weights (unrestricted),2020,26
+API access,2020,1
+Open weights (noncommercial),2020,2
+Hosted access (no API),2021,5
+API access,2021,4
+Open weights (unrestricted),2021,33
+Unreleased,2021,28
+Open weights (noncommercial),2021,8
+Unreleased,2022,36
+API access,2022,8
+Open weights (restricted use),2022,1
+Hosted access (no API),2022,5
+Unknown,2022,1
+Open weights (noncommercial),2022,10
+Open weights (unrestricted),2022,30
+Hosted access (no API),2023,4
+API access,2023,20
+Open weights (unrestricted),2023,22
+Open weights (noncommercial),2023,18
+Unreleased,2023,36
+Open weights (restricted use),2023,19
+Open weights (unrestricted),2024,15
+Open weights (restricted use),2024,14
+Unknown,2024,1
+Open weights (noncommercial),2024,9
+Unreleased,2024,16
+API access,2024,30
+Hosted access (no API),2024,13
+Open weights (restricted use),2025,7
+Unknown,2025,3
+Hosted access (no API),2025,5
+Open weights (unrestricted),2025,26
+Open weights (noncommercial),2025,5
+API access,2025,45
+Unreleased,2025,4

@@ -1,0 +1,9 @@
+{
+  "source_id": "epoch_ai_models",
+  "url": "https://epoch.ai/data/all_ai_models.csv",
+  "retrieved_at": "2026-05-03T04:50:12+00:00",
+  "status_code": 200,
+  "file_path": "C:\\Users\\ASUS\\Desktop\\SAIS Playground\\ROKxAI\\korea-ai-industry-dashboard\\data\\raw\\epoch_ai_models\\2026-05-03\\epoch_ai_models_all.csv",
+  "content_type": "text/csv",
+  "notes": ""
+}

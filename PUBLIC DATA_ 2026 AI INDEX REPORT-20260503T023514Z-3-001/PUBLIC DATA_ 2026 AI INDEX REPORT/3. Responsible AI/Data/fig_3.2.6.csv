@@ -1,0 +1,27 @@
+Model,Hallucination Rate
+gpt-oss-20B (high),0.94
+Gemini 3 Flash,0.92
+gpt-oss-128B (high),0.91
+GPT-5.4 mini (xhigh),0.9
+Nova 2.0 Pro Preview<br>(medium),0.9
+K-EXAONE,0.89
+Qwen3.5 397B A17B,0.89
+Midm K2.5 Pro,0.89
+GPT-5.4 (xhigh),0.89
+Llama 4 Maverick,0.87
+Nvidia Nemotron Super,0.87
+Mistral Large 3,0.84
+NVIDIA Nemotron Nano,0.83
+DeepSeek V3.2,0.82
+Gemini 3.1 Fast Preview,0.82
+Kimi K2.5,0.65
+Claude Opus 4.6 (max),0.61
+K2 Think V2,0.59
+Gemini 3.1 Pro Preview,0.5
+MiMo-V2-Flash (Feb 2026),0.48
+Claude Sonnet 4.6 (max),0.46
+MiniMax-M2.7,0.34
+GLM-5,0.34
+MiMo-V2-Pro,0.3
+Claude 4.5 Haiku,0.26
+Grok 4.20 Beta 0305,0.22

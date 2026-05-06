@@ -1,0 +1,51 @@
+year,type,num_pubs
+2021,Europe,1
+2022,Europe,2
+2023,Europe,2
+2024,Europe,10
+2025,Europe,23
+2021,East Asia,1
+2022,East Asia,0
+2023,East Asia,0
+2024,East Asia,5
+2025,East Asia,25
+2021,North America,5
+2022,North America,1
+2023,North America,1
+2024,North America,4
+2025,North America,17
+2021,South Asia,0
+2022,South Asia,0
+2023,South Asia,0
+2024,South Asia,3
+2025,South Asia,11
+2021,Middle East,0
+2022,Middle East,0
+2023,Middle East,0
+2024,Middle East,2
+2025,Middle East,9
+2021,Sub-Saharan Africa,0
+2022,Sub-Saharan Africa,1
+2023,Sub-Saharan Africa,2
+2024,Sub-Saharan Africa,4
+2025,Sub-Saharan Africa,1
+2021,Southeast Asia,0
+2022,Southeast Asia,0
+2023,Southeast Asia,0
+2024,Southeast Asia,4
+2025,Southeast Asia,1
+2021,North Africa,0
+2022,North Africa,0
+2023,North Africa,1
+2024,North Africa,2
+2025,North Africa,1
+2021,Latin America,0
+2022,Latin America,0
+2023,Latin America,0
+2024,Latin America,0
+2025,Latin America,3
+2021,Oceania,0
+2022,Oceania,0
+2023,Oceania,0
+2024,Oceania,0
+2025,Oceania,3

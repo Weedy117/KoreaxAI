@@ -1,0 +1,16 @@
+Model,Accuracy
+GLM 4.7,0.8336
+Claude Opus 4.1 (Nonthinking),0.8345999999999999
+o3,0.8376
+Gemini 2.5 Flash Preview 4/17<br>(Nonthinking),0.838
+GLM 5,0.8406
+Claude Sonnet 4.5 (Thinking),0.8408
+Gemini 2.5 Pro Exp,0.8432
+Claude Opus 4.5 (Thinking),0.846
+Qwen 3.5 Plus,0.851
+Claude Opus 4.6 (Thinking),0.853
+GPT 5.1,0.8568000000000001
+GPT 5,0.8602
+Gemini 3 Flash (12/25),0.8686
+Gemini 3 Pro (11/25),0.8704000000000001
+Gemini 3.1 Pro Preview (02/26),0.8740000000000001

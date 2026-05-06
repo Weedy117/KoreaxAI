@@ -1,0 +1,21 @@
+Model,Type,Percent resolved
+CodeFuse-CGM,Lite,0.44
+KGCompass<br>+ Claude 3.5 Sonnet (20241022),Lite,0.46
+DARS Agent,Lite,0.47
+SWE-agent + Claude 3.7 Sonnet,Lite,0.48
+ExpeRepair-v1.0,Lite,0.4833
+EntroPO + R2E<br>+ Qwen3-Coder-30B-A3B-Instruct,Lite,0.49670000000000003
+SWE-agent + Claude 4 Sonnet,Lite,0.5667
+KGCompass<br>+ Claude 4 Sonnet (20250514),Lite,0.5832999999999999
+Refact.ai Agent,Lite,0.6
+ExpeRepair-v1.0 + Claude 4 Sonnet,Lite,0.6033
+Kimi K2.5 (high reasoning),Verified,0.708
+Claude 4.5 Sonnet (high reasoning),Verified,0.7140000000000001
+GPT-5-2 Codex,Verified,0.728
+GLM-5 (high reasoning),Verified,0.728
+GPT-5-2 (high reasoning),Verified,0.728
+GPT 5.2 Codex,Verified,0.728
+Claude Opus 4.6,Verified,0.7559999999999999
+Gemini 3 Flash (high reasoning),Verified,0.758
+MiniMax M2.5 (high reasoning),Verified,0.758
+Claude 4.5 Opus (high reasoning),Verified,0.768

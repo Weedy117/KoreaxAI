@@ -1,0 +1,35 @@
+Model,Component,Score
+K2 Think,Model availability,6
+K2 Think,Transparency: methodology,6
+K2 Think,Transparency: post-training data,2
+K2 Think,Transparency: pre-training data,2
+Olmo 3 32B Think,Model availability,6
+Olmo 3 32B Think,Transparency: methodology,6
+Olmo 3 32B Think,Transparency: post-training data,2
+Olmo 3 32B Think,Transparency: pre-training data,2
+NVIDIA Nemotron 3 Super,Model availability,6
+NVIDIA Nemotron 3 Super,Transparency: methodology,6
+NVIDIA Nemotron 3 Super,Transparency: post-training data,3
+NVIDIA Nemotron 3 Nano,Model availability,6
+NVIDIA Nemotron 3 Nano,Transparency: methodology,6
+NVIDIA Nemotron 3 Nano,Transparency: post-training data,3
+NVIDIA Nemotron 9B V2,Model availability,6
+NVIDIA Nemotron 9B V2,Transparency: methodology,4
+NVIDIA Nemotron 9B V2,Transparency: post-training data,3
+GLM-5,Model availability,6
+GLM-5,Transparency: methodology,3
+gpt-oss-120B (high),Model availability,6
+gpt-oss-120B (high),Transparency: methodology,1
+gpt-oss-20B (high),Model availability,6
+gpt-oss-20B (high),Transparency: methodology,1
+Mistral Large 3,Model availability,6
+Mistral Large 3,Transparency: methodology,1
+Qwen3.5 397B A17B,Model availability,6
+Qwen3.5 397B A17B,Transparency: methodology,1
+Kimi K2.5,Model availability,4
+Kimi K2.5,Transparency: methodology,2
+Llama 4 Maverick,Model availability,4
+Llama 4 Maverick,Transparency: methodology,1
+K-EXAONE,Model availability,4
+K-EXAONE,Transparency: methodology,1
+Claude 4.5 Haiku,Model availability,2

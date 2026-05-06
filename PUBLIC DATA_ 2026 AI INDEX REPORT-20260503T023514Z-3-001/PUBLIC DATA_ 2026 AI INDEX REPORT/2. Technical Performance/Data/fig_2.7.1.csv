@@ -1,0 +1,5 @@
+year,model,metric
+2022,PerAct,0.494
+2023,Act3D,0.65
+2024,ARP+,0.86
+2025,EquAct,0.894

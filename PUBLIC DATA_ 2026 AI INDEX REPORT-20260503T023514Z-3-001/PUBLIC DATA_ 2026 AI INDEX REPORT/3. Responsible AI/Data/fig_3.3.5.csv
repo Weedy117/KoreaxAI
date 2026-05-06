@@ -1,0 +1,31 @@
+risk,perc_respondents_2024,perc_respondents_2025,pp_change,type
+Political stability,0.07,0.038306452,-0.031693548,relevance
+Physical safety,0.06,0.072580645,0.012580645,relevance
+National security,0.11,0.116935484,0.006935484,relevance
+Environmental impact,0.16,0.139112903,-0.020887097,relevance
+Workforce labor displacement,0.2,0.155241935,-0.044758065,relevance
+Resource misuse,,0.268145161,,relevance
+Equity and fairness,0.34,0.298387097,-0.041612903,relevance
+Explainability,0.4,0.362903226,-0.037096774,relevance
+Organizational reputation,0.45,0.372983871,-0.077016129,relevance
+Autonomous/unintended system actions,,0.4375,,relevance
+IP infringement,0.57,0.514112903,-0.055887097,relevance
+Personal/individual privacy,0.6,0.544354839,-0.055645161,relevance
+Regulatory compliance,0.63,0.629032258,-0.000967742,relevance
+Cybersecurity,0.66,0.717741935,0.057741935,relevance
+Inaccuracy,0.6,0.739919355,0.139919355,relevance
+Political stability,0.03,0.032258065,0.002258065,to_mitigate
+Environmental impact,0.09,0.046370968,-0.043629032,to_mitigate
+Physical safety,0.04,0.056451613,0.016451613,to_mitigate
+National security,0.04,0.058467742,0.018467742,to_mitigate
+Workforce labor displacement,0.12,0.112903226,-0.007096774,to_mitigate
+Resource misuse,,0.181451613,,to_mitigate
+Organizational reputation,0.29,0.219758065,-0.070241935,to_mitigate
+Equity and fairness,0.26,0.225806452,-0.034193548,to_mitigate
+Autonomous/unintended system actions,,0.288306452,,to_mitigate
+Explainability,0.31,0.29233871,-0.01766129,to_mitigate
+IP infringement,0.38,0.397177419,0.017177419,to_mitigate
+Personal/individual privacy,0.46,0.439516129,-0.020483871,to_mitigate
+Regulatory compliance,0.5,0.534274194,0.034274194,to_mitigate
+Cybersecurity,0.53,0.614919355,0.084919355,to_mitigate
+Inaccuracy,0.55,0.705645161,0.155645161,to_mitigate

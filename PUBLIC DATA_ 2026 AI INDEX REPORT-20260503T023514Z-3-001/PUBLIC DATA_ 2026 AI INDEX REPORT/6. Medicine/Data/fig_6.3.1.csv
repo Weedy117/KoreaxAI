@@ -1,0 +1,6 @@
+% with AI Overview,Query Type
+0.84,"Condition queries (e.g., “dementia”)"
+0.88,"Condition question queries (e.g., “what is dementia?”)"
+0.9,"Treatment queries (e.g., “dementia treatment”)"
+0.92,"Symptom queries (e.g., “dementia symptoms”)"
+0.92,"Common health queries  (e.g., “does pus mean it is infected?”)"

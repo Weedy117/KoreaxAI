@@ -1,0 +1,16 @@
+model,arena_elo_rating,95_CI_upper,95_CI_lower,Error Lower,Error Upper
+gpt-5.2,1233,1244,1222,11,11
+kimi-k2.5-instant,1239,1250,1228,11,11
+chatgpt-4o-latest-20250326,1239,1245,1233,6,6
+gpt-5.1,1240,1249,1231,9,9
+qwen3.5-397b-a17b,1244,1256,1232,12,12
+gpt-5.2-high,1247,1258,1236,11,11
+kimi-k2.5-thinking,1248,1259,1237,11,11
+gemini-2.5-pro,1248,1254,1242,6,6
+gpt-5.1-high,1249,1258,1240,9,9
+gemini-3-flash (thinking-minimal),1260,1269,1251,9,9
+dola-seed-2.0-preview,1260,1274,1246,14,14
+gpt-5.2-chat-latest-20260210,1271,1289,1253,18,18
+gemini-3-flash,1276,1285,1267,9,9
+gemini-3.1-pro-preview,1278,1290,1266,12,12
+gemini-3-pro,1288,1296,1280,8,8

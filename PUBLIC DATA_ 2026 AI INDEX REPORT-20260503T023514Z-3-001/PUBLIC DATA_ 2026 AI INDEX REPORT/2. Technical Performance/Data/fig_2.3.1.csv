@@ -1,0 +1,16 @@
+Model,Average accuracy
+VideoChat2,0.511
+Kwai-VideoLLM,0.54725
+ST-LLM,0.5485
+PLLaVA 34B,0.581
+CVLM,0.58775
+VideoChat2_mistral,0.604
+VideoChat2_HD_mistral,0.623
+Video-CCAM-4B-v1.1,0.628
+Video-CCAM-9B-v1.1,0.6459999999999999
+InternVideo2-8B-HD-Chat-f16,0.6725
+TimeMarker,0.67425
+Video-CCAM-7B-v1.2,0.6923
+Woven-VLLM,0.7381190595
+JT3.5,0.74075
+JT-VL-Chat,0.74075

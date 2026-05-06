@@ -1,0 +1,16 @@
+Model,Overall accuracy (%)
+Grok-4,0.87
+GPT-5 (high),0.871
+K2.5-1T-A32B,0.871
+Hunyuan-T1,0.872
+Claude-4.5-Opus (Thinking),0.873
+Claude-4-Opus (Thinking),0.873
+GPT-5.2,0.874
+Claude-4.5-Sonnet (Thinking),0.874
+Seed2.0-Lite,0.877
+Qwen3.5-397B-A17B,0.878
+Gemini-3-Flash (12/25),0.886
+Claude-4.6-Opus (Thinking),0.891
+GPT-o1,0.893
+Gemini-3-Pro (11/25),0.901
+Gemini-3.1-Pro,0.9116

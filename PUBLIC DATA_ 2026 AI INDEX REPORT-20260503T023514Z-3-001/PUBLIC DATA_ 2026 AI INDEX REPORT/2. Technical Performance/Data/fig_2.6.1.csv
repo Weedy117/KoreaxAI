@@ -1,0 +1,6 @@
+release_date,model,accuracy
+2025-01-01,DeepSeek R1,0.303
+2025-02-01,Claude-3.7 sonnet High,0.642
+2025-05-01,Claude Opus 4 High,0.648
+2025-08-01,Claude Opus 4.1 High,0.685
+2025-09-01,Claude Sonnet 4.5,0.745

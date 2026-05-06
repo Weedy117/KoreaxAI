@@ -1,0 +1,1152 @@
+- priority: A
+  category: compute
+  indicator_id: top500_total_rmax_pflops
+  indicator_name: Total TOP500 Rmax performance by country
+  definition: Sum of TOP500 Rmax performance for systems by country.
+  unit: PFLOP/s
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: top500
+  source_name: TOP500
+  source_url: https://top500.org/statistics/list/
+  collection_method: Public TOP500 list/statistics
+  freshness_target: annual
+  confidence_tier: medium_high
+  uncertainty_note: Benchmarked HPC only; not all private AI clusters submit.
+  relevance_note: Simple public supercomputing proxy.
+  status: planned
+- priority: A
+  category: compute
+  indicator_id: top500_system_count
+  indicator_name: Number of TOP500 systems by country
+  definition: Count of TOP500 systems by country.
+  unit: count
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: top500
+  source_name: TOP500
+  source_url: https://top500.org/statistics/list/
+  collection_method: Public TOP500 list/statistics
+  freshness_target: semiannual
+  confidence_tier: medium_high
+  uncertainty_note: Public ranked systems only.
+  relevance_note: Visible national supercomputing footprint.
+  status: planned
+- priority: A
+  category: compute
+  indicator_id: known_ai_gpu_cluster_16bit_ops
+  indicator_name: Known AI GPU-cluster 16-bit operations by country
+  definition: Known 16-bit operations from public GPU-cluster datasets, aggregated by country where available.
+  unit: OP/s
+  country_coverage: KOR/USA/CHN if available
+  comparison_group: KOR/USA/CHN
+  indicator_type: estimate
+  primary_source_id: epoch_gpu_clusters
+  source_name: Epoch AI GPU Clusters
+  source_url: https://epoch.ai/data/gpu-clusters
+  collection_method: Public dataset if accessible
+  freshness_target: periodic
+  confidence_tier: medium
+  uncertainty_note: Incomplete public coverage.
+  relevance_note: Best public AI-cluster compute proxy.
+  status: planned
+- priority: A
+  category: compute
+  indicator_id: known_ai_gpu_cluster_count
+  indicator_name: Number of known AI GPU clusters
+  definition: Count of known AI-relevant GPU clusters by country where available.
+  unit: count
+  country_coverage: KOR/USA/CHN if available
+  comparison_group: KOR/USA/CHN
+  indicator_type: estimate
+  primary_source_id: epoch_gpu_clusters
+  source_name: Epoch AI GPU Clusters
+  source_url: https://epoch.ai/data/gpu-clusters
+  collection_method: Public dataset if accessible
+  freshness_target: periodic
+  confidence_tier: medium
+  uncertainty_note: Incomplete public coverage.
+  relevance_note: Indicates known large AI cluster presence.
+  status: planned
+- priority: A
+  category: compute
+  indicator_id: h100e_compute_capacity_owned
+  indicator_name: H100-equivalent compute capacity by owner/customer
+  definition: Estimated H100-equivalent compute capacity by owner or customer category.
+  unit: H100e
+  country_coverage: KOR/USA/CHN if available
+  comparison_group: KOR/USA/CHN
+  indicator_type: estimate
+  primary_source_id: epoch_ai_chip_owners
+  source_name: Epoch AI Chip Owners
+  source_url: https://epoch.ai/data/ai-chip-owners
+  collection_method: Public dataset if accessible
+  freshness_target: periodic
+  confidence_tier: medium
+  uncertainty_note: Ownership estimate, not necessarily physical location.
+  relevance_note: Closest public indicator to available AI compute.
+  status: planned
+- priority: A
+  category: compute
+  indicator_id: national_gpu_target_2026
+  indicator_name: Official Korean national GPU target
+  definition: Official cumulative GPU target or planned secured GPUs for Korea by 2026.
+  unit: GPU count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: official_target
+  primary_source_id: msit_2026_work_plan
+  source_name: MSIT 2026 Work Plan
+  source_url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1205&sCode=eng
+  collection_method: HTML press release
+  freshness_target: annual/policy
+  confidence_tier: high
+  uncertainty_note: Official target, not installed capacity.
+  relevance_note: Core Korean compute ambition marker.
+  status: planned
+- priority: A
+  category: compute
+  indicator_id: public_gpu_procurement_count
+  indicator_name: Public GPU procurement count
+  definition: GPUs to be secured through public-private GPU procurement.
+  unit: GPU count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: official_target
+  primary_source_id: msit_gpu_procurement
+  source_name: MSIT GPU Procurement
+  source_url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1155&pageIndex=&sCode=eng&searchOpt=ALL&searchTxt=
+  collection_method: HTML press release
+  freshness_target: policy
+  confidence_tier: high
+  uncertainty_note: Procurement/target; verify achieved deployment separately.
+  relevance_note: Tracks state-led compute buildout.
+  status: planned
+- priority: A
+  category: compute
+  indicator_id: public_gpu_procurement_budget_krw
+  indicator_name: Public GPU procurement budget
+  definition: Korean public supplementary budget amount for GPU procurement.
+  unit: KRW
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: official_target
+  primary_source_id: msit_gpu_procurement
+  source_name: MSIT GPU Procurement
+  source_url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1155&pageIndex=&sCode=eng&searchOpt=ALL&searchTxt=
+  collection_method: HTML press release
+  freshness_target: policy
+  confidence_tier: high
+  uncertainty_note: Budget/target.
+  relevance_note: State compute investment marker.
+  status: planned
+- priority: A
+  category: compute
+  indicator_id: kisti6_peak_pflops
+  indicator_name: KISTI-6 / HANGANG peak performance
+  definition: Approximate stated computing performance of Korea's sixth national supercomputer.
+  unit: PFLOP/s
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: official_target
+  primary_source_id: kisti_hangang
+  source_name: KISTI HANGANG
+  source_url: https://www.kisti.re.kr/eng/news/post/eng_news/6695
+  collection_method: HTML press release
+  freshness_target: project
+  confidence_tier: high
+  uncertainty_note: Named public system; confirm exact performance field.
+  relevance_note: Clean Korean public research-compute indicator.
+  status: planned
+- priority: A
+  category: compute
+  indicator_id: kisti6_gpu_count
+  indicator_name: Number of GPUs in KISTI-6 / HANGANG
+  definition: Stated GPU count for Korea's sixth national supercomputer.
+  unit: GPU count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: official_target
+  primary_source_id: kisti_hangang
+  source_name: KISTI HANGANG
+  source_url: https://www.kisti.re.kr/eng/news/post/eng_news/6695
+  collection_method: HTML press release
+  freshness_target: project
+  confidence_tier: high
+  uncertainty_note: Named public system.
+  relevance_note: Concrete Korean GPU-capacity marker.
+  status: planned
+- priority: A
+  category: compute
+  indicator_id: data_center_inventory_mw
+  indicator_name: Data-center inventory
+  definition: Data-center inventory in megawatts where available.
+  unit: MW
+  country_coverage: KOR, peers if available
+  comparison_group: KOR/USA/CHN if available
+  indicator_type: estimate
+  primary_source_id: cbre_data_center_trends
+  source_name: CBRE Global Data Center Trends
+  source_url: https://www.cbre.com/insights/reports/global-data-center-trends-2025
+  collection_method: Public market report
+  freshness_target: annual
+  confidence_tier: medium
+  uncertainty_note: Market-estimate methodology varies.
+  relevance_note: Physical envelope for AI compute.
+  status: planned
+- priority: B
+  category: compute
+  indicator_id: announced_gpu_deployments_count
+  indicator_name: Announced NVIDIA GPU deployments by Korean actors
+  definition: Count of announced NVIDIA GPUs for Korea government and major Korean industrial actors.
+  unit: GPU count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: company_claim
+  primary_source_id: nvidia_korea_ai_infrastructure
+  source_name: NVIDIA Korea AI Infrastructure
+  source_url: https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-South-Korea-Government-and-Industrial-Giants-Build-AI-Infrastructure-and-Ecosystem-to-Fuel-Korea-Innovation-Industries-and-Jobs/default.aspx
+  collection_method: Company press release
+  freshness_target: event
+  confidence_tier: medium
+  uncertainty_note: Announced deployment, not audited installed capacity.
+  relevance_note: Tracks momentum and dependency on NVIDIA.
+  status: planned
+- priority: A
+  category: models
+  indicator_id: notable_ai_models_count
+  indicator_name: Number of notable AI models by country/year
+  definition: Count of notable AI models by country and year.
+  unit: count
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: epoch_ai_models
+  source_name: Epoch AI Models
+  source_url: https://epoch.ai/data/ai-models
+  collection_method: Public dataset
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Inclusion criteria matter.
+  relevance_note: Basic frontier/model production marker.
+  status: planned
+- priority: A
+  category: models
+  indicator_id: frontier_ai_models_count
+  indicator_name: Number of frontier AI models by country/year
+  definition: Count of frontier AI models by country and year.
+  unit: count
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: epoch_ai_models
+  source_name: Epoch AI Models
+  source_url: https://epoch.ai/data/ai-models
+  collection_method: Public dataset
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Source classification required.
+  relevance_note: Separates frontier from general model activity.
+  status: planned
+- priority: A
+  category: models
+  indicator_id: large_scale_models_count
+  indicator_name: Number of large-scale AI models by country/year
+  definition: Count of large-scale AI models by country and year.
+  unit: count
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: epoch_ai_models
+  source_name: Epoch AI Models
+  source_url: https://epoch.ai/data/ai-models
+  collection_method: Public dataset
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Definition depends on Epoch.
+  relevance_note: Broader marker of model-building scale.
+  status: planned
+- priority: A
+  category: models
+  indicator_id: max_domestic_model_training_compute_flop
+  indicator_name: Largest known training compute of domestic model
+  definition: Maximum known training compute among domestic models by country.
+  unit: FLOP
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: estimate
+  primary_source_id: epoch_ai_models
+  source_name: Epoch AI Models
+  source_url: https://epoch.ai/data/ai-models
+  collection_method: Public dataset
+  freshness_target: periodic
+  confidence_tier: medium
+  uncertainty_note: Training compute estimates may be uncertain.
+  relevance_note: Direct model-development scale indicator.
+  status: planned
+- priority: A
+  category: research
+  indicator_id: ai_research_publications_count
+  indicator_name: AI-related publications by country
+  definition: Count of AI-related OpenAlex works by country and year using a transparent AI concept filter.
+  unit: count
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: openalex
+  source_name: OpenAlex
+  source_url: https://api.openalex.org
+  collection_method: API
+  freshness_target: monthly
+  confidence_tier: medium_high
+  uncertainty_note: Depends on AI topic/keyword filter.
+  relevance_note: Research capacity marker.
+  status: planned
+- priority: A
+  category: research
+  indicator_id: ai_research_citations_count
+  indicator_name: AI-related citations by country
+  definition: Citation count for AI-related works by country and year, if practical to collect.
+  unit: count
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: openalex
+  source_name: OpenAlex
+  source_url: https://api.openalex.org
+  collection_method: API
+  freshness_target: monthly
+  confidence_tier: medium_high
+  uncertainty_note: Depends on AI topic/keyword filter.
+  relevance_note: Research influence marker.
+  status: planned
+- priority: B
+  category: research
+  indicator_id: ai_patents_per_capita
+  indicator_name: AI patents per capita
+  definition: Granted AI patents per capita from Stanford AI Index data.
+  unit: patents per capita
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: index_metric
+  primary_source_id: stanford_ai_index
+  source_name: Stanford AI Index
+  source_url: https://hai.stanford.edu/ai-index
+  collection_method: Annual report/data
+  freshness_target: annual
+  confidence_tier: medium_high
+  uncertainty_note: Use source methodology.
+  relevance_note: Innovation-density marker.
+  status: planned
+- priority: A
+  category: models
+  indicator_id: k_ai_foundation_model_team_count
+  indicator_name: Official K-AI / sovereign foundation-model teams
+  definition: Count of official K-AI or sovereign foundation-model teams named in Korean policy materials.
+  unit: count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: contextual_fact
+  primary_source_id: msit_2026_work_plan
+  source_name: MSIT 2026 Work Plan
+  source_url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1205&sCode=eng
+  collection_method: HTML press release
+  freshness_target: policy
+  confidence_tier: high
+  uncertainty_note: Program participation, not success.
+  relevance_note: Tracks domestic model-building push.
+  status: planned
+- priority: A
+  category: semiconductors
+  indicator_id: semiconductor_exports_usd
+  indicator_name: Semiconductor export value
+  definition: Semiconductor export value using selected HS codes.
+  unit: USD
+  country_coverage: KOR/USA/CHN if same HS codes
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: un_comtrade
+  source_name: UN Comtrade
+  source_url: https://comtrade.un.org
+  collection_method: API/download
+  freshness_target: annual/monthly
+  confidence_tier: high
+  uncertainty_note: HS code choice matters.
+  relevance_note: Hardware supply-chain leverage.
+  status: planned
+- priority: A
+  category: semiconductors
+  indicator_id: semiconductor_exports_to_china_share
+  indicator_name: China share of Korea semiconductor exports
+  definition: Share of Korean semiconductor exports going to China using selected HS codes.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: observed_metric
+  primary_source_id: un_comtrade
+  source_name: UN Comtrade
+  source_url: https://comtrade.un.org
+  collection_method: API/download
+  freshness_target: annual/monthly
+  confidence_tier: high
+  uncertainty_note: HS code choice matters.
+  relevance_note: China exposure and geopolitical risk.
+  status: planned
+- priority: A
+  category: semiconductors
+  indicator_id: semiconductor_exports_to_us_share
+  indicator_name: U.S. share of Korea semiconductor exports
+  definition: Share of Korean semiconductor exports going to the United States using selected HS codes.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: observed_metric
+  primary_source_id: un_comtrade
+  source_name: UN Comtrade
+  source_url: https://comtrade.un.org
+  collection_method: API/download
+  freshness_target: annual/monthly
+  confidence_tier: high
+  uncertainty_note: HS code choice matters.
+  relevance_note: U.S./alliance market exposure.
+  status: planned
+- priority: B
+  category: semiconductors
+  indicator_id: semiconductor_trade_balance_usd
+  indicator_name: Semiconductor exports minus imports
+  definition: Semiconductor exports minus imports using selected HS codes.
+  unit: USD
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: un_comtrade
+  source_name: UN Comtrade
+  source_url: https://comtrade.un.org
+  collection_method: API/download
+  freshness_target: annual/monthly
+  confidence_tier: high
+  uncertainty_note: HS code choice matters.
+  relevance_note: Trade-position marker.
+  status: planned
+- priority: A
+  category: semiconductors
+  indicator_id: samsung_sk_semiconductor_revenue
+  indicator_name: Semiconductor or memory revenue from Samsung/SK filings
+  definition: Semiconductor or memory revenue extracted from Samsung and SK filings.
+  unit: KRW/USD
+  country_coverage: KOR firms
+  comparison_group: Korean firms
+  indicator_type: observed_company_metric
+  primary_source_id: opendart
+  source_name: OpenDART
+  source_url: https://englishdart.fss.or.kr/
+  collection_method: API/manual filing
+  freshness_target: quarterly/annual
+  confidence_tier: high
+  uncertainty_note: Requires filing extraction/API key.
+  relevance_note: Primary corporate hardware-strength marker.
+  status: planned
+- priority: B
+  category: semiconductors
+  indicator_id: ai_memory_hbm_disclosure_flag
+  indicator_name: Whether filings mention HBM/AI memory growth
+  definition: Filing keyword flag or count for HBM/AI memory growth disclosure.
+  unit: yes/no/count
+  country_coverage: KOR firms
+  comparison_group: Korean firms
+  indicator_type: contextual_fact
+  primary_source_id: opendart
+  source_name: OpenDART
+  source_url: https://englishdart.fss.or.kr/
+  collection_method: Filing keyword scan
+  freshness_target: quarterly/annual
+  confidence_tier: medium_high
+  uncertainty_note: Qualitative extraction.
+  relevance_note: Safer than unsupported HBM share estimates.
+  status: planned
+- priority: B
+  category: semiconductors
+  indicator_id: domestic_ai_chip_unicorn_count
+  indicator_name: Korean AI-chip unicorns / major AI semiconductor startups
+  definition: Count of Korean AI-chip unicorns or major AI semiconductor startups from public evidence.
+  unit: count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: contextual_fact
+  primary_source_id: mss_venture
+  source_name: MSS Venture
+  source_url: https://www.mss.go.kr/site/eng/main.do
+  collection_method: Press release/manual review
+  freshness_target: annual/event
+  confidence_tier: medium_high
+  uncertainty_note: Valuation caveat.
+  relevance_note: Tracks movement beyond memory into accelerators.
+  status: planned
+- priority: A
+  category: funding
+  indicator_id: private_ai_investment_usd
+  indicator_name: Private AI investment by country
+  definition: Private AI investment by country from Stanford AI Index published figure data.
+  unit: USD
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: index_metric
+  primary_source_id: stanford_ai_index
+  source_name: Stanford AI Index
+  source_url: https://hai.stanford.edu/ai-index
+  collection_method: Annual report/data
+  freshness_target: annual
+  confidence_tier: medium_high
+  uncertainty_note: Dataset methodology matters.
+  relevance_note: Best simple funding comparison.
+  status: planned
+- priority: A
+  category: startups
+  indicator_id: newly_funded_ai_companies_count
+  indicator_name: Newly funded AI companies
+  definition: Count of newly funded AI companies by country from Stanford AI Index where available.
+  unit: count
+  country_coverage: KOR/USA/CHN if available
+  comparison_group: KOR/USA/CHN
+  indicator_type: index_metric
+  primary_source_id: stanford_ai_index
+  source_name: Stanford AI Index
+  source_url: https://hai.stanford.edu/ai-index
+  collection_method: Annual report/data
+  freshness_target: annual
+  confidence_tier: medium_high
+  uncertainty_note: Dataset methodology matters.
+  relevance_note: Startup ecosystem breadth.
+  status: planned
+- priority: A
+  category: funding
+  indicator_id: total_venture_investment_krw
+  indicator_name: Total Korean venture investment
+  definition: Total Korean venture investment from MSS public releases.
+  unit: KRW
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: observed_metric
+  primary_source_id: mss_venture
+  source_name: MSS Venture
+  source_url: https://www.mss.go.kr/site/eng/main.do
+  collection_method: Press release
+  freshness_target: annual/quarterly
+  confidence_tier: high
+  uncertainty_note: Total VC, not AI-specific.
+  relevance_note: Macro funding environment.
+  status: planned
+- priority: A
+  category: funding
+  indicator_id: new_industry_venture_investment_krw
+  indicator_name: Korean new-industry venture investment
+  definition: Korean venture investment into designated new industry sectors.
+  unit: KRW
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: observed_metric
+  primary_source_id: mss_venture
+  source_name: MSS Venture
+  source_url: https://www.mss.go.kr/site/eng/main.do
+  collection_method: Press release
+  freshness_target: annual/quarterly
+  confidence_tier: high
+  uncertainty_note: New-industry category may include more than AI.
+  relevance_note: Capital flow into AI-adjacent sectors.
+  status: planned
+- priority: A
+  category: funding
+  indicator_id: ai_models_infrastructure_investment_krw
+  indicator_name: Investment in AI models/infrastructure
+  definition: Investment in AI models and infrastructure where MSS gives a clear sector value.
+  unit: KRW
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: observed_metric
+  primary_source_id: mss_venture
+  source_name: MSS Venture
+  source_url: https://www.mss.go.kr/site/eng/main.do
+  collection_method: Press release
+  freshness_target: annual/quarterly
+  confidence_tier: high
+  uncertainty_note: Verify exact MSS wording.
+  relevance_note: Korea-specific AI investment marker.
+  status: planned
+- priority: B
+  category: startups
+  indicator_id: ai_unicorn_count
+  indicator_name: AI or AI-relevant unicorn count
+  definition: Count of AI or AI-relevant unicorns in Korea from public evidence.
+  unit: count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: contextual_fact
+  primary_source_id: mss_venture
+  source_name: MSS Venture
+  source_url: https://www.mss.go.kr/site/eng/main.do
+  collection_method: Press release/manual review
+  freshness_target: annual/event
+  confidence_tier: medium_high
+  uncertainty_note: Valuation caveat.
+  relevance_note: Startup maturity marker.
+  status: planned
+- priority: B
+  category: chaebols
+  indicator_id: k_ai_consortium_actor_type_share
+  indicator_name: Actor type composition of official K-AI teams
+  definition: Actor type share of official K-AI teams by manual classification.
+  unit: percent/count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: manual_classification
+  primary_source_id: msit_2026_work_plan
+  source_name: MSIT 2026 Work Plan
+  source_url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1205&sCode=eng
+  collection_method: Manual classification
+  freshness_target: policy
+  confidence_tier: medium
+  uncertainty_note: Classification is manual.
+  relevance_note: Shows chaebol/startup/public composition.
+  status: planned
+- priority: C
+  category: chaebols
+  indicator_id: major_ai_company_filing_count
+  indicator_name: AI-related disclosures by major Korean firms
+  definition: Count of AI-related disclosures in filings by major Korean firms.
+  unit: count
+  country_coverage: KOR firms
+  comparison_group: Korean firms
+  indicator_type: contextual_fact
+  primary_source_id: opendart
+  source_name: OpenDART
+  source_url: https://englishdart.fss.or.kr/
+  collection_method: Filing keyword scan
+  freshness_target: quarterly/annual
+  confidence_tier: medium
+  uncertainty_note: Keyword design matters.
+  relevance_note: Lightweight chaebol AI activity marker.
+  status: planned
+- priority: A
+  category: adoption
+  indicator_id: robot_density_manufacturing
+  indicator_name: Industrial robots per 10,000 manufacturing workers
+  definition: Industrial robots per 10,000 manufacturing employees.
+  unit: robots per 10k workers
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: ifr_robotics
+  source_name: IFR Robotics
+  source_url: https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas
+  collection_method: Press release/report
+  freshness_target: annual
+  confidence_tier: medium_high
+  uncertainty_note: IFR methodology.
+  relevance_note: Korea's clearest industrial automation strength.
+  status: planned
+- priority: A
+  category: adoption
+  indicator_id: industrial_robot_installations
+  indicator_name: Annual industrial robot installations
+  definition: Annual industrial robot installations by country.
+  unit: count
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: observed_metric
+  primary_source_id: ifr_robotics
+  source_name: IFR Robotics
+  source_url: https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years
+  collection_method: Press release/report
+  freshness_target: annual
+  confidence_tier: medium_high
+  uncertainty_note: IFR methodology.
+  relevance_note: Current automation investment marker.
+  status: planned
+- priority: A
+  category: adoption
+  indicator_id: smart_manufacturing_ai_projects_2026
+  indicator_name: AI/autonomous/smart factory support projects
+  definition: Count of AI/autonomous/smart factory support projects under the 2026 MSS program.
+  unit: count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: official_target
+  primary_source_id: mss_smart_manufacturing
+  source_name: MSS Smart Manufacturing
+  source_url: https://www.mss.go.kr/site/eng/main.do
+  collection_method: Press release
+  freshness_target: annual/program
+  confidence_tier: high
+  uncertainty_note: Program target/support count.
+  relevance_note: State-backed industrial AI deployment.
+  status: planned
+- priority: A
+  category: worker_adoption
+  indicator_id: worker_genai_any_use_pct
+  indicator_name: Workers who have used GenAI in any capacity
+  definition: Share of Korean workers who have used generative AI in any capacity.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: survey_metric
+  primary_source_id: bok_genai
+  source_name: Bank of Korea GenAI report
+  source_url: https://www.bok.or.kr/eng/
+  collection_method: BOK report
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Survey; check methodology.
+  relevance_note: Actual GenAI diffusion marker.
+  status: planned
+- priority: A
+  category: worker_adoption
+  indicator_id: worker_genai_work_use_pct
+  indicator_name: Workers using GenAI for work
+  definition: Share of Korean workers using generative AI for work.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: survey_metric
+  primary_source_id: bok_genai
+  source_name: Bank of Korea GenAI report
+  source_url: https://www.bok.or.kr/eng/
+  collection_method: BOK report
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Survey; check methodology.
+  relevance_note: Strong worker deployment indicator.
+  status: planned
+- priority: A
+  category: productivity
+  indicator_id: genai_time_saved_pct
+  indicator_name: Estimated work-time reduction from GenAI use
+  definition: Estimated percentage work-time reduction from generative AI use.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: estimate
+  primary_source_id: bok_genai
+  source_name: Bank of Korea GenAI report
+  source_url: https://www.bok.or.kr/eng/
+  collection_method: BOK report
+  freshness_target: periodic
+  confidence_tier: medium
+  uncertainty_note: Model/survey estimate.
+  relevance_note: Links adoption to productivity.
+  status: planned
+- priority: A
+  category: productivity
+  indicator_id: genai_productivity_effect_pct
+  indicator_name: Estimated potential productivity effect
+  definition: Estimated potential productivity effect from generative AI adoption.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: estimate
+  primary_source_id: bok_genai
+  source_name: Bank of Korea GenAI report
+  source_url: https://www.bok.or.kr/eng/
+  collection_method: BOK report
+  freshness_target: periodic
+  confidence_tier: medium
+  uncertainty_note: Model/survey estimate.
+  relevance_note: Useful but do not overstate.
+  status: planned
+- priority: B
+  category: worker_adoption
+  indicator_id: physical_ai_exposure_pct
+  indicator_name: Workers exposed to physical AI/autonomous robots
+  definition: Share of workers currently exposed to physical AI/autonomous robots.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: survey_metric
+  primary_source_id: bok_genai
+  source_name: Bank of Korea GenAI report
+  source_url: https://www.bok.or.kr/eng/
+  collection_method: BOK report
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Survey estimate.
+  relevance_note: Bridges software AI and robotics.
+  status: planned
+- priority: B
+  category: firm_adoption
+  indicator_id: firm_ai_task_replacement_pct
+  indicator_name: AI-using firms reporting AI replaced tasks
+  definition: Share of AI-using firms reporting that AI replaced tasks.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: survey_metric
+  primary_source_id: oecd_korea_ai_labor
+  source_name: OECD Korea AI Labour
+  source_url: https://www.oecd.org/en/publications/artificial-intelligence-and-the-labour-market-in-korea_68ab1a5a-en.html
+  collection_method: OECD report
+  freshness_target: periodic
+  confidence_tier: medium
+  uncertainty_note: Survey caveats.
+  relevance_note: Firm-level deployment marker.
+  status: planned
+- priority: B
+  category: firm_adoption
+  indicator_id: firm_ai_training_pct
+  indicator_name: AI-adopting firms training employees
+  definition: Share of AI-adopting firms that train employees.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: survey_metric
+  primary_source_id: oecd_korea_ai_labor
+  source_name: OECD Korea AI Labour
+  source_url: https://www.oecd.org/en/publications/artificial-intelligence-and-the-labour-market-in-korea_68ab1a5a-en.html
+  collection_method: OECD report
+  freshness_target: periodic
+  confidence_tier: medium
+  uncertainty_note: Survey caveats.
+  relevance_note: Workforce preparation marker.
+  status: planned
+- priority: A
+  category: talent
+  indicator_id: stem_tertiary_graduate_share
+  indicator_name: Share of tertiary graduates in STEM
+  definition: Share of tertiary graduates in STEM fields.
+  unit: percent
+  country_coverage: KOR/OECD peers
+  comparison_group: OECD peers
+  indicator_type: observed_metric
+  primary_source_id: oecd_education
+  source_name: OECD Education
+  source_url: https://gpseducation.oecd.org/
+  collection_method: OECD data
+  freshness_target: annual
+  confidence_tier: medium_high
+  uncertainty_note: OECD category definitions.
+  relevance_note: Talent pipeline marker.
+  status: planned
+- priority: A
+  category: talent
+  indicator_id: ai_relevant_graduates_count
+  indicator_name: Graduates in AI-relevant fields
+  definition: Count of Korean graduates in AI-relevant fields using an explicit category mapping.
+  unit: count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: observed_metric
+  primary_source_id: korea_moe
+  source_name: Korea Ministry of Education
+  source_url: https://english.moe.go.kr/
+  collection_method: Official education data/manual review
+  freshness_target: annual
+  confidence_tier: high
+  uncertainty_note: Need category mapping.
+  relevance_note: Korea-specific talent pipeline.
+  status: planned
+- priority: B
+  category: talent
+  indicator_id: adult_learning_participation_pct
+  indicator_name: Adult learning / reskilling participation
+  definition: Adult learning or reskilling participation rate.
+  unit: percent
+  country_coverage: KOR/OECD peers
+  comparison_group: OECD peers
+  indicator_type: observed_metric
+  primary_source_id: oecd_korea_ai_labor
+  source_name: OECD Korea AI Labour
+  source_url: https://www.oecd.org/en/publications/artificial-intelligence-and-the-labour-market-in-korea_68ab1a5a-en.html
+  collection_method: OECD report
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Definition matters.
+  relevance_note: Ability to reskill for AI diffusion.
+  status: planned
+- priority: B
+  category: talent
+  indicator_id: worker_retraining_intention_pct
+  indicator_name: Workers reporting retraining/upskilling response to AI
+  definition: Share of workers preparing for AI technology development by taking education/training.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: survey_metric
+  primary_source_id: bok_genai
+  source_name: Bank of Korea GenAI report
+  source_url: https://www.bok.or.kr/eng/
+  collection_method: BOK report
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Survey.
+  relevance_note: Worker readiness marker.
+  status: planned
+- priority: B
+  category: talent
+  indicator_id: ai_author_count_proxy
+  indicator_name: AI authors affiliated with country
+  definition: Count proxy for AI authors affiliated with institutions in a country.
+  unit: count
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: estimate
+  primary_source_id: openalex
+  source_name: OpenAlex
+  source_url: https://api.openalex.org
+  collection_method: API
+  freshness_target: monthly
+  confidence_tier: medium
+  uncertainty_note: Topic and affiliation filters matter.
+  relevance_note: Easier proxy than total AI professionals.
+  status: planned
+- priority: A
+  category: public_sector
+  indicator_id: ai_budget_2026_krw
+  indicator_name: Korean public AI budget target
+  definition: Official Korean AI budget target for 2026.
+  unit: KRW
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: official_target
+  primary_source_id: msit_2026_work_plan
+  source_name: MSIT 2026 Work Plan
+  source_url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1205&sCode=eng
+  collection_method: HTML press release
+  freshness_target: annual/policy
+  confidence_tier: high
+  uncertainty_note: Budget target.
+  relevance_note: State commitment marker.
+  status: planned
+- priority: A
+  category: public_sector
+  indicator_id: ai_hub_dataset_count
+  indicator_name: Public AI learning datasets on AI Hub
+  definition: Count of public AI learning datasets on AI Hub.
+  unit: count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: observed_metric
+  primary_source_id: nia_ai_hub
+  source_name: NIA AI Hub
+  source_url: https://eng.nia.or.kr/
+  collection_method: Official site/manual review
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Verify current count.
+  relevance_note: Public AI data infrastructure.
+  status: planned
+- priority: A
+  category: public_sector
+  indicator_id: un_egdi_score
+  indicator_name: UN E-Government Development Index score
+  definition: UN E-Government Development Index score.
+  unit: index score
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: index_metric
+  primary_source_id: un_egov
+  source_name: UN E-Government Knowledgebase
+  source_url: https://publicadministration.un.org/egovkb/en-us/
+  collection_method: UN data/report
+  freshness_target: biennial
+  confidence_tier: high
+  uncertainty_note: Composite index.
+  relevance_note: Digital-government capacity.
+  status: planned
+- priority: A
+  category: public_sector
+  indicator_id: un_egdi_rank
+  indicator_name: UN E-Government Development Index rank
+  definition: UN E-Government Development Index rank.
+  unit: rank
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: index_metric
+  primary_source_id: un_egov
+  source_name: UN E-Government Knowledgebase
+  source_url: https://publicadministration.un.org/egovkb/en-us/
+  collection_method: UN data/report
+  freshness_target: biennial
+  confidence_tier: high
+  uncertainty_note: Composite rank.
+  relevance_note: Simple public-sector readiness marker.
+  status: planned
+- priority: B
+  category: governance
+  indicator_id: government_ai_readiness_rank
+  indicator_name: Government AI Readiness ranking
+  definition: Government AI Readiness ranking.
+  unit: rank
+  country_coverage: KOR/USA/CHN
+  comparison_group: KOR/USA/CHN
+  indicator_type: index_metric
+  primary_source_id: oxford_ai_readiness
+  source_name: Oxford Insights Government AI Readiness
+  source_url: https://oxfordinsights.com/ai-readiness/government-ai-readiness-index-2025/
+  collection_method: Public index/report
+  freshness_target: annual
+  confidence_tier: medium
+  uncertainty_note: Composite ranking.
+  relevance_note: Broad AI government readiness comparison.
+  status: planned
+- priority: B
+  category: governance
+  indicator_id: ai_basic_act_status
+  indicator_name: AI Basic Act passed/effective status
+  definition: Status and effective date context for Korea's AI Basic Act.
+  unit: status/date
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: contextual_fact
+  primary_source_id: msit_ai_basic_act
+  source_name: MSIT AI Basic Act
+  source_url: https://www.msit.go.kr/eng/
+  collection_method: Official release/manual review
+  freshness_target: event
+  confidence_tier: high
+  uncertainty_note: Legal context only.
+  relevance_note: Light governance marker.
+  status: planned
+- priority: B
+  category: public_sector
+  indicator_id: public_sector_ai_program_count
+  indicator_name: Named public-sector AI programs/targets
+  definition: Count of named public-sector AI programs or targets in the MSIT work plan.
+  unit: count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: manual_classification
+  primary_source_id: msit_2026_work_plan
+  source_name: MSIT 2026 Work Plan
+  source_url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1205&sCode=eng
+  collection_method: Manual classification
+  freshness_target: annual/policy
+  confidence_tier: medium
+  uncertainty_note: Manual coding.
+  relevance_note: Shows public-sector AI diffusion.
+  status: planned
+- priority: B
+  category: defense
+  indicator_id: defense_unmanned_system_procurement_budget
+  indicator_name: Public budget/procurement for UAVs, robots, unmanned systems
+  definition: Publicly reported budget/procurement for UAVs, robots, and unmanned systems.
+  unit: KRW/USD
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: observed_metric
+  primary_source_id: tradegov_unmanned_defense
+  source_name: Trade.gov Unmanned Defense Systems
+  source_url: https://www.trade.gov/market-intelligence/south-korea-unmanned-defense-systems
+  collection_method: Public market note
+  freshness_target: event/periodic
+  confidence_tier: medium
+  uncertainty_note: Partial public coverage.
+  relevance_note: Public proxy for defense AI/robotics investment.
+  status: planned
+- priority: C
+  category: defense
+  indicator_id: defense_ai_program_event_count
+  indicator_name: Count of public defense AI/autonomy announcements
+  definition: Count of public defense AI/autonomy announcements.
+  unit: count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: manual_classification
+  primary_source_id: mnd_dapa_public
+  source_name: MND/DAPA public pages
+  source_url: https://www.mnd.go.kr/mbshome/mbs/mndEN/
+  collection_method: Official pages/manual review
+  freshness_target: event
+  confidence_tier: medium
+  uncertainty_note: Manual event coding.
+  relevance_note: Momentum marker without sensitive claims.
+  status: planned
+- priority: C
+  category: defense
+  indicator_id: defense_ai_institution_count
+  indicator_name: Named defense AI institutions/offices
+  definition: Count of named defense AI institutions or offices.
+  unit: count
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: contextual_fact
+  primary_source_id: mnd_dapa_public
+  source_name: MND/DAPA public pages
+  source_url: https://www.mnd.go.kr/mbshome/mbs/mndEN/
+  collection_method: Official pages/manual review
+  freshness_target: event
+  confidence_tier: medium
+  uncertainty_note: Manual verification.
+  relevance_note: Institutional capacity marker.
+  status: planned
+- priority: B
+  category: defense
+  indicator_id: military_manpower_pressure_indicator
+  indicator_name: Military-age or conscription-age population pressure
+  definition: Military-age or conscription-age population pressure metric.
+  unit: count/percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: observed_metric
+  primary_source_id: kosis
+  source_name: KOSIS
+  source_url: https://kosis.kr/eng/
+  collection_method: Official statistics/manual review
+  freshness_target: annual
+  confidence_tier: high
+  uncertainty_note: Need exact table.
+  relevance_note: Explains defense automation pressure.
+  status: planned
+- priority: B
+  category: social_readiness
+  indicator_id: ai_concern_more_than_excited_pct
+  indicator_name: Share more concerned than excited about AI
+  definition: Share of adults more concerned than excited about increased use of AI.
+  unit: percent
+  country_coverage: KOR/USA/CHN if surveyed
+  comparison_group: KOR/USA/CHN if available
+  indicator_type: survey_metric
+  primary_source_id: pew_ai_views
+  source_name: Pew AI Views
+  source_url: https://www.pewresearch.org/global/2025/10/15/how-people-around-the-world-view-ai/
+  collection_method: Public survey/report
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Survey margin of error.
+  relevance_note: Social receptiveness marker.
+  status: planned
+- priority: B
+  category: social_readiness
+  indicator_id: ai_awareness_pct
+  indicator_name: Share reporting high awareness of AI
+  definition: Share reporting they have heard or read a lot about AI.
+  unit: percent
+  country_coverage: KOR/USA/CHN if surveyed
+  comparison_group: KOR/USA/CHN if available
+  indicator_type: survey_metric
+  primary_source_id: pew_ai_views
+  source_name: Pew AI Views
+  source_url: https://www.pewresearch.org/global/2025/10/15/how-people-around-the-world-view-ai/
+  collection_method: Public survey/report
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Survey margin of error.
+  relevance_note: AI awareness marker.
+  status: planned
+- priority: B
+  category: social_readiness
+  indicator_id: worker_positive_ai_society_pct
+  indicator_name: Workers expecting positive AI societal impact
+  definition: Share of Korean workers expecting AI technology to have a positive societal impact.
+  unit: percent
+  country_coverage: KOR
+  comparison_group: Korea only
+  indicator_type: survey_metric
+  primary_source_id: bok_genai
+  source_name: Bank of Korea GenAI report
+  source_url: https://www.bok.or.kr/eng/
+  collection_method: BOK report
+  freshness_target: periodic
+  confidence_tier: medium_high
+  uncertainty_note: Survey.
+  relevance_note: Complements adoption metrics.
+  status: planned

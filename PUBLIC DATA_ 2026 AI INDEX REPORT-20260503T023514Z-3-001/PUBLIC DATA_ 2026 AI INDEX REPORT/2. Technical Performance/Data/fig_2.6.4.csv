@@ -1,0 +1,4 @@
+year,Agent,LLM(s) Used,Low==Lite (%),Low==Lite (¬± %),Medium (%),Medium (¬± %),High (%),High (¬± %),All (%),All (¬± %),Running Time (hours)
+2024,AIDE,o1-preview,35.91,1.86,8.45,0.43,11.67,1.27,0.17120000000000002,0.61,24
+2025,Famou-Agent 2.0,Gemini-2.5-Pro,75.76,1.52,57.89,1.52,40.0,0.0,0.5956,0.89,24
+2026,Famou-Agent 2.0,Gemini-3-Pro-Preview,80.3,1.52,64.04,2.32,42.22,2.22,0.6444,1.18,24

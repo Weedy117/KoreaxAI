@@ -1,0 +1,105 @@
+country,trust_in,response_perc
+United States,Own country,0.44
+United States,European Union,0.43
+United States,United States,0.44
+United States,China,0.13
+Canada,Own country,0.64
+Canada,European Union,0.57
+Canada,United States,0.33
+Canada,China,0.17
+France,Own country,0.47
+France,European Union,0.47
+France,United States,0.21
+France,China,0.17
+Germany,Own country,0.7
+Germany,European Union,0.71
+Germany,United States,0.33
+Germany,China,0.23
+Greece,Own country,0.22
+Greece,European Union,0.38
+Greece,United States,0.37
+Greece,China,0.34
+Hungary,Own country,0.56
+Hungary,European Union,0.56
+Hungary,United States,0.56
+Hungary,China,0.43
+Italy,Own country,0.37
+Italy,European Union,0.42
+Italy,United States,0.32
+Italy,China,0.33
+Netherlands,Own country,0.68
+Netherlands,European Union,0.68
+Netherlands,United States,0.35
+Netherlands,China,0.25
+Poland,Own country,0.53
+Poland,European Union,0.44
+Poland,United States,0.37
+Poland,China,0.13
+Spain,Own country,0.55
+Spain,European Union,0.61
+Spain,United States,0.34
+Spain,China,0.31
+Sweden,Own country,0.55
+Sweden,European Union,0.54
+Sweden,United States,0.25
+Sweden,China,0.15
+United Kingdom,Own country,0.57
+United Kingdom,European Union,0.56
+United Kingdom,United States,0.37
+United Kingdom,China,0.24
+Australia,Own country,0.65
+Australia,European Union,0.59
+Australia,United States,0.3
+Australia,China,0.15
+India,Own country,0.89
+India,European Union,0.44
+India,United States,0.64
+India,China,0.27
+Indonesia,Own country,0.74
+Indonesia,European Union,0.58
+Indonesia,United States,0.54
+Indonesia,China,0.64
+Japan,Own country,0.41
+Japan,European Union,0.43
+Japan,United States,0.41
+Japan,China,0.07
+South Korea,Own country,0.55
+South Korea,European Union,0.53
+South Korea,United States,0.58
+South Korea,China,0.21
+Israel,Own country,0.72
+Israel,European Union,0.54
+Israel,United States,0.7
+Israel,China,0.22
+Turkey,Own country,0.6
+Turkey,European Union,0.36
+Turkey,United States,0.23
+Turkey,China,0.32
+Kenya,Own country,0.54
+Kenya,European Union,0.58
+Kenya,United States,0.62
+Kenya,China,0.61
+Nigeria,Own country,0.46
+Nigeria,European Union,0.72
+Nigeria,United States,0.79
+Nigeria,China,0.79
+South Africa,Own country,0.64
+South Africa,European Union,0.42
+South Africa,United States,0.5
+South Africa,China,0.57
+Argentina,Own country,0.33
+Argentina,European Union,0.31
+Argentina,United States,0.35
+Argentina,China,0.39
+Brazil,Own country,0.36
+Brazil,European Union,0.26
+Brazil,United States,0.35
+Brazil,China,0.32
+Mexico,Own country,0.5
+Mexico,European Union,0.35
+Mexico,United States,0.24
+Mexico,China,0.38
+Global,Own country,0.55
+Global,European Union,0.53
+Global,United States,0.37
+Global,China,0.27

@@ -1,0 +1,98 @@
+Country,num_datacenters,iso_code
+Jamaica,1,JAM
+Afghanistan,1,AFG
+Bhutan,1,BTN
+Paraguay,1,PRY
+Albania,1,ALB
+Azerbaijan,1,AZE
+Monaco,2,MCO
+Iran,2,IRN
+Bosnia and Herzegovina,2,BIH
+Gibraltar,2,GIB
+Liechtenstein,2,LIE
+Bahamas,3,BHS
+Dominican Republic,3,DOM
+Sri Lanka,3,LKA
+Nepal,3,NPL
+Cayman Islands,3,CYM
+Kuwait,4,KWT
+Papua New Guinea,4,PNG
+Trinidad and Tobago,4,TTO
+Venezuela,4,VEN
+Curacao,4,NLD
+Georgia,4,GEO
+Nicaragua,5,NIC
+Uzbekistan,5,UZB
+Bolivia,5,BOL
+Malta,6,MLT
+Uruguay,6,URY
+North Macedonia,6,MKD
+Iceland,6,ISL
+Cyprus,6,CYP
+Myanmar,6,MMR
+Cambodia,7,KHM
+Honduras,7,HND
+Moldova,7,MDA
+Bangladesh,7,BGD
+El Salvador,8,SLV
+Belarus,9,BLR
+Croatia,9,HRV
+Pakistan,11,PAK
+Serbia,12,SRB
+Costa Rica,13,CRI
+Slovenia,13,SVN
+Slovakia,14,SVK
+Greece,14,GRC
+Hungary,15,HUN
+Ecuador,15,ECU
+Guatemala,16,GTM
+Lithuania,18,LTU
+Puerto Rico,19,PRI
+Taiwan,19,TWN
+Panama,20,PAN
+Portugal,21,PRT
+Peru,21,PER
+Luxembourg,23,LUX
+Bulgaria,24,BGR
+Kazakhstan,25,KAZ
+Latvia,27,LVA
+Argentina,29,ARG
+Romania,31,ROU
+Vietnam,33,VNM
+Czech Republic,34,CZE
+Turkey,35,TUR
+Philippines,39,PHL
+Colombia,41,COL
+Thailand,42,THA
+South Korea,43,KOR
+Norway,47,NOR
+Finland,48,FIN
+Denmark,50,DNK
+Ireland,55,IRL
+Ukraine,58,UKR
+Chile,59,CHL
+Malaysia,62,MYS
+Austria,68,AUT
+Belgium,81,BEL
+New Zealand,83,NZL
+Indonesia,88,IDN
+Sweden,95,SWE
+Singapore,99,SGP
+Switzerland,121,CHE
+Hong Kong,122,HKG
+Spain,144,ESP
+Poland,144,POL
+India,153,IND
+Italy,168,ITA
+Mexico,173,MEX
+Brazil,197,BRA
+Japan,222,JPN
+Russia,251,RUS
+Netherlands,298,NLD
+Australia,314,AUS
+France,322,FRA
+Canada,337,CAN
+China,449,CHN
+United Kingdom,523,GBR
+Germany,529,DEU
+United States,5427,USA

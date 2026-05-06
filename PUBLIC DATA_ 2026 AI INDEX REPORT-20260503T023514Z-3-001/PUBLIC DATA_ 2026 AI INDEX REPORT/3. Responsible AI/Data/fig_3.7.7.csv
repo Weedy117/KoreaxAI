@@ -1,0 +1,25 @@
+language,model,accuracy
+Standard Slovenian,GPT-5 model (gpt-5-2025-08-07),0.998
+Cerkno dialect,GPT-5 model (gpt-5-2025-08-07),0.886
+Standard Slovenian,Gemini 2.5 Pro,0.986
+Cerkno dialect,Gemini 2.5 Pro,0.864
+Standard Slovenian,Gemini 2.5 Flash,0.974
+Cerkno dialect,Gemini 2.5 Flash,0.742
+Standard Slovenian,GPT-4o (gpt-4o-2024-08-06),0.97
+Cerkno dialect,GPT-4o (gpt-4o-2024-08-06),0.676
+Standard Slovenian,Claude Haiku 4.5,0.926
+Cerkno dialect,Claude Haiku 4.5,0.562
+Standard Slovenian,Mistral Medium 3.1,0.9
+Cerkno dialect,Mistral Medium 3.1,0.532
+Standard Slovenian,LLama 3.3,0.87
+Cerkno dialect,LLama 3.3,0.536
+Standard Slovenian,Gemma 3,0.862
+Cerkno dialect,Gemma 3,0.578
+Standard Slovenian,GPT-3.5-Turbo,0.842
+Cerkno dialect,GPT-3.5-Turbo,0.528
+Standard Slovenian,Qwen 3 (Qwen3-2504),0.826
+Cerkno dialect,Qwen 3 (Qwen3-2504),0.544
+Standard Slovenian,GaMS-27B-Instruct,0.82
+Cerkno dialect,GaMS-27B-Instruct,0.51
+Standard Slovenian,DeepSeek-R1-Distill-Qwen-14B,0.53
+Cerkno dialect,DeepSeek-R1-Distill-Qwen-14B,0.492

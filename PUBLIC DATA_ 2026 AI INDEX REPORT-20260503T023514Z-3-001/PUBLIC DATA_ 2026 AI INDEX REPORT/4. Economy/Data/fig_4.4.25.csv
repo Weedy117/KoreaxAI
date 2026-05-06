@@ -1,0 +1,821 @@
+Country,Gender,ai_talent_representation_perc,Year
+Argentina,Female,0.28298,2016
+Argentina,Male,0.71702,2016
+Argentina,Female,0.28293,2017
+Argentina,Male,0.71707,2017
+Argentina,Female,0.28114,2018
+Argentina,Male,0.71886,2018
+Argentina,Female,0.27741,2019
+Argentina,Male,0.72259,2019
+Argentina,Female,0.27834,2020
+Argentina,Male,0.72166,2020
+Argentina,Female,0.27756,2021
+Argentina,Male,0.72244,2021
+Argentina,Female,0.28287,2022
+Argentina,Male,0.71713,2022
+Argentina,Female,0.28371,2023
+Argentina,Male,0.71629,2023
+Argentina,Female,0.29085,2024
+Argentina,Male,0.70915,2024
+Argentina,Female,0.29463,2025
+Argentina,Male,0.70537,2025
+Australia,Female,0.29179,2016
+Australia,Male,0.70821,2016
+Australia,Female,0.2954,2017
+Australia,Male,0.7046,2017
+Australia,Female,0.29834,2018
+Australia,Male,0.70166,2018
+Australia,Female,0.30309,2019
+Australia,Male,0.69691,2019
+Australia,Female,0.30531,2020
+Australia,Male,0.69469,2020
+Australia,Female,0.31062,2021
+Australia,Male,0.68938,2021
+Australia,Female,0.31518,2022
+Australia,Male,0.68482,2022
+Australia,Female,0.31799,2023
+Australia,Male,0.68201,2023
+Australia,Female,0.32153,2024
+Australia,Male,0.67847,2024
+Australia,Female,0.3226,2025
+Australia,Male,0.6774,2025
+Austria,Female,0.21035,2016
+Austria,Male,0.78965,2016
+Austria,Female,0.2156,2017
+Austria,Male,0.7844,2017
+Austria,Female,0.22039,2018
+Austria,Male,0.77961,2018
+Austria,Female,0.22625,2019
+Austria,Male,0.77375,2019
+Austria,Female,0.22953,2020
+Austria,Male,0.77047,2020
+Austria,Female,0.23652,2021
+Austria,Male,0.76348,2021
+Austria,Female,0.24431,2022
+Austria,Male,0.75569,2022
+Austria,Female,0.25086,2023
+Austria,Male,0.74914,2023
+Austria,Female,0.25796,2024
+Austria,Male,0.74204,2024
+Austria,Female,0.26349,2025
+Austria,Male,0.73651,2025
+Belgium,Female,0.23963,2016
+Belgium,Male,0.76037,2016
+Belgium,Female,0.24335,2017
+Belgium,Male,0.75665,2017
+Belgium,Female,0.24868,2018
+Belgium,Male,0.75132,2018
+Belgium,Female,0.24943,2019
+Belgium,Male,0.75057,2019
+Belgium,Female,0.24937,2020
+Belgium,Male,0.75063,2020
+Belgium,Female,0.25233,2021
+Belgium,Male,0.74767,2021
+Belgium,Female,0.25441,2022
+Belgium,Male,0.74559,2022
+Belgium,Female,0.25582,2023
+Belgium,Male,0.74418,2023
+Belgium,Female,0.25917,2024
+Belgium,Male,0.74083,2024
+Belgium,Female,0.26075,2025
+Belgium,Male,0.73925,2025
+Brazil,Female,0.23909,2016
+Brazil,Male,0.76091,2016
+Brazil,Female,0.23191,2017
+Brazil,Male,0.76809,2017
+Brazil,Female,0.22799,2018
+Brazil,Male,0.77201,2018
+Brazil,Female,0.22507,2019
+Brazil,Male,0.77493,2019
+Brazil,Female,0.22552,2020
+Brazil,Male,0.77448,2020
+Brazil,Female,0.22699,2021
+Brazil,Male,0.77301,2021
+Brazil,Female,0.22965,2022
+Brazil,Male,0.77035,2022
+Brazil,Female,0.22896,2023
+Brazil,Male,0.77104,2023
+Brazil,Female,0.2318,2024
+Brazil,Male,0.7682,2024
+Brazil,Female,0.23413,2025
+Brazil,Male,0.76587,2025
+Canada,Female,0.31308,2016
+Canada,Male,0.68692,2016
+Canada,Female,0.31262,2017
+Canada,Male,0.68738,2017
+Canada,Female,0.31421,2018
+Canada,Male,0.68579,2018
+Canada,Female,0.31595,2019
+Canada,Male,0.68405,2019
+Canada,Female,0.31665,2020
+Canada,Male,0.68335,2020
+Canada,Female,0.32002,2021
+Canada,Male,0.67998,2021
+Canada,Female,0.32387,2022
+Canada,Male,0.67613,2022
+Canada,Female,0.32525,2023
+Canada,Male,0.67475,2023
+Canada,Female,0.32691,2024
+Canada,Male,0.67309,2024
+Canada,Female,0.32719,2025
+Canada,Male,0.67281,2025
+Chile,Female,0.26578,2016
+Chile,Male,0.73422,2016
+Chile,Female,0.25338,2017
+Chile,Male,0.74662,2017
+Chile,Female,0.24562,2018
+Chile,Male,0.75438,2018
+Chile,Female,0.24471,2019
+Chile,Male,0.75529,2019
+Chile,Female,0.24116,2020
+Chile,Male,0.75884,2020
+Chile,Female,0.24127,2021
+Chile,Male,0.75873,2021
+Chile,Female,0.24338,2022
+Chile,Male,0.75662,2022
+Chile,Female,0.2373,2023
+Chile,Male,0.7627,2023
+Chile,Female,0.23669,2024
+Chile,Male,0.76331,2024
+Chile,Female,0.23734,2025
+Chile,Male,0.76266,2025
+Costa Rica,Female,0.28796,2016
+Costa Rica,Male,0.71204,2016
+Costa Rica,Female,0.28588,2017
+Costa Rica,Male,0.71412,2017
+Costa Rica,Female,0.28979,2018
+Costa Rica,Male,0.71021,2018
+Costa Rica,Female,0.29761,2019
+Costa Rica,Male,0.70239,2019
+Costa Rica,Female,0.30546,2020
+Costa Rica,Male,0.69454,2020
+Costa Rica,Female,0.31665,2021
+Costa Rica,Male,0.68335,2021
+Costa Rica,Female,0.32929,2022
+Costa Rica,Male,0.67071,2022
+Costa Rica,Female,0.33379,2023
+Costa Rica,Male,0.66621,2023
+Costa Rica,Female,0.32602,2024
+Costa Rica,Male,0.67398,2024
+Costa Rica,Female,0.3266,2025
+Costa Rica,Male,0.6734,2025
+Croatia,Female,0.32469,2016
+Croatia,Male,0.67531,2016
+Croatia,Female,0.32686,2017
+Croatia,Male,0.67314,2017
+Croatia,Female,0.32533,2018
+Croatia,Male,0.67467,2018
+Croatia,Female,0.33452,2019
+Croatia,Male,0.66548,2019
+Croatia,Female,0.33444,2020
+Croatia,Male,0.66556,2020
+Croatia,Female,0.34867,2021
+Croatia,Male,0.65133,2021
+Croatia,Female,0.35369,2022
+Croatia,Male,0.64631,2022
+Croatia,Female,0.36348,2023
+Croatia,Male,0.63652,2023
+Croatia,Female,0.36395,2024
+Croatia,Male,0.63605,2024
+Croatia,Female,0.36551,2025
+Croatia,Male,0.63449,2025
+Cyprus,Female,0.30435,2016
+Cyprus,Male,0.69565,2016
+Cyprus,Female,0.31339,2017
+Cyprus,Male,0.68661,2017
+Cyprus,Female,0.31411,2018
+Cyprus,Male,0.68589,2018
+Cyprus,Female,0.29481,2019
+Cyprus,Male,0.70519,2019
+Cyprus,Female,0.28812,2020
+Cyprus,Male,0.71188,2020
+Cyprus,Female,0.29404,2021
+Cyprus,Male,0.70596,2021
+Cyprus,Female,0.29016,2022
+Cyprus,Male,0.70984,2022
+Cyprus,Female,0.30033,2023
+Cyprus,Male,0.69967,2023
+Cyprus,Female,0.29207,2024
+Cyprus,Male,0.70793,2024
+Cyprus,Female,0.28764,2025
+Cyprus,Male,0.71236,2025
+Czech Republic,Female,0.22914,2016
+Czech Republic,Male,0.77086,2016
+Czech Republic,Female,0.23513,2017
+Czech Republic,Male,0.76487,2017
+Czech Republic,Female,0.23953,2018
+Czech Republic,Male,0.76047,2018
+Czech Republic,Female,0.24727,2019
+Czech Republic,Male,0.75273,2019
+Czech Republic,Female,0.25463,2020
+Czech Republic,Male,0.74537,2020
+Czech Republic,Female,0.26232,2021
+Czech Republic,Male,0.73768,2021
+Czech Republic,Female,0.27236,2022
+Czech Republic,Male,0.72764,2022
+Czech Republic,Female,0.27448,2023
+Czech Republic,Male,0.72552,2023
+Czech Republic,Female,0.27919,2024
+Czech Republic,Male,0.72081,2024
+Czech Republic,Female,0.28152,2025
+Czech Republic,Male,0.71848,2025
+Denmark,Female,0.23855,2016
+Denmark,Male,0.76145,2016
+Denmark,Female,0.23655,2017
+Denmark,Male,0.76345,2017
+Denmark,Female,0.23825,2018
+Denmark,Male,0.76175,2018
+Denmark,Female,0.24093,2019
+Denmark,Male,0.75907,2019
+Denmark,Female,0.24375,2020
+Denmark,Male,0.75625,2020
+Denmark,Female,0.25205,2021
+Denmark,Male,0.74795,2021
+Denmark,Female,0.25884,2022
+Denmark,Male,0.74116,2022
+Denmark,Female,0.26217,2023
+Denmark,Male,0.73783,2023
+Denmark,Female,0.26694,2024
+Denmark,Male,0.73306,2024
+Denmark,Female,0.26974,2025
+Denmark,Male,0.73026,2025
+Estonia,Female,0.31795,2016
+Estonia,Male,0.68205,2016
+Estonia,Female,0.32051,2017
+Estonia,Male,0.67949,2017
+Estonia,Female,0.33558,2018
+Estonia,Male,0.66442,2018
+Estonia,Female,0.33789,2019
+Estonia,Male,0.66211,2019
+Estonia,Female,0.33977,2020
+Estonia,Male,0.66023,2020
+Estonia,Female,0.3417,2021
+Estonia,Male,0.6583,2021
+Estonia,Female,0.35213,2022
+Estonia,Male,0.64787,2022
+Estonia,Female,0.35383,2023
+Estonia,Male,0.64617,2023
+Estonia,Female,0.36063,2024
+Estonia,Male,0.63937,2024
+Estonia,Female,0.35758,2025
+Estonia,Male,0.64242,2025
+Finland,Female,0.36407,2016
+Finland,Male,0.63593,2016
+Finland,Female,0.36068,2017
+Finland,Male,0.63932,2017
+Finland,Female,0.36247,2018
+Finland,Male,0.63753,2018
+Finland,Female,0.36113,2019
+Finland,Male,0.63887,2019
+Finland,Female,0.36532,2020
+Finland,Male,0.63468,2020
+Finland,Female,0.367,2021
+Finland,Male,0.633,2021
+Finland,Female,0.37252,2022
+Finland,Male,0.62748,2022
+Finland,Female,0.37409,2023
+Finland,Male,0.62591,2023
+Finland,Female,0.37393,2024
+Finland,Male,0.62607,2024
+Finland,Female,0.3747,2025
+Finland,Male,0.6253,2025
+France,Female,0.30429,2016
+France,Male,0.69571,2016
+France,Female,0.30603,2017
+France,Male,0.69397,2017
+France,Female,0.30507,2018
+France,Male,0.69493,2018
+France,Female,0.3053,2019
+France,Male,0.6947,2019
+France,Female,0.305,2020
+France,Male,0.695,2020
+France,Female,0.30592,2021
+France,Male,0.69408,2021
+France,Female,0.30851,2022
+France,Male,0.69149,2022
+France,Female,0.30883,2023
+France,Male,0.69117,2023
+France,Female,0.3098,2024
+France,Male,0.6902,2024
+France,Female,0.31016,2025
+France,Male,0.68984,2025
+Germany,Female,0.20823,2016
+Germany,Male,0.79177,2016
+Germany,Female,0.21068,2017
+Germany,Male,0.78932,2017
+Germany,Female,0.21431,2018
+Germany,Male,0.78569,2018
+Germany,Female,0.2207,2019
+Germany,Male,0.7793,2019
+Germany,Female,0.2251,2020
+Germany,Male,0.7749,2020
+Germany,Female,0.2324,2021
+Germany,Male,0.7676,2021
+Germany,Female,0.23878,2022
+Germany,Male,0.76122,2022
+Germany,Female,0.24402,2023
+Germany,Male,0.75598,2023
+Germany,Female,0.24822,2024
+Germany,Male,0.75178,2024
+Germany,Female,0.25081,2025
+Germany,Male,0.74919,2025
+Hong Kong,Female,0.28685,2016
+Hong Kong,Male,0.71315,2016
+Hong Kong,Female,0.28768,2017
+Hong Kong,Male,0.71232,2017
+Hong Kong,Female,0.29335,2018
+Hong Kong,Male,0.70665,2018
+Hong Kong,Female,0.28958,2019
+Hong Kong,Male,0.71042,2019
+Hong Kong,Female,0.29821,2020
+Hong Kong,Male,0.70179,2020
+Hong Kong,Female,0.30794,2021
+Hong Kong,Male,0.69206,2021
+Hong Kong,Female,0.31553,2022
+Hong Kong,Male,0.68447,2022
+Hong Kong,Female,0.32105,2023
+Hong Kong,Male,0.67895,2023
+Hong Kong,Female,0.32967,2024
+Hong Kong,Male,0.67033,2024
+Hong Kong,Female,0.33945,2025
+Hong Kong,Male,0.66055,2025
+India,Female,0.25258,2016
+India,Male,0.74742,2016
+India,Female,0.25785,2017
+India,Male,0.74215,2017
+India,Female,0.2622,2018
+India,Male,0.7378,2018
+India,Female,0.26835,2019
+India,Male,0.73165,2019
+India,Female,0.27498,2020
+India,Male,0.72502,2020
+India,Female,0.28657,2021
+India,Male,0.71343,2021
+India,Female,0.29245,2022
+India,Male,0.70755,2022
+India,Female,0.29527,2023
+India,Male,0.70473,2023
+India,Female,0.30488,2024
+India,Male,0.69512,2024
+India,Female,0.3064,2025
+India,Male,0.6936,2025
+Ireland,Female,0.29315,2016
+Ireland,Male,0.70685,2016
+Ireland,Female,0.29787,2017
+Ireland,Male,0.70213,2017
+Ireland,Female,0.29816,2018
+Ireland,Male,0.70184,2018
+Ireland,Female,0.29759,2019
+Ireland,Male,0.70241,2019
+Ireland,Female,0.30007,2020
+Ireland,Male,0.69993,2020
+Ireland,Female,0.30549,2021
+Ireland,Male,0.69451,2021
+Ireland,Female,0.31261,2022
+Ireland,Male,0.68739,2022
+Ireland,Female,0.31756,2023
+Ireland,Male,0.68244,2023
+Ireland,Female,0.31892,2024
+Ireland,Male,0.68108,2024
+Ireland,Female,0.32115,2025
+Ireland,Male,0.67885,2025
+Israel,Female,0.23722,2016
+Israel,Male,0.76278,2016
+Israel,Female,0.24033,2017
+Israel,Male,0.75967,2017
+Israel,Female,0.24231,2018
+Israel,Male,0.75769,2018
+Israel,Female,0.24652,2019
+Israel,Male,0.75348,2019
+Israel,Female,0.24981,2020
+Israel,Male,0.75019,2020
+Israel,Female,0.25435,2021
+Israel,Male,0.74565,2021
+Israel,Female,0.25897,2022
+Israel,Male,0.74103,2022
+Israel,Female,0.26264,2023
+Israel,Male,0.73736,2023
+Israel,Female,0.26302,2024
+Israel,Male,0.73698,2024
+Israel,Female,0.26414,2025
+Israel,Male,0.73586,2025
+Italy,Female,0.34949,2016
+Italy,Male,0.65051,2016
+Italy,Female,0.35061,2017
+Italy,Male,0.64939,2017
+Italy,Female,0.35182,2018
+Italy,Male,0.64818,2018
+Italy,Female,0.35125,2019
+Italy,Male,0.64875,2019
+Italy,Female,0.34921,2020
+Italy,Male,0.65079,2020
+Italy,Female,0.35037,2021
+Italy,Male,0.64963,2021
+Italy,Female,0.35355,2022
+Italy,Male,0.64645,2022
+Italy,Female,0.35267,2023
+Italy,Male,0.64733,2023
+Italy,Female,0.35326,2024
+Italy,Male,0.64674,2024
+Italy,Female,0.35476,2025
+Italy,Male,0.64524,2025
+Lithuania,Female,0.32108,2016
+Lithuania,Male,0.67892,2016
+Lithuania,Female,0.31526,2017
+Lithuania,Male,0.68474,2017
+Lithuania,Female,0.31398,2018
+Lithuania,Male,0.68602,2018
+Lithuania,Female,0.32454,2019
+Lithuania,Male,0.67546,2019
+Lithuania,Female,0.32721,2020
+Lithuania,Male,0.67279,2020
+Lithuania,Female,0.34009,2021
+Lithuania,Male,0.65991,2021
+Lithuania,Female,0.34507,2022
+Lithuania,Male,0.65493,2022
+Lithuania,Female,0.34461,2023
+Lithuania,Male,0.65539,2023
+Lithuania,Female,0.34111,2024
+Lithuania,Male,0.65889,2024
+Lithuania,Female,0.33743,2025
+Lithuania,Male,0.66257,2025
+Luxembourg,Female,0.27067,2016
+Luxembourg,Male,0.72933,2016
+Luxembourg,Female,0.26929,2017
+Luxembourg,Male,0.73071,2017
+Luxembourg,Female,0.27722,2018
+Luxembourg,Male,0.72278,2018
+Luxembourg,Female,0.28159,2019
+Luxembourg,Male,0.71841,2019
+Luxembourg,Female,0.27748,2020
+Luxembourg,Male,0.72252,2020
+Luxembourg,Female,0.28702,2021
+Luxembourg,Male,0.71298,2021
+Luxembourg,Female,0.28488,2022
+Luxembourg,Male,0.71512,2022
+Luxembourg,Female,0.2885,2023
+Luxembourg,Male,0.7115,2023
+Luxembourg,Female,0.29097,2024
+Luxembourg,Male,0.70903,2024
+Luxembourg,Female,0.2986,2025
+Luxembourg,Male,0.7014,2025
+Mexico,Female,0.26814,2016
+Mexico,Male,0.73186,2016
+Mexico,Female,0.26943,2017
+Mexico,Male,0.73057,2017
+Mexico,Female,0.26892,2018
+Mexico,Male,0.73108,2018
+Mexico,Female,0.26756,2019
+Mexico,Male,0.73244,2019
+Mexico,Female,0.26845,2020
+Mexico,Male,0.73155,2020
+Mexico,Female,0.26955,2021
+Mexico,Male,0.73045,2021
+Mexico,Female,0.27138,2022
+Mexico,Male,0.72862,2022
+Mexico,Female,0.26808,2023
+Mexico,Male,0.73192,2023
+Mexico,Female,0.26755,2024
+Mexico,Male,0.73245,2024
+Mexico,Female,0.26875,2025
+Mexico,Male,0.73125,2025
+Netherlands,Female,0.26253,2016
+Netherlands,Male,0.73747,2016
+Netherlands,Female,0.26477,2017
+Netherlands,Male,0.73523,2017
+Netherlands,Female,0.26838,2018
+Netherlands,Male,0.73162,2018
+Netherlands,Female,0.27145,2019
+Netherlands,Male,0.72855,2019
+Netherlands,Female,0.27466,2020
+Netherlands,Male,0.72534,2020
+Netherlands,Female,0.27984,2021
+Netherlands,Male,0.72016,2021
+Netherlands,Female,0.28449,2022
+Netherlands,Male,0.71551,2022
+Netherlands,Female,0.28714,2023
+Netherlands,Male,0.71286,2023
+Netherlands,Female,0.28913,2024
+Netherlands,Male,0.71087,2024
+Netherlands,Female,0.2906,2025
+Netherlands,Male,0.7094,2025
+New Zealand,Female,0.31599,2016
+New Zealand,Male,0.68401,2016
+New Zealand,Female,0.31777,2017
+New Zealand,Male,0.68223,2017
+New Zealand,Female,0.32102,2018
+New Zealand,Male,0.67898,2018
+New Zealand,Female,0.32133,2019
+New Zealand,Male,0.67867,2019
+New Zealand,Female,0.32924,2020
+New Zealand,Male,0.67076,2020
+New Zealand,Female,0.3351,2021
+New Zealand,Male,0.6649,2021
+New Zealand,Female,0.33995,2022
+New Zealand,Male,0.66005,2022
+New Zealand,Female,0.34612,2023
+New Zealand,Male,0.65388,2023
+New Zealand,Female,0.34937,2024
+New Zealand,Male,0.65063,2024
+New Zealand,Female,0.35062,2025
+New Zealand,Male,0.64938,2025
+Norway,Female,0.26696,2016
+Norway,Male,0.73304,2016
+Norway,Female,0.26156,2017
+Norway,Male,0.73844,2017
+Norway,Female,0.25996,2018
+Norway,Male,0.74004,2018
+Norway,Female,0.26347,2019
+Norway,Male,0.73653,2019
+Norway,Female,0.26471,2020
+Norway,Male,0.73529,2020
+Norway,Female,0.26894,2021
+Norway,Male,0.73106,2021
+Norway,Female,0.27571,2022
+Norway,Male,0.72429,2022
+Norway,Female,0.28018,2023
+Norway,Male,0.71982,2023
+Norway,Female,0.28169,2024
+Norway,Male,0.71831,2024
+Norway,Female,0.28418,2025
+Norway,Male,0.71582,2025
+Poland,Female,0.30703,2016
+Poland,Male,0.69297,2016
+Poland,Female,0.31362,2017
+Poland,Male,0.68638,2017
+Poland,Female,0.31808,2018
+Poland,Male,0.68192,2018
+Poland,Female,0.32206,2019
+Poland,Male,0.67794,2019
+Poland,Female,0.32437,2020
+Poland,Male,0.67563,2020
+Poland,Female,0.329,2021
+Poland,Male,0.671,2021
+Poland,Female,0.33531,2022
+Poland,Male,0.66469,2022
+Poland,Female,0.33728,2023
+Poland,Male,0.66272,2023
+Poland,Female,0.33666,2024
+Poland,Male,0.66334,2024
+Poland,Female,0.34004,2025
+Poland,Male,0.65996,2025
+Portugal,Female,0.29961,2016
+Portugal,Male,0.70039,2016
+Portugal,Female,0.29672,2017
+Portugal,Male,0.70328,2017
+Portugal,Female,0.29672,2018
+Portugal,Male,0.70328,2018
+Portugal,Female,0.29892,2019
+Portugal,Male,0.70108,2019
+Portugal,Female,0.29578,2020
+Portugal,Male,0.70422,2020
+Portugal,Female,0.29972,2021
+Portugal,Male,0.70028,2021
+Portugal,Female,0.30047,2022
+Portugal,Male,0.69953,2022
+Portugal,Female,0.30133,2023
+Portugal,Male,0.69867,2023
+Portugal,Female,0.30127,2024
+Portugal,Male,0.69873,2024
+Portugal,Female,0.30397,2025
+Portugal,Male,0.69603,2025
+Romania,Female,0.41736,2016
+Romania,Male,0.58264,2016
+Romania,Female,0.42379,2017
+Romania,Male,0.57621,2017
+Romania,Female,0.43124,2018
+Romania,Male,0.56876,2018
+Romania,Female,0.43117,2019
+Romania,Male,0.56883,2019
+Romania,Female,0.43044,2020
+Romania,Male,0.56956,2020
+Romania,Female,0.43095,2021
+Romania,Male,0.56905,2021
+Romania,Female,0.43434,2022
+Romania,Male,0.56566,2022
+Romania,Female,0.43096,2023
+Romania,Male,0.56904,2023
+Romania,Female,0.43,2024
+Romania,Male,0.57,2024
+Romania,Female,0.42037,2025
+Romania,Male,0.57963,2025
+Saudi Arabia,Female,0.14048,2016
+Saudi Arabia,Male,0.85952,2016
+Saudi Arabia,Female,0.14968,2017
+Saudi Arabia,Male,0.85032,2017
+Saudi Arabia,Female,0.17101,2018
+Saudi Arabia,Male,0.82899,2018
+Saudi Arabia,Female,0.20549,2019
+Saudi Arabia,Male,0.79451,2019
+Saudi Arabia,Female,0.23715,2020
+Saudi Arabia,Male,0.76285,2020
+Saudi Arabia,Female,0.2712,2021
+Saudi Arabia,Male,0.7288,2021
+Saudi Arabia,Female,0.29409,2022
+Saudi Arabia,Male,0.70591,2022
+Saudi Arabia,Female,0.31005,2023
+Saudi Arabia,Male,0.68995,2023
+Saudi Arabia,Female,0.31984,2024
+Saudi Arabia,Male,0.68016,2024
+Saudi Arabia,Female,0.33222,2025
+Saudi Arabia,Male,0.66778,2025
+Singapore,Female,0.33662,2016
+Singapore,Male,0.66338,2016
+Singapore,Female,0.34537,2017
+Singapore,Male,0.65463,2017
+Singapore,Female,0.35002,2018
+Singapore,Male,0.64998,2018
+Singapore,Female,0.35798,2019
+Singapore,Male,0.64202,2019
+Singapore,Female,0.3652,2020
+Singapore,Male,0.6348,2020
+Singapore,Female,0.37442,2021
+Singapore,Male,0.62558,2021
+Singapore,Female,0.37903,2022
+Singapore,Male,0.62097,2022
+Singapore,Female,0.38115,2023
+Singapore,Male,0.61885,2023
+Singapore,Female,0.38118,2024
+Singapore,Male,0.61882,2024
+Singapore,Female,0.38009,2025
+Singapore,Male,0.61991,2025
+South Africa,Female,0.36164,2016
+South Africa,Male,0.63836,2016
+South Africa,Female,0.3588,2017
+South Africa,Male,0.6412,2017
+South Africa,Female,0.35801,2018
+South Africa,Male,0.64199,2018
+South Africa,Female,0.35751,2019
+South Africa,Male,0.64249,2019
+South Africa,Female,0.3578,2020
+South Africa,Male,0.6422,2020
+South Africa,Female,0.35832,2021
+South Africa,Male,0.64168,2021
+South Africa,Female,0.36119,2022
+South Africa,Male,0.63881,2022
+South Africa,Female,0.36216,2023
+South Africa,Male,0.63784,2023
+South Africa,Female,0.36683,2024
+South Africa,Male,0.63317,2024
+South Africa,Female,0.37312,2025
+South Africa,Male,0.62688,2025
+Spain,Female,0.27743,2016
+Spain,Male,0.72257,2016
+Spain,Female,0.27437,2017
+Spain,Male,0.72563,2017
+Spain,Female,0.27484,2018
+Spain,Male,0.72516,2018
+Spain,Female,0.27572,2019
+Spain,Male,0.72428,2019
+Spain,Female,0.27661,2020
+Spain,Male,0.72339,2020
+Spain,Female,0.28067,2021
+Spain,Male,0.71933,2021
+Spain,Female,0.28328,2022
+Spain,Male,0.71672,2022
+Spain,Female,0.28466,2023
+Spain,Male,0.71534,2023
+Spain,Female,0.28953,2024
+Spain,Male,0.71047,2024
+Spain,Female,0.29064,2025
+Spain,Male,0.70936,2025
+Sweden,Female,0.28311,2016
+Sweden,Male,0.71689,2016
+Sweden,Female,0.28195,2017
+Sweden,Male,0.71805,2017
+Sweden,Female,0.27675,2018
+Sweden,Male,0.72325,2018
+Sweden,Female,0.27667,2019
+Sweden,Male,0.72333,2019
+Sweden,Female,0.27855,2020
+Sweden,Male,0.72145,2020
+Sweden,Female,0.28255,2021
+Sweden,Male,0.71745,2021
+Sweden,Female,0.28739,2022
+Sweden,Male,0.71261,2022
+Sweden,Female,0.29037,2023
+Sweden,Male,0.70963,2023
+Sweden,Female,0.29335,2024
+Sweden,Male,0.70665,2024
+Sweden,Female,0.2962,2025
+Sweden,Male,0.7038,2025
+Switzerland,Female,0.24226,2016
+Switzerland,Male,0.75774,2016
+Switzerland,Female,0.24102,2017
+Switzerland,Male,0.75898,2017
+Switzerland,Female,0.24212,2018
+Switzerland,Male,0.75788,2018
+Switzerland,Female,0.24566,2019
+Switzerland,Male,0.75434,2019
+Switzerland,Female,0.24889,2020
+Switzerland,Male,0.75111,2020
+Switzerland,Female,0.2519,2021
+Switzerland,Male,0.7481,2021
+Switzerland,Female,0.25525,2022
+Switzerland,Male,0.74475,2022
+Switzerland,Female,0.2579,2023
+Switzerland,Male,0.7421,2023
+Switzerland,Female,0.26267,2024
+Switzerland,Male,0.73733,2024
+Switzerland,Female,0.2649,2025
+Switzerland,Male,0.7351,2025
+Turkey,Female,0.26847,2016
+Turkey,Male,0.73153,2016
+Turkey,Female,0.27273,2017
+Turkey,Male,0.72727,2017
+Turkey,Female,0.27059,2018
+Turkey,Male,0.72941,2018
+Turkey,Female,0.27217,2019
+Turkey,Male,0.72783,2019
+Turkey,Female,0.26888,2020
+Turkey,Male,0.73112,2020
+Turkey,Female,0.27657,2021
+Turkey,Male,0.72343,2021
+Turkey,Female,0.27801,2022
+Turkey,Male,0.72199,2022
+Turkey,Female,0.28191,2023
+Turkey,Male,0.71809,2023
+Turkey,Female,0.28768,2024
+Turkey,Male,0.71232,2024
+Turkey,Female,0.29203,2025
+Turkey,Male,0.70797,2025
+United Arab Emirates,Female,0.26656,2016
+United Arab Emirates,Male,0.73344,2016
+United Arab Emirates,Female,0.27922,2017
+United Arab Emirates,Male,0.72078,2017
+United Arab Emirates,Female,0.2825,2018
+United Arab Emirates,Male,0.7175,2018
+United Arab Emirates,Female,0.2888,2019
+United Arab Emirates,Male,0.7112,2019
+United Arab Emirates,Female,0.2958,2020
+United Arab Emirates,Male,0.7042,2020
+United Arab Emirates,Female,0.30115,2021
+United Arab Emirates,Male,0.69885,2021
+United Arab Emirates,Female,0.30355,2022
+United Arab Emirates,Male,0.69645,2022
+United Arab Emirates,Female,0.30258,2023
+United Arab Emirates,Male,0.69742,2023
+United Arab Emirates,Female,0.30548,2024
+United Arab Emirates,Male,0.69452,2024
+United Arab Emirates,Female,0.30086,2025
+United Arab Emirates,Male,0.69914,2025
+United Kingdom,Female,0.25708,2016
+United Kingdom,Male,0.74292,2016
+United Kingdom,Female,0.26236,2017
+United Kingdom,Male,0.73764,2017
+United Kingdom,Female,0.26653,2018
+United Kingdom,Male,0.73347,2018
+United Kingdom,Female,0.27176,2019
+United Kingdom,Male,0.72824,2019
+United Kingdom,Female,0.27569,2020
+United Kingdom,Male,0.72431,2020
+United Kingdom,Female,0.28263,2021
+United Kingdom,Male,0.71737,2021
+United Kingdom,Female,0.2902,2022
+United Kingdom,Male,0.7098,2022
+United Kingdom,Female,0.29526,2023
+United Kingdom,Male,0.70474,2023
+United Kingdom,Female,0.2992,2024
+United Kingdom,Male,0.7008,2024
+United Kingdom,Female,0.30248,2025
+United Kingdom,Male,0.69752,2025
+United States,Female,0.33098,2016
+United States,Male,0.66902,2016
+United States,Female,0.33168,2017
+United States,Male,0.66832,2017
+United States,Female,0.33287,2018
+United States,Male,0.66713,2018
+United States,Female,0.33358,2019
+United States,Male,0.66642,2019
+United States,Female,0.33556,2020
+United States,Male,0.66444,2020
+United States,Female,0.33851,2021
+United States,Male,0.66149,2021
+United States,Female,0.34131,2022
+United States,Male,0.65869,2022
+United States,Female,0.34259,2023
+United States,Male,0.65741,2023
+United States,Female,0.34287,2024
+United States,Male,0.65713,2024
+United States,Female,0.34261,2025
+United States,Male,0.65739,2025
+Uruguay,Female,0.28776,2016
+Uruguay,Male,0.71224,2016
+Uruguay,Female,0.28095,2017
+Uruguay,Male,0.71905,2017
+Uruguay,Female,0.26995,2018
+Uruguay,Male,0.73005,2018
+Uruguay,Female,0.25627,2019
+Uruguay,Male,0.74373,2019
+Uruguay,Female,0.26926,2020
+Uruguay,Male,0.73074,2020
+Uruguay,Female,0.27336,2021
+Uruguay,Male,0.72664,2021
+Uruguay,Female,0.28237,2022
+Uruguay,Male,0.71763,2022
+Uruguay,Female,0.28666,2023
+Uruguay,Male,0.71334,2023
+Uruguay,Female,0.28281,2024
+Uruguay,Male,0.71719,2024
+Uruguay,Female,0.29098,2025
+Uruguay,Male,0.70902,2025

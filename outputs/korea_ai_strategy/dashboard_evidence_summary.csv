@@ -1,0 +1,17 @@
+indicator_id,indicator_name,country_name,year,value_standardized,unit_standardized,source_name,notes
+ai_patents_per_capita,AI patents per capita,China,2024.0,6.954559165350699,patents_per_100000_inhabitants,AI Index Report Data,Stanford AI Index local figure fig_1.7.4.csv.
+ai_patents_per_capita,AI patents per capita,South Korea,2024.0,14.310816598653574,patents_per_100000_inhabitants,AI Index Report Data,Stanford AI Index local figure fig_1.7.4.csv.
+ai_patents_per_capita,AI patents per capita,United States,2024.0,4.680824954705668,patents_per_100000_inhabitants,AI Index Report Data,Stanford AI Index local figure fig_1.7.4.csv.
+robot_density_manufacturing,"Industrial robots per 10,000 manufacturing workers",China,2024.0,166.0,robots per 10k workers,IFR World Robotics press releases,IFR press-release value for robot density in manufacturing.
+robot_density_manufacturing,"Industrial robots per 10,000 manufacturing workers",South Korea,2024.0,1220.0,robots per 10k workers,IFR World Robotics press releases,IFR press-release value for robot density in manufacturing.
+robot_density_manufacturing,"Industrial robots per 10,000 manufacturing workers",United States,2024.0,307.0,robots per 10k workers,IFR World Robotics press releases,IFR press-release value for robot density in manufacturing.
+top500_system_count,Number of TOP500 systems by country,China,2025.0,40.0,count,TOP500 list statistics and current list,Count from TOP500 downloadable current list.
+top500_system_count,Number of TOP500 systems by country,South Korea,2025.0,15.0,count,TOP500 list statistics and current list,Count from TOP500 downloadable current list.
+top500_system_count,Number of TOP500 systems by country,United States,2025.0,171.0,count,TOP500 list statistics and current list,Count from TOP500 downloadable current list.
+public_gpu_procurement_count,Public GPU procurement count,South Korea,2025.0,13000.0,count,GPU Procurement Project Selects Participants,Total GPUs to be secured under public-private GPU procurement.
+notable_ai_models_count,Number of notable AI models by country/year,China,2026.0,7.0,count,Data on AI Models,Count from Epoch CSV using country column 'Country (of organization)' and date column 'Publication date'.
+notable_ai_models_count,Number of notable AI models by country/year,South Korea,2025.0,8.0,count,Data on AI Models,Count from Epoch CSV using country column 'Country (of organization)' and date column 'Publication date'.
+notable_ai_models_count,Number of notable AI models by country/year,United States,2026.0,11.0,count,Data on AI Models,Count from Epoch CSV using country column 'Country (of organization)' and date column 'Publication date'.
+ai_research_publications_count,AI-related publications by country,China,2026.0,71641.0,count,OpenAlex Works API,OpenAlex first-pass count using concept C154945302 and authorship institution country filter.
+ai_research_publications_count,AI-related publications by country,South Korea,2026.0,6749.0,count,OpenAlex Works API,OpenAlex first-pass count using concept C154945302 and authorship institution country filter.
+ai_research_publications_count,AI-related publications by country,United States,2026.0,56631.0,count,OpenAlex Works API,OpenAlex first-pass count using concept C154945302 and authorship institution country filter.

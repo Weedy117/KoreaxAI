@@ -1,0 +1,16 @@
+Model,Accuracy
+Kimi K2.5,0.5062
+GPT 5 Mini,0.5193
+GPT 5,0.5215
+Grok 4.1 Fast (Reasoning),0.5245000000000001
+GLM 5,0.5318
+Grok 4,0.5351
+Qwen 3.5 Plus,0.5447
+Claude Sonnet 4.5 (Thinking),0.545
+Gemini 3 Pro (11/25),0.5515
+GPT 5.1,0.5531
+GPT 5.2,0.5853
+Claude Opus 4.5 (Thinking),0.5881000000000001
+Gemini 3.1 Pro Preview (02/26),0.5972
+Claude Opus 4.6 (Thinking),0.6004999999999999
+Claude Sonnet 4.6,0.6333

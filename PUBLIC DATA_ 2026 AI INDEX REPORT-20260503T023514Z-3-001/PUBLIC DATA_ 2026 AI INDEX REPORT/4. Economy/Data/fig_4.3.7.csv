@@ -1,0 +1,133 @@
+industry,function,respondent_perc
+Advanced manufacturing,Human resources,1
+Advanced manufacturing,IT,9
+Advanced manufacturing,Knowledge management,5
+Advanced manufacturing,Manufacturing,3
+Advanced manufacturing,Marketing and sales,5
+Advanced manufacturing,Product and/or service development,6
+Advanced manufacturing,"Risk, legal, and compliance",0
+Advanced manufacturing,Service operations,3
+Advanced manufacturing,Software engineering,0
+Advanced manufacturing,Strategy and corporate finance,4
+Advanced manufacturing,Supply chain/ inventory management,3
+Consumer goods and retail,Human resources,1
+Consumer goods and retail,IT,7
+Consumer goods and retail,Knowledge management,6
+Consumer goods and retail,Manufacturing,2
+Consumer goods and retail,Marketing and sales,7
+Consumer goods and retail,Product and/or service development,3
+Consumer goods and retail,"Risk, legal, and compliance",3
+Consumer goods and retail,Service operations,1
+Consumer goods and retail,Software engineering,1
+Consumer goods and retail,Strategy and corporate finance,3
+Consumer goods and retail,Supply chain/ inventory management,3
+Energy and materials,Human resources,5
+Energy and materials,IT,10
+Energy and materials,Knowledge management,6
+Energy and materials,Manufacturing,4
+Energy and materials,Marketing and sales,8
+Energy and materials,Product and/or service development,6
+Energy and materials,"Risk, legal, and compliance",4
+Energy and materials,Service operations,7
+Energy and materials,Software engineering,7
+Energy and materials,Strategy and corporate finance,3
+Energy and materials,Supply chain/ inventory management,2
+Engineering and construction,Human resources,4
+Engineering and construction,IT,6
+Engineering and construction,Knowledge management,4
+Engineering and construction,Manufacturing,2
+Engineering and construction,Marketing and sales,4
+Engineering and construction,Product and/or service development,6
+Engineering and construction,"Risk, legal, and compliance",0
+Engineering and construction,Service operations,3
+Engineering and construction,Software engineering,2
+Engineering and construction,Strategy and corporate finance,4
+Engineering and construction,Supply chain/ inventory management,0
+Financial institutions,Human resources,4
+Financial institutions,IT,3
+Financial institutions,Knowledge management,4
+Financial institutions,Manufacturing,1
+Financial institutions,Marketing and sales,4
+Financial institutions,Product and/or service development,3
+Financial institutions,"Risk, legal, and compliance",7
+Financial institutions,Service operations,5
+Financial institutions,Software engineering,3
+Financial institutions,Strategy and corporate finance,4
+Financial institutions,Supply chain/ inventory management,0
+Healthcare,Human resources,2
+Healthcare,IT,13
+Healthcare,Knowledge management,14
+Healthcare,Manufacturing,4
+Healthcare,Marketing and sales,6
+Healthcare,Product and/or service development,7
+Healthcare,"Risk, legal, and compliance",6
+Healthcare,Service operations,6
+Healthcare,Software engineering,1
+Healthcare,Strategy and corporate finance,5
+Healthcare,Supply chain/ inventory management,3
+Insurance,Human resources,1
+Insurance,IT,15
+Insurance,Knowledge management,16
+Insurance,Manufacturing,0
+Insurance,Marketing and sales,20
+Insurance,Product and/or service development,2
+Insurance,"Risk, legal, and compliance",16
+Insurance,Service operations,2
+Insurance,Software engineering,0
+Insurance,Strategy and corporate finance,0
+Insurance,Supply chain/ inventory management,1
+Media and telecom,Human resources,7
+Media and telecom,IT,12
+Media and telecom,Knowledge management,7
+Media and telecom,Manufacturing,1
+Media and telecom,Marketing and sales,10
+Media and telecom,Product and/or service development,3
+Media and telecom,"Risk, legal, and compliance",8
+Media and telecom,Service operations,16
+Media and telecom,Software engineering,6
+Media and telecom,Strategy and corporate finance,5
+Media and telecom,Supply chain/ inventory management,1
+Pharma and medical products,Human resources,2
+Pharma and medical products,IT,8
+Pharma and medical products,Knowledge management,6
+Pharma and medical products,Manufacturing,0
+Pharma and medical products,Marketing and sales,5
+Pharma and medical products,Product and/or service development,11
+Pharma and medical products,"Risk, legal, and compliance",1
+Pharma and medical products,Service operations,1
+Pharma and medical products,Software engineering,2
+Pharma and medical products,Strategy and corporate finance,1
+Pharma and medical products,Supply chain/ inventory management,4
+Professional services,Human resources,4
+Professional services,IT,6
+Professional services,Knowledge management,12
+Professional services,Manufacturing,0
+Professional services,Marketing and sales,6
+Professional services,Product and/or service development,4
+Professional services,"Risk, legal, and compliance",3
+Professional services,Service operations,6
+Professional services,Software engineering,3
+Professional services,Strategy and corporate finance,5
+Professional services,Supply chain/ inventory management,1
+Technology,Human resources,9
+Technology,IT,22
+Technology,Knowledge management,12
+Technology,Manufacturing,2
+Technology,Marketing and sales,16
+Technology,Product and/or service development,18
+Technology,"Risk, legal, and compliance",9
+Technology,Service operations,21
+Technology,Software engineering,24
+Technology,Strategy and corporate finance,6
+Technology,Supply chain/ inventory management,4
+Travel and logistics,Human resources,0
+Travel and logistics,IT,6
+Travel and logistics,Knowledge management,6
+Travel and logistics,Manufacturing,0
+Travel and logistics,Marketing and sales,8
+Travel and logistics,Product and/or service development,6
+Travel and logistics,"Risk, legal, and compliance",5
+Travel and logistics,Service operations,3
+Travel and logistics,Software engineering,4
+Travel and logistics,Strategy and corporate finance,6
+Travel and logistics,Supply chain/ inventory management,2

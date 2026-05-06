@@ -1,0 +1,28 @@
+country,has_nvidia,has_openai,initiative_type
+Argentina,No,Yes,Only OpenAI Stargate
+Armenia,Yes,No,Only Nvidia AI Factory
+Australia,Yes,No,Only Nvidia AI Factory
+Canada,Yes,No,Only Nvidia AI Factory
+Denmark,Yes,No,Only Nvidia AI Factory
+Ecuador,Yes,No,Only Nvidia AI Factory
+France,Yes,No,Only Nvidia AI Factory
+Germany,Yes,No,Only Nvidia AI Factory
+India,Yes,Yes,Nvidia and OpenAI
+Indonesia,Yes,No,Only Nvidia AI Factory
+Italy,Yes,No,Only Nvidia AI Factory
+Japan,Yes,No,Only Nvidia AI Factory
+Kazakhstan,Yes,No,Only Nvidia AI Factory
+Malaysia,Yes,No,Only Nvidia AI Factory
+Norway,Yes,Yes,Nvidia and OpenAI
+Saudi Arabia,Yes,No,Only Nvidia AI Factory
+Singapore,Yes,No,Only Nvidia AI Factory
+South Africa,Yes,No,Only Nvidia AI Factory
+South Korea,Yes,Yes,Nvidia and OpenAI
+Spain,Yes,No,Only Nvidia AI Factory
+Sweden,Yes,No,Only Nvidia AI Factory
+Switzerland,Yes,No,Only Nvidia AI Factory
+Taiwan,Yes,No,Only Nvidia AI Factory
+United Arab Emirates,No,Yes,Only OpenAI Stargate
+United Kingdom,Yes,Yes,Nvidia and OpenAI
+United States of America,Yes,Yes,Nvidia and OpenAI
+Vietnam,Yes,No,Only Nvidia AI Factory

@@ -1,0 +1,1518 @@
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta name="keyword" content="" />
+<meta name="format-detection" content="telephone=no" />
+
+<title>
+	
+		
+			
+				
+				KISTI Begins Construction of Korea’s 6th National Supercomputer, Expected to Rank Among World’s Top 10 |
+				
+				
+					
+					
+						 KISTI News  | What&#39;s New  | KISTI
+					
+					
+				
+				
+			
+			
+		
+	
+	
+</title>
+
+<link rel="shortcut icon" href="/resources/images/favicon.ico">
+<link href="/resources/css/bootstrap.min.css" rel="stylesheet">
+<link href="/resources/css/jquery.bxslider.min.css" rel="stylesheet">
+<link href="/resources/css/fonts.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css" integrity="sha384-+LaIhPXOI3nvnTEe/FOVr/hzh20w5aerLuyv5gbJC0aHbyTT66hlIt8xxTjim+w/" crossorigin="anonymous">
+<link href="/resources/css/en_style.css" rel="stylesheet">
+<link href="/resources/css/contents-board.css" rel="stylesheet">
+<link href="/resources/css/en_contents-type2.css?v=1054" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<link href="/resources/css/ie8-contents.css" rel="stylesheet">
+<link href="/resources/css/ie8-style.css" rel="stylesheet">
+<link href="/resources/css/ie8-bootstrap.css" rel="stylesheet">
+<script src="/resources/jslb/html5shiv.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/resources/jslb/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/resources/jslb/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="/resources/jslb/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/resources/jslb/offcanvas.js"></script><!-- mobile -->
+<script type="text/javascript" src="/resources/sns/kistiSns.js"></script>
+<script type="text/javascript" src="/resources/jslb/gpin.js"></script>
+<script type="text/javascript" src="/resources/jslb/jquery.lazyload.min.js"></script>
+
+<link href="/resources/css/animate.min.css" rel="stylesheet">
+<!--[if lt IE 10]>
+	<link href="/resources/css/ie-9-animate.css" rel="stylesheet">
+<![endif]-->
+<script type="text/javascript" src="/resources/jslb/in-viewport.min.js"></script>
+<script type="text/javascript">
+$(function () {
+	// 화면 크기
+	var windowWidth = $(window).width();
+	
+	$.fn.extend({
+		animateCss: function(animationName, callback) {
+			var animationEnd = (function(el) {
+				var animations = {
+					animation: 'animationend',
+					OAnimation: 'oAnimationEnd',
+					MozAnimation: 'mozAnimationEnd',
+					WebkitAnimation: 'webkitAnimationEnd',
+				};
+				for (var t in animations) {
+					if (el.style[t] !== undefined) {
+						return animations[t];
+					}
+				}
+			})(document.createElement('div'));
+			this.addClass('animated ' + animationName).one(animationEnd, function() {
+				$(this).removeClass('animated ' + animationName);
+				if (typeof callback === 'function') callback();
+			});
+			return this;
+		},
+	});
+	
+	// 애니메이션 효과
+	function doAnimate(target) {
+		if (windowWidth > 750) {
+			var $target = $(target);
+			var animateClass = $target.data('animate') + ' fast';
+			$target.animateCss(animateClass).removeAttr('data-animate');
+		}
+	}
+	
+	// 애니메이션 효과 설정
+	function setAnimate() {
+		var arrAnimated = $('[data-animate]').get();
+		for (var i = 0; i < arrAnimated.length; i++) {
+			inViewport(arrAnimated[i], {
+				offset: -100,
+			}, doAnimate);
+		}
+	}
+	setAnimate();
+	
+	// 리사이징
+	$(window).on('resize', function () {
+		windowWidth = $(window).width();
+		if (windowWidth > 750) {
+			setAnimate();
+		}
+	});
+
+});
+</script>
+<script type="text/javascript" src="/resources/jslb/webfont.js"></script>
+<script>
+	var isIE = false;
+	var ua = window.navigator.userAgent;
+	var oldIE = ua.indexOf('MSIE ');
+	var newIE = ua.indexOf('Trident/');
+	if ((oldIE > -1) || (newIE > -1)) {
+		isIE = true;
+	}
+	if (isIE) {
+		WebFont.load({
+			custom: {
+				families: ['Titillium Web', 'Nanum Barun Gothic'],
+				urls: [
+					'https://fonts.googleapis.com/css?family=Titillium+Web',
+					'https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css',
+				],
+			},
+		});
+	}
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	/* 헤더 만료기한 ExpiresDefault "access plus 2 days" 관련_2017.08.09 */ 
+	var currentTimeMillis = new Date().getTime();
+	$('a[href*="post"], a[href*="pageView"]').each(function(){
+		var href = $(this).attr('href');
+		var v_char = '?'; 
+		if ( href.indexOf('?') > -1 ) {
+			v_char = '&';
+		}
+
+		var newhref = href + v_char + "t=" + currentTimeMillis;
+		$(this).prop('href',newhref);
+	});
+	/* 헤더 만료기한 ExpiresDefault "access plus 2 days" 관련_2017.08.09 */
+
+	$('[data-toggle="tooltip"]').tooltip();
+	
+	// lazyload
+	$('img.lazyload').lazyload();
+	$('.modal').on("show.bs.modal", function () {
+		$(this).find('img.lazyload').each(function () {
+			var $img = $(this);
+			$img.attr('src', $img.data('original'));
+		});
+	});
+	
+});
+</script>
+
+
+
+
+</head>
+
+<body>
+
+
+<div id="accessibility">
+	<a href="#container_wrap">To Content</a>
+	
+		
+		
+			<a href="#gnb-a-1">To Main Menu</a>
+		
+	
+</div>
+
+
+<div id="wrap" class="row-offcanvas row-offcanvas-right">
+
+	<div class="section section-auto-height section-top">
+		
+		
+			
+				
+
+
+<script>
+
+//메뉴 숨김
+function hideMenu() {
+	$('#sub_menu_bg').hide().removeClass('on');
+	$('#header .collapse').hide().removeClass('on');
+}
+
+// 메뉴 표시
+function showMenu(target) {
+	hideMenu();
+	$('#sub_menu_bg').show().addClass('on');
+	var $target = $(target);
+	$($target.data('target')).show().addClass('on');
+}
+
+// 메뉴 토글
+function toggleMenu(target) {
+	var $target = $(target);
+	if ($($target.data('target')).hasClass('on')) {
+		hideMenu();
+	} else {
+		hideMenu();
+		$($target.data('target')).show().addClass('on');
+	}
+}
+
+$(function () {
+	// 헤더 이탈 시, 메뉴 숨김
+	$('#header').mouseleave(function () {
+		hideMenu();
+	});
+	//top 버튼 스크롤
+	$(window).scroll(function() {
+	  var $el = $('.btn_top');
+	  
+	  if($(this).scrollTop() >= 400) $el.addClass('shown');
+	  else $el.removeClass('shown');
+	});
+});
+
+</script>
+
+<!-- 헤더 -->
+<header id="header" class="eng">
+	<div class="container">
+		<!-- 로고 -->
+		<h1 id="logo">
+			<a href="/eng/">
+				<span class="web"><img src="/resources/images/en_logo.png" alt="KISTI" /></span>
+			</a>
+		</h1>
+		<!-- //로고 -->
+		<!-- 상단메뉴 -->
+		<nav id="gnb">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				
+					<div class="panel panel-default">
+						<div id="gnb-heading-1" class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								
+								
+									
+									<a id="gnb-a-1" role="button" href="/eng/about/pageView/245;jsessionid=m1UE1kfTW1RhZWGHSSVVL2ua0mU2WA07BQWRIZarHIgPL40xtmRWW7RzRpyAwUmD.al211_servlet_engine23" data-target="#navmenu_1_child" onmouseover="showMenu(this);" onclick="showMenu(this);">About KISTI</a>
+								
+							</h4>
+						</div>
+						
+							<div id="navmenu_1_child" role="tabpanel" class="panel-collapse collapse">
+								<div>
+									<div class="panel-body">
+										<div class="menu_title">
+											<strong>About KISTI</strong>
+											<p>
+												
+													
+													
+														KISTI, Korea’s leading national science and technology research institute
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+												
+											</p>
+										</div>
+										<ul>
+											
+												<li><a href="/eng/about/pageView/245">President&#39;s Message</a>
+													
+												</li>
+											
+												<li><a href="/eng/about/pageView/246">History</a>
+													
+												</li>
+											
+												<li><a href="/eng/about/pageView/248">Organization</a>
+													
+												</li>
+											
+												<li><a href="/eng/about/pageView/249">Locations</a>
+													
+												</li>
+											
+												<li><a href="/eng/about/pageView/761">Gender Equality Plan</a>
+													
+												</li>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+					</div>
+				
+					<div class="panel panel-default">
+						<div id="gnb-heading-2" class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								
+								
+									
+									<a id="gnb-a-2" role="button" href="/eng/news/post/eng_news;jsessionid=m1UE1kfTW1RhZWGHSSVVL2ua0mU2WA07BQWRIZarHIgPL40xtmRWW7RzRpyAwUmD.al211_servlet_engine23" data-target="#navmenu_2_child" onmouseover="showMenu(this);" onclick="showMenu(this);">What&#39;s New</a>
+								
+							</h4>
+						</div>
+						
+							<div id="navmenu_2_child" role="tabpanel" class="panel-collapse collapse">
+								<div>
+									<div class="panel-body">
+										<div class="menu_title">
+											<strong>What&#39;s New</strong>
+											<p>
+												
+													
+													
+													
+													
+														KISTI, Korea’s leading national science and technology research institute
+													
+													
+													
+													
+													
+													
+													
+													
+												
+											</p>
+										</div>
+										<ul>
+											
+												<li><a href="/eng/news/post/eng_news">KISTI News</a>
+													
+												</li>
+											
+												<li><a href="/eng/news/post/eng_gallery">Media Gallery</a>
+													
+												</li>
+											
+												<li><a href="/eng/news/post/eng_brochure">Brochure</a>
+													
+												</li>
+											
+												<li><a href="/eng/news/post/eng_events">Photo Gallery</a>
+													
+												</li>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+					</div>
+				
+					<div class="panel panel-default">
+						<div id="gnb-heading-3" class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								
+								
+									
+									<a id="gnb-a-3" role="button" href="/eng/rnd/pageView/781;jsessionid=m1UE1kfTW1RhZWGHSSVVL2ua0mU2WA07BQWRIZarHIgPL40xtmRWW7RzRpyAwUmD.al211_servlet_engine23" data-target="#navmenu_3_child" onmouseover="showMenu(this);" onclick="showMenu(this);">Research</a>
+								
+							</h4>
+						</div>
+						
+							<div id="navmenu_3_child" role="tabpanel" class="panel-collapse collapse">
+								<div>
+									<div class="panel-body">
+										<div class="menu_title">
+											<strong>Research</strong>
+											<p>
+												
+													
+													
+													
+													
+													
+													
+														KISTI, Korea’s leading national science and technology research institute
+													
+													
+													
+													
+													
+													
+												
+											</p>
+										</div>
+										<ul>
+											
+												<li><a href="/eng/rnd/pageView/781">Research Areas</a>
+													
+														<ul class="depth3">
+															
+																<li><a href="/eng/rnd/pageView/781">High-Performance Computing & Quantum & Biocomputing</a></li>
+															
+																<li><a href="/eng/rnd/pageView/782">AI & Data-Driven Research Innovation</a></li>
+															
+																<li><a href="/eng/rnd/pageView/783">Secure Research Infrastructure & Cybersecurity</a></li>
+															
+																<li><a href="/eng/rnd/pageView/784">National R&D Strategy & Social Impact</a></li>
+															
+														</ul>
+													
+												</li>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+					</div>
+				
+					<div class="panel panel-default">
+						<div id="gnb-heading-4" class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								
+								
+									
+									<a id="gnb-a-4" role="button" href="/eng/global-network/pageView/257;jsessionid=m1UE1kfTW1RhZWGHSSVVL2ua0mU2WA07BQWRIZarHIgPL40xtmRWW7RzRpyAwUmD.al211_servlet_engine23" data-target="#navmenu_4_child" onmouseover="showMenu(this);" onclick="showMenu(this);">Global Network</a>
+								
+							</h4>
+						</div>
+						
+							<div id="navmenu_4_child" role="tabpanel" class="panel-collapse collapse">
+								<div>
+									<div class="panel-body">
+										<div class="menu_title">
+											<strong>Global Network</strong>
+											<p>
+												
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+														KISTI, Korea’s leading national science and technology research institute
+													
+													
+												
+											</p>
+										</div>
+										<ul>
+											
+												<li><a href="/eng/global-network/pageView/257">Global MoU</a>
+													
+												</li>
+											
+												<li><a href="/eng/global-network/pageView/258">Exchange Program</a>
+													
+												</li>
+											
+												<li><a href="/eng/global-network/pageView/259">Contact Us</a>
+													
+												</li>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+					</div>
+				
+					<div class="panel panel-default">
+						<div id="gnb-heading-5" class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								
+								
+									
+									<a id="gnb-a-5" role="button" href="/eng/post/eng_jistap;jsessionid=m1UE1kfTW1RhZWGHSSVVL2ua0mU2WA07BQWRIZarHIgPL40xtmRWW7RzRpyAwUmD.al211_servlet_engine23" data-target="#navmenu_5_child" onmouseover="showMenu(this);" onclick="showMenu(this);">Journals</a>
+								
+							</h4>
+						</div>
+						
+							<div id="navmenu_5_child" role="tabpanel" class="panel-collapse collapse">
+								<div>
+									<div class="panel-body">
+										<div class="menu_title">
+											<strong>Journals</strong>
+											<p>
+												
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+														<!-- SYSMN20240001 설명 -->
+													
+												
+											</p>
+										</div>
+										<ul>
+											
+												<li><a href="/eng/post/eng_jistap">JISTaP</a>
+													
+												</li>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+					</div>
+				
+			</div>
+		</nav>
+		<!-- //상단 메뉴 -->
+		<!-- 상단 버튼 -->
+		<div class="utillD">
+			<div class="utillL">
+				<ul>
+					<li class="text"><a href="/homekor" target="_blank" rel="noopener noreferrer">KOR</a></li>
+					<li class="text active"><a href="/eng/" title="선택됨">ENG</a></li>
+					<li class="box search ml-4"><a href='#' onclick="toggleMenu(this);" data-target="#header_search" class="btn"><span class="sr-only">Search</span><i></i></a></li>
+					<li class="box sitemap pc"><a role="button" href="#" onclick="toggleMenu(this);" data-target="#all_menu"><span class="sr-only">All Menu</span><i></i></a></li>
+					<li class="box sitemap mobile"><button type="button" class="btn btn-primary " data-toggle="modal" data-target="#mMenu_modal"><span class="sr-only">All Menu</span><i></i></button></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //상단 버튼 -->
+	</div>
+	<!-- 헤더 검색 폼 -->
+	<div id="header_search" class="panel-collapse collapse">
+		<div class="search_header container">
+			<form name="searchHeader" id="searchHeader" method="get" action="/eng/search" class="srch_bx_wrap">
+				<fieldset>
+					<legend>Search Area</legend>
+					<label for="searchWordHeader">Search</label>
+					<input type="text" placeholder="Enter your search word" name="arrSearchWord" id="searchWordHeader" class="form-control" title="Enter your search word" value="" required="required" autocomplete="off">
+					<input type="submit" id="btnSearchHeader" class="btn btn-default" value="" title="Search">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<!-- //헤더 검색 폼 -->
+	<!-- 전체 메뉴 -->
+	<div id="all_menu" class="panel-collapse collapse">
+		<ul class="depth2">
+			
+				<li>
+					
+					
+						<p class="title">About KISTI</p>
+					
+					
+						<ul class="depth3">
+							
+								<li>
+									<a href="/eng/about/pageView/245">President&#39;s Message</a>
+								</li>
+							
+								<li>
+									<a href="/eng/about/pageView/246">History</a>
+								</li>
+							
+								<li>
+									<a href="/eng/about/pageView/248">Organization</a>
+								</li>
+							
+								<li>
+									<a href="/eng/about/pageView/249">Locations</a>
+								</li>
+							
+								<li>
+									<a href="/eng/about/pageView/761">Gender Equality Plan</a>
+								</li>
+							
+						</ul>
+					
+				</li>
+			
+				<li>
+					
+					
+						<p class="title">What&#39;s New</p>
+					
+					
+						<ul class="depth3">
+							
+								<li>
+									<a href="/eng/news/post/eng_news">KISTI News</a>
+								</li>
+							
+								<li>
+									<a href="/eng/news/post/eng_gallery">Media Gallery</a>
+								</li>
+							
+								<li>
+									<a href="/eng/news/post/eng_brochure">Brochure</a>
+								</li>
+							
+								<li>
+									<a href="/eng/news/post/eng_events">Photo Gallery</a>
+								</li>
+							
+						</ul>
+					
+				</li>
+			
+				<li>
+					
+					
+						<p class="title">Research</p>
+					
+					
+						<ul class="depth3">
+							
+								<li>
+									<a href="/eng/rnd/pageView/781">Research Areas</a>
+								</li>
+							
+						</ul>
+					
+				</li>
+			
+				<li>
+					
+					
+						<p class="title">Global Network</p>
+					
+					
+						<ul class="depth3">
+							
+								<li>
+									<a href="/eng/global-network/pageView/257">Global MoU</a>
+								</li>
+							
+								<li>
+									<a href="/eng/global-network/pageView/258">Exchange Program</a>
+								</li>
+							
+								<li>
+									<a href="/eng/global-network/pageView/259">Contact Us</a>
+								</li>
+							
+						</ul>
+					
+				</li>
+			
+				<li>
+					
+					
+						<p class="title">Journals</p>
+					
+					
+						<ul class="depth3">
+							
+								<li>
+									<a href="/eng/post/eng_jistap">JISTaP</a>
+								</li>
+							
+						</ul>
+					
+				</li>
+			
+		</ul>
+	</div>
+	<!-- //전체 메뉴 -->
+	<!-- 모바일 전체 메뉴 -->
+	<div class="modal fade" id="mMenu_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-body accordion">
+			<ul class="depth2">
+			
+				<li>
+					
+					
+						<button type="button" class="btn collapsed" data-toggle="collapse" data-target="#mMenu_modal1" aria-expanded="false" aria-controls="mMenu_modal1">About KISTI</button>
+					
+					
+						<ul class="depth3 collapse"  id="mMenu_modal1" aria-labelledby="heading1" data-parent="#mMenu_modal">
+							
+								<li>
+									<a href="/eng/about/pageView/245">President&#39;s Message</a>
+								</li>
+							
+								<li>
+									<a href="/eng/about/pageView/246">History</a>
+								</li>
+							
+								<li>
+									<a href="/eng/about/pageView/248">Organization</a>
+								</li>
+							
+								<li>
+									<a href="/eng/about/pageView/249">Locations</a>
+								</li>
+							
+								<li>
+									<a href="/eng/about/pageView/761">Gender Equality Plan</a>
+								</li>
+							
+						</ul>
+						
+						</li>
+					
+				<li>
+					
+					
+						<button type="button" class="btn collapsed" data-toggle="collapse" data-target="#mMenu_modal2" aria-expanded="false" aria-controls="mMenu_modal2">What&#39;s New</button>
+					
+					
+						<ul class="depth3 collapse"  id="mMenu_modal2" aria-labelledby="heading2" data-parent="#mMenu_modal">
+							
+								<li>
+									<a href="/eng/news/post/eng_news">KISTI News</a>
+								</li>
+							
+								<li>
+									<a href="/eng/news/post/eng_gallery">Media Gallery</a>
+								</li>
+							
+								<li>
+									<a href="/eng/news/post/eng_brochure">Brochure</a>
+								</li>
+							
+								<li>
+									<a href="/eng/news/post/eng_events">Photo Gallery</a>
+								</li>
+							
+						</ul>
+						
+						</li>
+					
+				<li>
+					
+					
+						<button type="button" class="btn collapsed" data-toggle="collapse" data-target="#mMenu_modal3" aria-expanded="false" aria-controls="mMenu_modal3">Research</button>
+					
+					
+						<ul class="depth3 collapse"  id="mMenu_modal3" aria-labelledby="heading3" data-parent="#mMenu_modal">
+							
+								<li>
+									<a href="/eng/rnd/pageView/781">Research Areas</a>
+								</li>
+							
+						</ul>
+						
+						</li>
+					
+				<li>
+					
+					
+						<button type="button" class="btn collapsed" data-toggle="collapse" data-target="#mMenu_modal4" aria-expanded="false" aria-controls="mMenu_modal4">Global Network</button>
+					
+					
+						<ul class="depth3 collapse"  id="mMenu_modal4" aria-labelledby="heading4" data-parent="#mMenu_modal">
+							
+								<li>
+									<a href="/eng/global-network/pageView/257">Global MoU</a>
+								</li>
+							
+								<li>
+									<a href="/eng/global-network/pageView/258">Exchange Program</a>
+								</li>
+							
+								<li>
+									<a href="/eng/global-network/pageView/259">Contact Us</a>
+								</li>
+							
+						</ul>
+						
+						</li>
+					
+				<li>
+					
+					
+						<button type="button" class="btn collapsed" data-toggle="collapse" data-target="#mMenu_modal5" aria-expanded="false" aria-controls="mMenu_modal5">Journals</button>
+					
+					
+						<ul class="depth3 collapse"  id="mMenu_modal5" aria-labelledby="heading5" data-parent="#mMenu_modal">
+							
+								<li>
+									<a href="/eng/post/eng_jistap">JISTaP</a>
+								</li>
+							
+						</ul>
+						
+						</li>
+					
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //모바일 전체 메뉴 -->
+</header>
+<div id="sub_menu_bg"></div>
+<!-- //헤더 -->
+			
+			
+		
+		
+		
+		
+		
+			
+				
+
+
+<div class="tit_nav tit_nav_bg02">
+	
+	
+	<h1>KISTI News</h1>
+		
+	
+	<div id="top-nav-prev-next">
+		
+			<a id="top-nav-prev" href="/eng/news/post/eng_events">Photo Gallery</a>
+		
+		
+			<a id="top-nav-next" href="/eng/news/post/eng_gallery">Media Gallery</a>
+		
+	</div>
+	
+	<div class="container">
+		<div id="location_wrap" >
+			<ul>
+				<li class="home_btn"><a href="/" class="btn"><i></i><span class="sr-only">HOME</span></a></li>
+				
+				
+				
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle btn btn-default" data-toggle="dropdown" aria-expanded="false">What&#39;s New<span class="plus_btn"><i></i><i></i></span></a>
+						<div class="dropdown-menu">
+							
+								<a class="dropdown-item" href="/eng/about/pageView/245">About KISTI</a>
+							
+								<a class="dropdown-item" href="/eng/news/post/eng_news">What&#39;s New</a>
+							
+								<a class="dropdown-item" href="/eng/rnd/pageView/781">Research</a>
+							
+								<a class="dropdown-item" href="/eng/global-network/pageView/257">Global Network</a>
+							
+								<a class="dropdown-item" href="/eng/post/eng_jistap">Journals</a>
+							
+						</div>
+					</li>
+				
+				
+				
+				
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle btn btn-default" data-toggle="dropdown" aria-expanded="false">KISTI News<span class="plus_btn"><i></i><i></i></span></a>
+						<div class="dropdown-menu">
+							
+								<a class="dropdown-item" href="/eng/news/post/eng_news">KISTI News</a>
+							
+								<a class="dropdown-item" href="/eng/news/post/eng_gallery">Media Gallery</a>
+							
+								<a class="dropdown-item" href="/eng/news/post/eng_brochure">Brochure</a>
+							
+								<a class="dropdown-item" href="/eng/news/post/eng_events">Photo Gallery</a>
+							
+						</div>
+					</li>
+				
+				
+				
+				
+				
+				
+				
+			</ul>
+			<div class="sns_right_box">
+				<a class="btn facebook" href="javascript:void(0);" onclick="javascript:sendFaceBook('','/eng/news/post/eng_news/6695');" title="새창으로 열림"><i></i><span class="sr-only">Share to Facebook</span></a>
+				<a class="btn twitter" href="javascript:void(0);" onclick="javascript:sendTwitter('','/eng/news/post/eng_news/6695');" title="새창으로 열림"><i></i><span class="sr-only">Share to Twitter</span></a>
+				<a class="btn print" href="javascript:void(0);" onclick="javascript:printEngContents();" title="새창으로 열림"><i></i><span class="sr-only">Print</span></a>
+			</div>
+		</div>
+	</div>
+	<div class="bg_wrap"></div>
+</div>
+			
+			
+		
+		
+	</div>
+	
+	
+	<div id="container_wrap" tabindex="-1">
+		
+			
+				<div id="content" class="content_body container">
+					
+
+
+<script type="text/javascript" src="/resources/jslb/bbsCommon.js"></script>
+
+<script>
+	
+	var title_original = $('title').text().trim();
+	
+	function fn_boardList(clsfCd, activeId) {
+		
+		var bbs_uniq_id = "eng_news";
+		
+		$("#boardClsfDiv li").each(function(index, element) {
+			li_Id = this.id;
+			
+			if(li_Id == activeId) {
+				$(element).addClass("active");
+				$(element).attr('title', '선택됨');
+				var label = $(element).text().trim();
+				if (label == '전체') {
+					$('title').text(title_original);
+				} else {
+					$('title').text(label + '  | ' + title_original);
+				}
+			} else {
+				$(element).removeClass("active");
+				$(element).removeAttr("title");
+			}
+		});
+		
+		$.ajax({
+			type: "GET",
+			url: '/bbsList/tab/'+bbs_uniq_id,
+			cache: false,
+			data: "&clsf_cd="+clsfCd,
+			success: function(response) {
+				$('#boardListDiv').html(response);
+				
+				// 화면 크기
+				var windowWidth = $(window).width();
+				
+				// 애니메이션 효과
+				function doAnimate(target) {
+					if (windowWidth > 750) {
+						var $target = $(target);
+						$target.addClass($target.data('animate')).addClass('animated fast').removeAttr('data-animate');
+					}
+				}
+				
+				// 애니메이션 효과 설정
+				function setAnimate() {
+					var arrAnimated = $('[data-animate]').get();
+					for (var i = 0; i < arrAnimated.length; i++) {
+						inViewport(arrAnimated[i], {
+							offset: -100,
+						}, doAnimate);
+					}
+				}
+				setAnimate();
+				
+				// 리사이징
+				$(window).on('resize', function () {
+					windowWidth = $(window).width();
+					if (windowWidth > 750) {
+						setAnimate();
+					}
+				});
+				
+				// 탭에 맞는 코드값을 임시로 치환
+				if(bbs_uniq_id == "publication-information") {
+					if(clsfCd == "" || clsfCd == null) {
+					/* if(isEmpty(clsfCd)) { */
+						$('#blindTagId').text("전체");
+					} else if(clsfCd == "rs001") {
+						$('#blindTagId').text("감사/윤리");
+					} else if(clsfCd == "rs002") {
+						$('#blindTagId').text("기획/홍보");
+					} else if(clsfCd == "rs003") {
+						$('#blindTagId').text("인사/총무/회계");
+					} else if(clsfCd == "rs004") {
+						$('#blindTagId').text("연구사업");
+					} else if(clsfCd == "rs005") {
+						$('#blindTagId').text("정보화");
+					}
+				} else if(bbs_uniq_id == "publication") {
+					if(clsfCd == "" || clsfCd == null) {
+					/* if(isEmpty(clsfCd)) { */
+						$('#blindTagId').text("전체");
+					} else if(clsfCd == "p001") {
+						$('#blindTagId').text("연보");
+					} else if(clsfCd == "p002") {
+						$('#blindTagId').text("I LOVE KISTI");
+					} else if(clsfCd == "p003") {
+						$('#blindTagId').text("지식정보인프라지");
+					} else if(clsfCd == "p004") {
+						$('#blindTagId').text("기타");
+					}
+				}
+				
+				// 고객만족 활동연혁 이전, 다음 탭 버튼 표시
+				if (bbs_uniq_id == 'satisfaction') {
+					var $btn_prev = $('.btn_box .prev');
+					var $btn_next = $('.btn_box .next');
+					var $active = $('.nav-tab.category_tab .active');
+					var $tab_prev = $active.prev('li');
+					var $tab_next = $active.next('li');
+					
+					if ($tab_prev.length == 0) {
+						$btn_prev.hide();
+					} else {
+						$btn_prev.show();
+					}
+					
+					if ($tab_next.length == 0) {
+						$btn_next.hide();
+					} else {
+						$btn_next.show();
+					}
+				}
+			},
+			error : function(request, status, error) {
+				alert("code:"+request.status+"\n"+"\n"+"error:"+error);
+	    	}
+		});
+	}
+
+</script>
+					<script type="text/javascript" src="/resources/jslb/bbsCommon.js"></script>
+<script type="text/javascript" src="/resources/jslb/common.js"></script>
+
+
+
+
+
+		
+
+
+
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Permission denied!</h4>
+			</div>
+			<div class="modal-body">
+				<p>이용이 거부 되었습니다.</p>
+				<p>Permission denied please try again</p>
+				<p><a href="/" class="alert-link">Start Page</a></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade bs-delete-modal-sm-6695" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog form_modal delete_modal">
+    <div class="modal-content">
+		<div class="modal-header">
+			<h3 class="modal-title"><img src="/resources/images/popup_delete.png" alt="" class="mb-2">Delete Article!</h3>
+		</div>
+		<div class="modal-body">
+			<p>정말로 삭제 하시겠습니까?</p>
+			<p>Do you really want to delete?</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-light" onclick="javascript:$('#deleteForm').submit();" data-dismiss="modal">OK</button>
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+		</div>
+    </div>
+  </div>
+</div>
+
+
+
+	
+	
+		
+<!-- 버튼링크 설정 -->
+
+	<!-- 이전글버튼 -->
+	
+	
+	<!-- 다음글버튼 -->
+	
+
+	<!-- 취소버튼 -->
+	
+	
+	<!-- 등록버튼 -->
+	
+    
+	<!-- 추천하기버튼 -->
+	
+	
+	<!-- 승인하기버튼 -->
+	
+	
+	<!-- 수정버튼 -->
+	
+
+	<!-- 연구과제공모 접수버튼 -->
+	
+
+	<!-- 삭제버튼 -->
+	
+	
+	<!-- 답변버튼 -->
+	
+	
+	<!-- 비밀번호체크 -->
+	
+	
+	
+	
+	
+	<!-- 행사게시판 월별등록페이지 -->
+	
+	
+	<!-- 행사게시판 년별등록페이지 -->
+	
+	
+	<!-- 행사게시판 월별수정페이지 -->
+	
+	
+	<!-- 행사게시판 년별수정페이지 -->
+	
+	
+	<!-- 행사게시판 월별목록페이지 -->
+	
+	
+	<!-- 행사게시판 년별목록페이지 -->
+	
+	
+	<!-- 행사게시판 월별삭제버튼 -->
+	
+	
+	<!-- 행사게시판 년별삭제버튼 -->
+	
+<!-- 버튼링크 설정 -->
+	
+
+
+	
+	
+	
+
+		<!-- board_header -->
+		<div class="board_header">		
+			
+			
+			
+			
+			
+			<h2>
+				
+				
+				  
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				KISTI Begins Construction of Korea’s 6th National Supercomputer, Expected to Rank Among World’s Top 10
+				
+			</h2>
+			<span class="info">
+				<span class="icon_user"><i></i>이정훈</span> 
+				<i class="bar"></i>
+				<span class="icon_date"><i></i> 2025-05-16</span>
+				<i class="bar"></i>
+				<span class="icon_view"><i></i>View. 61,650</span>
+				
+			</span>
+			
+		</div>
+		<!-- //board_header -->
+		
+		<!-- board_body -->
+		<div class="board_body">
+			
+			
+			
+			
+			
+				
+					
+
+
+
+
+
+
+<p style="line-height: 200%; text-align: center;"><span style="font-size: 16pt; font-weight: bold;">KISTI Begins Construction of Korea&rsquo;s 6th National Supercomputer, Expected to Rank Among World&rsquo;s Top 10</span></p> 
+<p style="line-height: 200%; text-align: center;"><span style="font-size: 14pt; font-weight: bold;">- Signed contract worth KRW 382.5 billion with global supercomputer manufacturer HPE</span><span style="font-weight: bold;"><br></span><span style="font-size: 14pt;"><span style="font-weight: bold;">- Equipped with 8,496 GPUs to meet massive computational demands for AI+S&amp;T and more</span></span></p> 
+<p style="line-height: 200%;"><span style="font-size: 14pt;"><br></span></p> 
+<p style="line-height: 200%; text-align: center;"><img src="https://www.kisti.re.kr/fatt/crosseditor/20250516151019720_KJTI7JDA.jpg" title="" alt="" style="vertical-align: middle; border: 2px solid rgb(0, 0, 0); width: 866px; height: 577px;"><br></p> 
+<p style="line-height: 200%;"><span style="font-size: 14pt;"><br></span></p> 
+<p style="line-height: 200%;"><span style="font-size: 14pt;">□ The Korea Institute of Science and Technology Information (KISTI) announced on May 12 that it has signed a final contract with Hewlett Packard Enterprise (HPE) for the construction of Korea&rsquo;s 6th national supercomputer. The contract is valued at KRW 382.5 billion, including KRW 78 billion for five years of maintenance.</span><br>
+ <br>
+ <span style="font-size: 14pt;">□ HPE, the contracted company, possesses proprietary network technology specialized for supercomputers and has extensive experience in building large-scale systems. In the TOP500 list of the world&rsquo;s supercomputers published in November 2024, HPE systems ranked 1st (El Capitan, USA, 2.7 EFlop/s), 2nd (Frontier, USA, 2.0 EFlop/s), and 5th (HPC6, Italy, 607 PFlop/s), with a total of 106 entries on the list.</span><br>
+ <span style="font-size: 12pt;">&nbsp; ※ 1 PetaFlop/s = 1 quadrillion (1,000 trillion) calculations per second</span><br>
+ <br>
+ <span style="font-size: 14pt;">□ The 6th National Supercomputer is scheduled for completion in the first half of 2026. It will serve as a national flagship high-performance computing (HPC) service, supporting research and development in high-precision scientific and engineering simulations as well as large-scale artificial intelligence in an increasingly AI-driven global R&amp;D and industrial environment.</span><br>
+ <br>
+ <span style="font-size: 14pt;">□ The system will be equipped with 8,496 of NVIDIA&rsquo;s latest GPUs, including the GH200 model, and will feature computing performance of approximately 600 PFlop/s, 205 petabytes of storage, and ultra-fast networking with speeds over 400 Gbps. It is expected to rank within the top 10 of the TOP500 list.</span><br>
+ <span style="font-size: 12pt;">&nbsp; ※ GH200: A CPU+GPU integrated accelerator chip that enhances data processing efficiency by combining the H100 architecture with the ARM-based &lsquo;Grace&rsquo; CPU</span><br>
+ <br>
+ <span style="font-size: 14pt;">□ This configuration is expected to be highly effective not only for AI training and inference, but also for scientific computing, simulation, and research on large-scale AI models. It will significantly enhance national R&amp;D productivity.</span><br>
+ <br>
+ <span style="font-size: 14pt;">□ On March 12, the Korean Ministry of Science and ICT announced the "AI+S&amp;T Promotion Plan," aimed at responding to the global shift toward AI-centered R&amp;D. The plan seeks to accelerate the integration of AI into Korea&rsquo;s relatively early-stage scientific and technological research ecosystem.</span><br>
+ <br>
+ <span style="font-size: 14pt;">□ In particular, the plan promotes the development of eight specialized AI models across fields such as next-generation materials, innovative new drugs, and ultra-fine semiconductors. This "S&amp;T Innovation Acceleration" strategy aims to revolutionize existing R&amp;D and secure AI-based technologies optimized for scientific knowledge creation.</span><br>
+ <span style="font-size: 12pt;">&nbsp; ※ AI+S&amp;T Specialized AI Model Fields: Next-generation materials, innovative new drugs, ultra-fine semiconductors, space exploration, quantum computing, next-generation secondary cells, eco-friendly technologies, future energy</span><br>
+ <br>
+ <span style="font-size: 14pt;">□ There is currently a significant shortage of shared high-performance GPU infrastructure in the public sector. As a result, researchers often need to purchase expensive GPUs individually or rely on overseas cloud services using R&amp;D budgets. This not only imposes a heavy financial burden but also raises concerns over research data security and potential leakage.</span><br>
+ <br>
+ <span style="font-size: 14pt;">□ To address this, KISTI plans to immediately begin supporting various computational demands&mdash;including large-scale scientific computing, data analysis, AI+S&amp;T research, and medium-to-large AI development*&mdash;upon completion of the 6th National Supercomputer.</span><br>
+ <span style="font-size: 12pt;">&nbsp; <span style="font-size: 12pt;">* Medium-to-large AI development refers to training or scientific computation tasks using 50 to 200 GPUs over a period of up to 3 months.</span></span><br>
+ <br>
+ <span style="font-size: 14pt;">□ Considering that the accumulated demand for GPU usage in research and industrial fields cannot be resolved all at once, discussions are also underway with financial authorities to establish a customized &ldquo;AI+S&amp;T Public Infrastructure.&rdquo; This infrastructure will distribute the demand for specialized GPUs by research field and enable shared use among government-funded research institutes and others.</span><br>
+ <span style="font-size: 12pt;">&nbsp; ※ Examples include the following:</span><br>
+ <span style="font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp; (Materials) Development of innovative material technologies using multimodal AI</span><br>
+ <span style="font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp; (New Drugs) AI-based compound synthesis and drug property prediction</span><br>
+ <span style="font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp; (Energy) AI-driven fuel cell manufacturing processes</span><br>
+ <span style="font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp; (Smart Manufacturing) Autonomous AI manufacturing processes for semiconductor components</span><br>
+ <br>
+ <span style="font-size: 14pt;">□ Sik Lee, President of KISTI, stated, &ldquo;The 6th National Supercomputer will serve as a core national infrastructure driving scientific and technological innovation in the AI era, providing domestic researchers with a safer and faster high-performance computing environment. KISTI will continue to play a leading role in establishing a public high-performance computing ecosystem and supporting national R&amp;D competitiveness.&rdquo;</span><br></p>
+				
+				
+			
+		</div>
+		<!-- //board_body -->
+		
+		<!-- board_file -->
+		
+			<div class="board_file">
+				<p class="tit">Attached files(<span>1</span>)</p>
+				<ul>
+					
+						
+						<li>
+						
+							<a href="#" onclick="javascript:downLocation('3e144b5319959b.jpg', '[Attachment] Photo 1.jpg');">
+						
+								<img src="/resources/images/ico/icon_jpg.png" alt="jpg" onerror="this.src='/resources/images/ico/icon_file.png';" />
+								[Attachment] Photo 1.jpg
+						
+							</a>
+						
+						
+							&nbsp;&nbsp;
+							<a href="#" class="btn btn-default btn-sm" onclick="javascript:filePreview('3e144b5319959b.jpg', '13453570');" title="새창으로 열림">
+								<span class="glyphicon glyphicon-search" aria-hidden="true"></span> View
+							</a>
+							
+						</li>
+					
+				</ul>
+			</div>
+		
+		<!-- //board_file -->
+		
+	 	<!-- board_button -->
+		<div class="pull-right no_print">
+			
+			
+				
+					<a class="btn-prev btn-nav" href="/eng/news/post/eng_news/6663;jsessionid=m1UE1kfTW1RhZWGHSSVVL2ua0mU2WA07BQWRIZarHIgPL40xtmRWW7RzRpyAwUmD.al211_servlet_engine23">
+						<i class="btn btn-default"></i>
+						<span class="board_nav">
+							<strong>Prev</strong>
+							<span>KISTI Holds Commemorative Event for Building HPC Infrastructure for ASEAN Data Utilization</span>
+						</span>
+					</a>
+				
+				
+					<a class="btn-next btn-nav" href="/eng/news/post/eng_news/6704;jsessionid=m1UE1kfTW1RhZWGHSSVVL2ua0mU2WA07BQWRIZarHIgPL40xtmRWW7RzRpyAwUmD.al211_servlet_engine23">
+						<span class="board_nav">
+							<strong>Next</strong>
+							<span>KISTI and UNESCO Launch Full-Scale International Cooperation on Open Science</span>
+						</span>
+						<i class="btn btn-default" ></i>
+					</a>
+				
+			
+			
+			<div class="btn_wrap">
+				
+				
+				
+				
+				
+				
+				
+				
+				<button type="button" onclick="location.href='/eng/news/post/eng_news;jsessionid=m1UE1kfTW1RhZWGHSSVVL2ua0mU2WA07BQWRIZarHIgPL40xtmRWW7RzRpyAwUmD.al211_servlet_engine23'" class="btn btn-default btn-list">
+					<i class="icon_list"></i>List
+				</button>
+				
+				
+				
+				
+			</div>
+			<form name="deleteForm" id="deleteForm" action="/eng/news/post/eng_news/6695;jsessionid=m1UE1kfTW1RhZWGHSSVVL2ua0mU2WA07BQWRIZarHIgPL40xtmRWW7RzRpyAwUmD.al211_servlet_engine23" method="post">
+				<input type="hidden" name="_method" value="delete" />
+				<input type="hidden" name="menu_url" value="news/" />
+				<input type="hidden" name="clsf_cd" value="" />
+			</form>
+			
+		</div>
+		<!-- //board_button -->
+
+		<form name="filePreviewForm" id="filePreviewForm"  action="/file_preview" method="POST">
+			<input type="hidden" name="fileNm" value="" />
+			<input type="hidden" name="folderNm" value="" />
+		</form>
+				</div>
+			
+			
+			
+		
+	</div>
+	
+	
+	<div class="section section-auto-height section-bottom">
+		
+		
+		
+			
+				
+
+
+<!--footer start-->
+<footer class="footer">
+	<div class="container clearfix">
+		<div class="ft_menu_wr">
+			
+				<div class="box">
+					<p class="title">
+						<a href="/eng/about/pageView/245">About KISTI</a>
+					</p>
+					<ul>
+						
+							<li><a href="/eng/about/pageView/245">President&#39;s Message</a></li>
+						
+							<li><a href="/eng/about/pageView/246">History</a></li>
+						
+							<li><a href="/eng/about/pageView/248">Organization</a></li>
+						
+							<li><a href="/eng/about/pageView/249">Locations</a></li>
+						
+							<li><a href="/eng/about/pageView/761">Gender Equality Plan</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="box">
+					<p class="title">
+						<a href="/eng/news/post/eng_news">What&#39;s New</a>
+					</p>
+					<ul>
+						
+							<li><a href="/eng/news/post/eng_news">KISTI News</a></li>
+						
+							<li><a href="/eng/news/post/eng_gallery">Media Gallery</a></li>
+						
+							<li><a href="/eng/news/post/eng_brochure">Brochure</a></li>
+						
+							<li><a href="/eng/news/post/eng_events">Photo Gallery</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="box">
+					<p class="title">
+						<a href="/eng/rnd/pageView/781">Research</a>
+					</p>
+					<ul>
+						
+							<li><a href="/eng/rnd/pageView/781">Research Areas</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="box">
+					<p class="title">
+						<a href="/eng/global-network/pageView/257">Global Network</a>
+					</p>
+					<ul>
+						
+							<li><a href="/eng/global-network/pageView/257">Global MoU</a></li>
+						
+							<li><a href="/eng/global-network/pageView/258">Exchange Program</a></li>
+						
+							<li><a href="/eng/global-network/pageView/259">Contact Us</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="box">
+					<p class="title">
+						<a href="/eng/post/eng_jistap">Journals</a>
+					</p>
+					<ul>
+						
+							<li><a href="/eng/post/eng_jistap">JISTaP</a></li>
+						
+					</ul>
+				</div>
+			
+			<div class="box link">
+				<p class="title">Etc</p>
+				<ul>
+					<li><a href="/eng/pageView/267">Terms</a></li>
+					<li><a href="/eng/pageView/268">Privacy</a></li>
+					<li><a href="/eng/pageView/269">Web Accessibility</a></li>
+					<li><a class="footer_sitemap" href="/eng/pageView/266">Site Map</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="ft_copy_wr">
+			<div class="box copy">
+				<address class="address">
+					<span><p class="title">Headquarters</p>245 Daehak-ro, Yuseong-gu, Daejeon, 34141, Korea<br>Tel : +82-42-869-1004, 1234 &nbsp;&nbsp;Fax: +82-42-869-0969</span>
+					<span><p class="title">Seoul Office</p>66 Hoegiro, Dongdaemun-gu, Seoul, 02456, Korea<br>Tel : +82-2-3299-6114 &nbsp;&nbsp;Fax : +82-2-3299-6244</span>
+				</address>
+				<!-- <div class="Contact_btn row">
+					<a href="/eng/pageView/259" class="btn btn-default btn-sm col">Contact Us</a>
+					<a href="#myModal2" data-toggle="modal" data-target="#myModal2" class="btn btn-default btn-sm col">Banner</a>
+				</div> -->
+				
+			</div>
+		</div>
+		<div class="ft_ft_wr">
+			<p class="copyright">Copyright ⓒ KISTI. All Rights Reserved.</p>
+			<div class="ft_sns_wr">
+				<a href="https://www.youtube.com/channel/UCljoEQ1t7mLVx0W3EdqoOgQ/videos" target="_blank"><img src="/resources/images/en/en_sns_logo1.png" alt="Youtube"></a>
+				<a href="https://www.linkedin.com/company/kisti/" target="_blank"><img src="/resources/images/en/en_sns_logo2.png" alt="Linkedin"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+<!--footer end-->
+			
+			
+		
+		
+	
+	</div>
+	
+	
+	<div class="btn_top"><a href="#wrap"><span class="sr-only">Back to Top</span></a></div>
+	
+</div>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-119486674-1"></script>
+<script>
+if (!String.prototype.trim) {
+	String.prototype.trim = function () {
+		return this.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '');
+	};
+}
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-119486674-1');
+</script>
+
+</body>
+</html>

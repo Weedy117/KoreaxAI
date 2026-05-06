@@ -1,0 +1,8 @@
+activity,energy_wh
+1 Google search,0.3
+GPT-4o (Mar 2025) – short query,0.42
+GPT-4o (Mar 2025) – medium query,1.21
+GPT-4o (Mar 2025) – long query,1.79
+"Daily session (8 messages, short queries)",3.37
+"Daily session (8 messages, medium queries)",9.71
+Charging 2 phones (energy usage),10

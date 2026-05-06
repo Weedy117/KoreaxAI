@@ -1,0 +1,1251 @@
+<!doctype html>
+<html lang="eng">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link type="text/css" rel="stylesheet" href="/asset/css/eng/swiper.min.css?v=14" />
+    <link type="text/css" rel="stylesheet" href="/asset/css/eng/jquery.mCustomScrollbar.css?v=14" />
+    <link type="text/css" rel="stylesheet" href="/asset/css/eng/layout.css?v=14" />
+    <!-- 스크롤바 -->
+    <!-- <link type="text/css" rel="stylesheet" href="/asset/css/eng/main.css?v=14" /> -->
+    <link type="text/css" rel="stylesheet" href="/asset/css/eng/sub.css?v=14" />
+	<link type="text/css" rel="stylesheet" href="/asset/css/eng/sub_New.css?v=14" />
+    <link type="text/css" rel="stylesheet" href="/asset/css/eng/board.css?v=14" /> 
+    
+    <script src="/cmm/js/jquery-1.11.3.min.js"></script>
+    <script src="/asset/js/swiper.min.js"></script>
+    <script src="/asset/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="/asset/js/jquery.PrintArea.js"></script>
+    
+    <!-- 스크롤바 -->
+    <script src="/asset/js/custom.js"></script>
+   <!--  <script src="/asset/js/main.js"></script> -->
+    <script src="/asset/js/eng/sub.js"></script>
+    <script src="/cmm/js/send_sns.js"></script>
+
+	<link rel="shortcut icon" href='/images/eng/msiticon.ico;jsessionid=8LdGHhKUv0RxSnynz8ZM4aA6znW8Kyg2iXeZ17-1.AP_msit_2'>
+    <script type="text/javascript">
+    /**
+     * 페이지 프린트 미리보기 호출 함수
+     */
+    function printView(){
+    	var mode = "popup";
+    	var selPA = ["area1"];
+        var close = mode == "popup" && $("input#closePop").is(":checked");
+        var extraCss = "";
+
+        var print = "";
+        $.each(selPA, function(idx, val){
+            print += (print.length > 0 ? "," : "") + "div.PrintArea." + val;
+        });
+
+        var keepAttr = ["id" , "class", "style"] ;
+
+        var headElements = $("input#addElements").is(":checked") ? '<meta charset="utf-8" />,<meta http-equiv="X-UA-Compatible" content="IE=edge"/>' : '';
+
+        var options = { mode : mode, popClose : close, extraCss : extraCss, retainAttr : keepAttr, extraHead : headElements };
+
+        $( print ).printArea( options );
+    }
+
+    </script> 
+    <script>
+      $(function () {
+        $('.depth_scroll, .all_menu_body').mCustomScrollbar();
+      });
+    </script>    
+    
+<!-- root 메뉴 하위 1depth 메뉴의 갯수 -->
+	<!-- 현재 접근한 메뉴의 depth2 메뉴의 부모id(1depth menuId) -->
+	<title>Press Releases - 과학기술정보통신부 ></title>
+	
+	<script>
+
+	    $(document).ready(function(){
+		   $("a[data-toggle='sns_share']").click(function(e){
+				e.preventDefault();
+				var _this = $(this);
+				var sns_type = _this.attr('data-service');
+				var url = 'https://www.msit.go.kr:443/eng/bbs/view.do?sCode=eng&nttSeqNo=1155&pageIndex=&searchTxt=&searchOpt=ALL&bbsSeqNo=42&mId=4&mPid=2'
+ 				//console.log(url);
+
+				var href = url;
+				var title = _this.attr('data-title');
+				var loc = "";
+				var img = $("meta[name='og:image']").attr('content');
+
+
+				if( ! sns_type || !href || !title) return;
+				if( sns_type == 'facebook' ) {
+					loc = '//www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(href);
+				}
+				else if ( sns_type == 'twitter' ) {
+					loc = '//twitter.com/home?status='+encodeURIComponent(title)+' '+encodeURIComponent(href);
+				}
+				else if ( sns_type == 'kakaostory') {
+					//현재 url이 유효하지 않아서 url 공유 안됨
+					loc = 'https://story.kakao.com/share?url='+encodeURIComponent(href);
+				}
+				else if ( sns_type == 'youtube' ) {
+					loc = 'http://www.band.us/plugin/share?body='+encodeURIComponent(title)+'%0A'+encodeURIComponent(href);
+				}
+				else if ( sns_type == 'naverBlug' ) {
+					//현재 url이 유효하지 않아서 url 공유 안됨
+					loc = "http://share.naver.com/web/shareView.nhn?url="+encodeURI(encodeURIComponent(href))+"&title="+encodeURIComponent(title);
+				}
+				else {
+					return false;
+				}
+				window.open(loc);
+				return false;
+			});
+	    });
+
+
+		function is_ie() {
+		  if(navigator.userAgent.toLowerCase().indexOf("chrome") != -1) return false;
+		  if(navigator.userAgent.toLowerCase().indexOf("msie") != -1) return true;
+		  if(navigator.userAgent.toLowerCase().indexOf("windows nt") != -1) return true;
+		  return false;
+		}
+
+		function copy_to_clipboard() {
+			var str = 'https://www.msit.go.kr:443/eng/bbs/view.do?sCode=eng&nttSeqNo=1155&pageIndex=&searchTxt=&searchOpt=ALL&bbsSeqNo=42&mId=4&mPid=2'
+	 	  	if( is_ie() ) {
+		    	window.clipboardData.setData("Text", str);
+		    	alert("복사되었습니다.");
+		    	return;
+		  	}
+			prompt("Ctrl+C를 눌러 복사하세요.", str);
+
+		}
+
+	</script>
+</head>
+
+<body>
+    <!-- skip nav -->
+    <div id="skip_nav">
+      <ul>
+        <li><a href="#container" onclick="document.getElementById('container').tabIndex = -1;document.getElementById('container').focus();return false;">Go to content</a></li>
+        <li><a href="#gnb" class="pc_allmenu" onclick="document.getElementById('gnb').tabIndex = -1;document.getElementById('gnb').focus();return false;">Go to main menu</a></li>
+      </ul>
+    </div>
+    <!--// skip nav -->
+	<!-- wrap -->
+	<div id="wrap">
+		<!-- header s -->
+		<script>
+
+	function searchEngine() { //(202504)
+		let qtInput = document.getElementById("searchKeyword01") || document.getElementById("searchKeyword");
+		let qt = qtInput.value.trim();
+	 
+	
+		//if (qt === "") {
+		//	qtInput.focus();
+		//	return false;
+		//}
+	
+		// 스크립트 태그 및 이벤트 핸들러 제거
+		qt = qt.replace(/<script.*?>.*?<\/script.*?>|on\w+\s*=.*?(?=>|\s|$)/gi, '');
+	
+		// 특수문자 Escape 처리
+		qt = qt.replace(/[&<>"'`]/g, function(match) {
+			const escapeMap = {
+				'&': '&amp;',
+				'<': '&lt;',
+				'>': '&gt;',
+				'"': '&quot;',
+				"'": '&#39;',
+				'`': '&#x60;'
+			};
+			return escapeMap[match];
+		});
+	
+		qtInput.value = qt;
+		return true;
+	}
+
+	if(document.location.protocol == 'http:'){
+		//document.location.href = document.location.href.replace('http:','https:')
+	}
+
+
+	$(document).ready(function(){
+		$("[name='searchRow']").on("change", function(){
+			document.forms[0].submit();
+		});
+
+		$('#mo_close').click(function(){
+			$("#h-top").removeClass('active');
+		});
+		console.log("==== 과학기술정보통신부 홈페이지 ENG ====");
+    });
+
+	//메뉴이동
+	function fn_menu_go(siteCd, upperMenuId, menuId, menuUrl){
+		$("#menuForm").attr("action", menuUrl);
+		$("#menuForm > input[name=sCode]").val(siteCd);
+		$("#menuForm > input[name=mPid]").val(upperMenuId);
+		$("#menuForm > input[name=mId]").val(menuId);
+
+		$("#menuForm").submit();
+	}
+
+
+	function fn_selectMenu_go(str){
+
+
+		var val = str.split(',');
+		$("#menuForm").attr("action", val[3]);
+		$("#menuForm > input[name=sCode]").val(val[0]);
+		$("#menuForm > input[name=mPid]").val(val[1]);
+		$("#menuForm > input[name=mId]").val(val[2]);
+		$("#menuForm > input[name=menuYear]").val(val[4]);
+
+		$("#menuForm").submit();
+	}
+
+
+
+
+	//클릭한 메뉴 기준으로 가장 마지막 자식의 메뉴 정보를 획득하여 메뉴 이동한다.
+	function fn_menulast_go(siteCd, upperMenuId, menuId, menuUrl){
+
+		$.ajax({
+	        url:"/menu/lastMenuInfoAjax.do",
+	        type:"POST",
+	        dataType:"json",
+	        data: {siteCd : siteCd, upperMenuId : upperMenuId, menuId : menuId},
+	        success: function(data){
+	        	var result = data.menuInfo;
+	        	if(result != null){
+	        		fn_menu_go(result.siteCd, result.upperMenuId, result.menuId, result.menuUrl);
+	        	}else{
+	        		alert("현재 메뉴가 준비중 입니다.");
+	        	}
+	        },
+	        error:function(request, status) {
+	        	alert("조회중 오류가 발생 하였습니다.");
+	        }
+	    });
+	}
+
+	//서브메인이동
+	function fn_submain_go(siteCd, upperMenuId, menuId){
+		fn_menu_go(siteCd, upperMenuId, menuId, "/submain/index.do");
+	}
+
+	function fn_acccountPop(){
+		fn_menu_go('user', "373", "404","/ssm/comm/account.do");
+	}
+
+	function fn_logOut(){
+		location.href= "/ssm/comm/logOut.do";
+	}
+
+	function mo_menu() {
+		if($("#h-top").hasClass('active') == false) {
+			$("#h-top").addClass('active');
+		} else {
+			$("#h-top").removeClass('active');
+		}
+	}
+
+</script>
+
+<!-- (2025-08 품질개선) 잘못된 위치의 CSS 제거 (start) -->
+<!-- <style>
+  .search_auto ul > li > a > span > span.search_keyword {
+    color: #003a88;
+    font-weight: 700;
+  }
+</style> -->
+<!-- (2025-08 품질개선) 잘못된 위치의 CSS 제거 (end) -->
+
+<form name="menuForm" id="menuForm" method="get">
+	<input type="hidden" name="sCode" 	value=""/>
+	<input type="hidden" name="mPid" 	value=""/>
+	<input type="hidden" name="mId" 	value=""/>
+</form>
+
+ <!-- head -->
+      <header id="header">
+		<div class="head_util">
+			<div class="inner_center">
+				<p class="util_txt">This website is the official e-government website of Korea.</p>
+			</div>
+		</div>
+		<div class="head_top">
+			<div class="inner_center">
+			  <div class="left">
+				<h1 class="logo">
+				  <!-- 2025-08 품질개선 (start) -->
+				  <a href="/eng/index.do" aria-label="Ministry of Science and ICT">
+					<span class="logoimg"><span class="blind">Ministry of Science and ICT</span></span>
+				</a>
+				<!-- 2025-08 품질개선 (end) -->
+				</h1>
+			  </div>
+			  <div class="right">
+				<ul class="util_list">
+				  <li>
+					<a href="/eng/contents/cont.do?sCode=eng&mPid=32&mId=33" class="util_btn">Site Map</a>
+				  </li>
+				  <li>
+					<!-- language -->
+					<div class="drop_wrap">
+					  <button type="button" aria-expanded="false" aria-controls="targetLang" class="drop_btn" aria-label="Language selection button">Language</button>
+					  <div class="drop_menu" id="targetLang">
+						<ul class="drop_list">
+						  <li><a href="/index.do" target="_blank">한국어</a></li>
+						  <li><a href="/eng/index.do" target="_blank">English</a></li>
+						</ul>
+					  </div>
+					</div>
+				  </li>
+				</ul>
+				<form name="searchForm" method="get" action="https://www.msit.go.kr/search/en/searchEn.do" target="_blank" onSubmit="return searchEngine()">
+				  <div class="util_search">
+					<label for="searchKeyword01" class="blind">Integrated search</label>
+					<input type="text" id="searchKeyword01" name="qt" placeholder="SEARCH" title="SEARCH" />
+					<!-- 2025-08 품질개선 (start) -->
+					<button class="btn_search_reset" onclick="resetSearch()" type="button"><span class="blind">검색 초기화</span></button>
+					<script type="text/javascript">
+					  function resetSearch() {
+						$('#searchKeyword01').val('');
+						$('#searchKeyword01').focus();
+					  }
+					</script>
+					<!-- 2025-08 품질개선 (end) -->
+					<button class="btn_search" title="Opens new window"><span class="blind">SERCH</span></button>
+				  </div>
+				</form>
+			  </div>
+			</div>
+		</div>
+		
+       <div class="head_gnb">
+          <div class="inner_center">
+            <ul class="gnb" id="gnb">
+              <li>
+							<a href="javascript:fn_menulast_go('eng', '1', '2', '#');"><span>News & Notice</span></a>
+								<div class="depth_box">
+									
+									<!-- 2depth start -->
+									<div class="depth_scroll">
+											<div class="depth_flex">
+												<div class="depth_tit">
+													<h2 class="tit">News & Notice</h2>
+													<p class="tit_p">Global science and technology powerhouse!</p>
+												</div>
+												<ul class="depth">
+													<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '2', '3', '/eng/bbs/list.do
+');" target="_self" >Notice</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '2', '4', '/eng/bbs/list.do
+');" target="_self" >Press Releases</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '2', '5', '/eng/bbs/list.do
+');" target="_self" >Photo News</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '2', '7', '/eng/bbs/list.do
+');" target="_self" >Science & ICT Trends</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '2', '8', '/eng/newsLetter/list.do
+');" target="_self" >Newsletter</a>
+																	</li>
+														</ul>
+											</div>
+										</div>
+									</div>
+						</li>
+         			<li>
+							<a href="javascript:fn_menulast_go('eng', '1', '9', '#');"><span>Policies</span></a>
+								<div class="depth_box">
+									
+									<!-- 2depth start -->
+									<div class="depth_scroll">
+											<div class="depth_flex">
+												<div class="depth_tit">
+													<h2 class="tit">Policies</h2>
+													<p class="tit_p">Global science and technology powerhouse!</p>
+												</div>
+												<ul class="depth">
+													<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '9', '10', '/eng/bbs/list.do
+');" target="_self" >Policies</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '9', '11', '/eng/bbs/list.do
+');" target="_self" >Publications</a>
+																	</li>
+														</ul>
+											</div>
+										</div>
+									</div>
+						</li>
+         			<li>
+							<a href="javascript:fn_menulast_go('eng', '1', '13', '#');"><span>Laws & Statistics</span></a>
+								<div class="depth_box">
+									
+									<!-- 2depth start -->
+									<div class="depth_scroll">
+											<div class="depth_flex">
+												<div class="depth_tit">
+													<h2 class="tit">Laws & Statistics</h2>
+													<p class="tit_p">Global science and technology powerhouse!</p>
+												</div>
+												<ul class="depth">
+													<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '13', '34', '#');" target="_self" >Laws</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '13', '18', '/eng/contents/cont.do
+');" target="_self" >Statistics</a>
+																	</li>
+														<li class="colspan_2">  
+																<a class="child" href="http://www.law.go.kr/LSW/eng/engMain.do?eventGubun=060124
+" target="_blank" title="Opens new window">National Law Information Center</a>
+																	</li>
+														</ul>
+											</div>
+										</div>
+									</div>
+						</li>
+         			<li>
+							<a href="javascript:fn_menulast_go('eng', '1', '19', '#');"><span>About MSIT</span></a>
+								<div class="depth_box">
+									
+									<!-- 2depth start -->
+									<div class="depth_scroll">
+											<div class="depth_flex">
+												<div class="depth_tit">
+													<h2 class="tit">About MSIT</h2>
+													<p class="tit_p">Global science and technology powerhouse!</p>
+												</div>
+												<ul class="depth">
+													<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '19', '20', '/eng/contents/cont.do
+');" target="_self" >Minister</a>
+																	</li>
+														<li class="colspan_2">  
+																<a class="child" href="javascript:fn_menulast_go('eng', '19', '21', '/eng/contents/cont.do
+');" target="_self" >Vice Minister for Science, Technology and Innovation</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '19', '22', '/eng/contents/cont.do
+');" target="_self" >1st Vice-Minister</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '19', '23', '/eng/contents/cont.do
+');" target="_self" >2nd Vice-Minister</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '19', '24', '/eng/contents/cont.do
+');" target="_self" >About MI</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '19', '25', '/eng/contents/cont.do
+');" target="_self" >Organization</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '19', '26', '/eng/contents/cont.do
+');" target="_self" >Location Map</a>
+																	</li>
+														<li >  
+																<a class="child" href="javascript:fn_menulast_go('eng', '19', '31', '/eng/contents/cont.do
+');" target="_self" >Extension Agency</a>
+																	</li>
+														</ul>
+											</div>
+										</div>
+									</div>
+						</li>
+         			</ul>
+            
+          </div>
+        </div>
+      </header>
+      <!--// head -->
+
+
+
+	<!-- mobile head -->
+      <header id="mHeader">
+		<div class="m_head_util">
+			<div class="inner_center">
+				<p class="util_txt">This website is the official e-government website of Korea.</p>
+			</div>
+		</div>
+        <div class="m_head_top">
+        	<div class="inner_center">
+	        	<div class="left">   	
+					<h1 class="logo">
+						<!-- 2025-08 품질개선 (start) -->
+						<a href="/eng/index.do" aria-label="Ministry of Science and ICT">
+							<span class="logoimg"><span class="blind">Ministry of Science and ICT</span></span>
+						</a>
+						<!-- 2025-08 품질개선 (end) -->
+					</h1>
+	        	</div>
+	        	<div class="right">
+	        	<form name="searchForm" method="get" action="https://www.msit.go.kr/search/en/searchEn.do" target="_blank" onSubmit="return searchEngine()">
+			      <button class="btn_search_toggle open" data-button="search">Open Search Area</button>
+
+				  <div class="m_search_field">
+					<div class="m_search_con">
+					  <fieldset>
+						<legend>Search Area</legend>
+						<label for="searchKeyword" class="blind">Integrated search</label>
+						<input type="text" id="searchKeyword" name="qt" placeholder="SEARCH" title="SEARCH" />
+						<button class="btn_search">SEARCH</button>
+						<!-- 2025-08 품질개선 (start) -->
+						<button class="btn_search_reset" onclick="m_resetSearch()" type="button"><span class="blind">search reset</span></button>
+						<script type="text/javascript">
+						function m_resetSearch() {
+							$('#searchKeyword').val('');
+							$('#searchKeyword').focus();
+						}
+						</script>
+						<!-- 2025-08 품질개선 (end) -->
+					  </fieldset>
+					  <button type="button" class="btn_search_close">close Search Area</button>
+					</div>
+				  </div>
+			     </form>
+				<button class="btn_allmenu open" onclick="toggleAllMenu()" data-button="allmenu">Open All Menus</button>
+				</div>
+			</div>
+		</div>
+      </header>
+
+      <div class="m_allmenu_wrap">
+        <div class="m_allmenu_mask" onclick="toggleAllMenu()"></div>
+        <div class="m_allmenu_cont">
+          <div class="m_allmenu_head">
+			<div class="left">
+				<!-- 2025-08 품질개선 (start) -->
+				<h1 class="m_logo">
+					<a href="/eng/index.do" aria-label="Ministry of Science and ICT">
+						<span class="logoimg"><span class="blind">Ministry of Science and ICT</span></span>
+					</a>
+				</h1>
+				 <!-- 2025-08 품질개선 (end) -->
+			</div>
+			<div class="right">
+				<button type="button" class="btn_allmenu_close" onclick="toggleAllMenu()">Close all menus</button>
+			</div>
+          </div>
+		  <!-- 2025-08 품질개선 (start) -->
+		  <div class="m_allmenu_util">
+			<ul class="util_list">
+				<li>
+					<a href="/eng/contents/cont.do?sCode=eng&mPid=32&mId=33" class="util_btn">Site Map</a>
+				</li>
+				<li>
+				<div class="drop_wrap">
+					<button type="button" aria-expanded="false" aria-controls="m_targetLang" class="drop_btn" aria-label="Language selection button">Language</button>
+					<div class="drop_menu" id="m_targetLang">
+					<ul class="drop_list">
+						<li><a href="/index.do" target="_blank">한국어</a></li>
+						<li><a href="/eng/index.do" target="_blank">English</a></li>
+					</ul>
+					</div>
+				</div>
+				</li>
+			</ul>
+		  </div>
+		  <!-- 2025-08 품질개선 (end) -->
+          <div class="m_allmenu">
+            <ul class="m_gnb">
+            <li>
+              	<a href="javascript:void(0);" class="active"><span>News & Notice</span></a>
+                <!-- <a href="#" class="active"><span>News &<br/>Notice</span></a> -->
+                <div class="depth_box">
+				<h2 class="depth_tit">News & Notice</h2>
+	            <ul class="depth">  
+                <li>
+		                      <a href="javascript:fn_menulast_go('eng', '2', '3', '/eng/bbs/list.do
+');" target="_self" >Notice</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '2', '4', '/eng/bbs/list.do
+');" target="_self" class="active">Press Releases</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '2', '5', '/eng/bbs/list.do
+');" target="_self" >Photo News</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '2', '7', '/eng/bbs/list.do
+');" target="_self" >Science & ICT Trends</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '2', '8', '/eng/newsLetter/list.do
+');" target="_self" >Newsletter</a>
+										</li>
+
+	               		 </ul> 
+		      </div>	
+              </li>
+             <li>
+              	<a href="javascript:void(0);" ><span>Policies</span></a>
+                <!-- <a href="#" class="active"><span>News &<br/>Notice</span></a> -->
+                <div class="depth_box">
+				<h2 class="depth_tit">Policies</h2>
+	            <ul class="depth">  
+                <li>
+		                      <a href="javascript:fn_menulast_go('eng', '9', '10', '/eng/bbs/list.do
+');" target="_self" >Policies</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '9', '11', '/eng/bbs/list.do
+');" target="_self" >Publications</a>
+										</li>
+
+	               		 </ul> 
+		      </div>	
+              </li>
+             <li>
+              	<a href="javascript:void(0);" ><span>Laws & Statistics</span></a>
+                <!-- <a href="#" class="active"><span>News &<br/>Notice</span></a> -->
+                <div class="depth_box">
+				<h2 class="depth_tit">Laws & Statistics</h2>
+	            <ul class="depth">  
+                <li>
+		                      <a href="javascript:fn_menulast_go('eng', '13', '34', '#');" target="_self" >Laws</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '13', '18', '/eng/contents/cont.do
+');" target="_self" >Statistics</a>
+										</li>
+
+	               		 <li>
+		                      <a href="http://www.law.go.kr/LSW/eng/engMain.do?eventGubun=060124
+" target="_blank" title="Opens new window">National Law Information Center</a>
+								</li>
+
+	               		 </ul> 
+		      </div>	
+              </li>
+             <li>
+              	<a href="javascript:void(0);" ><span>About MSIT</span></a>
+                <!-- <a href="#" class="active"><span>News &<br/>Notice</span></a> -->
+                <div class="depth_box">
+				<h2 class="depth_tit">About MSIT</h2>
+	            <ul class="depth">  
+                <li>
+		                      <a href="javascript:fn_menulast_go('eng', '19', '20', '/eng/contents/cont.do
+');" target="_self" >Minister</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '19', '21', '/eng/contents/cont.do
+');" target="_self" >Vice Minister for Science, Technology and Innovation</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '19', '22', '/eng/contents/cont.do
+');" target="_self" >1st Vice-Minister</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '19', '23', '/eng/contents/cont.do
+');" target="_self" >2nd Vice-Minister</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '19', '24', '/eng/contents/cont.do
+');" target="_self" >About MI</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '19', '25', '/eng/contents/cont.do
+');" target="_self" >Organization</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '19', '26', '/eng/contents/cont.do
+');" target="_self" >Location Map</a>
+										</li>
+
+	               		 <li>
+		                      <a href="javascript:fn_menulast_go('eng', '19', '31', '/eng/contents/cont.do
+');" target="_self" >Extension Agency</a>
+										</li>
+
+	               		 </ul> 
+		      </div>	
+              </li>
+             </ul>
+          </div>
+        </div>
+      </div>
+      <!--// mobile head --><!-- //header e -->
+		<!-- container -->
+		<div id ="container" >
+        <div class="sub_content_wrap PrintArea area1 all">
+          <div class="inner_center">
+            <div id="lnb" class="lnb">
+              <div class="lnb_titbox">
+              <h2 class="lnb_tit"><span>News & Notice</span></h2>
+                	<script>
+                		
+                		$(document).ready(function(){
+                			$('#gnb').find('> li').each(function(){
+                				if($(this).find('> a > span').text() === 'News & Notice'){
+                					$(this).find('> a').addClass('on');
+                				}
+                			});
+                		});
+                	
+                	</script>
+                </div>		
+					<ul class="lnb_list">
+						<li data-page="1">
+										<a href="javascript:fn_menulast_go('eng', '2', '3', '/eng/bbs/list.do
+');" target="_self" ><span>Notice</span><i class="lnb_arrow"></i></a>
+												</li>
+								<li data-page="2">
+										<a href="javascript:fn_menulast_go('eng', '2', '4', '/eng/bbs/list.do
+');" target="_self" class="on"><span>Press Releases</span><i class="lnb_arrow"></i></a>
+												</li>
+								<li data-page="3">
+										<a href="javascript:fn_menulast_go('eng', '2', '5', '/eng/bbs/list.do
+');" target="_self" ><span>Photo News</span><i class="lnb_arrow"></i></a>
+												</li>
+								<li data-page="4">
+										<a href="javascript:fn_menulast_go('eng', '2', '7', '/eng/bbs/list.do
+');" target="_self" ><span>Science & ICT Trends</span><i class="lnb_arrow"></i></a>
+												</li>
+								<li data-page="5">
+										<a href="javascript:fn_menulast_go('eng', '2', '8', '/eng/newsLetter/list.do
+');" target="_self" ><span>Newsletter</span><i class="lnb_arrow"></i></a>
+												</li>
+								</ul>
+			</div>
+		<!-- content s -->
+		
+	    	<div class="sub_content">
+	    <div class="sub_con_head">
+                <h3 class="title"><span>Press Releases</span></h3>
+              	<script>
+				$(document).ready(function(){
+					let locationdata = $('.sub_location').find('li:nth-child(3) > a').attr('href');
+					$('.sub_location').find('li:nth-child(2) > a').attr('href', locationdata);
+				});
+				</script>
+				<nav>
+				 <ul class="sub_location">
+	                <li><a href="#" class="ico_home"  alt="Home">Home</a></li>
+	                <li>
+			              	<a href="#">
+			              		News & Notice</a>
+			              </li>
+			            <li><a href="javascript:fn_menulast_go('eng', '2', '4', '/eng/bbs/list.do
+');">Press Releases</a></li>
+			            </ul>
+              	</nav>
+                <ul class="right_btns">
+                  <li class="share">
+                    <a href="#shareBox" onclick="shareToggle(); return false;" class="ico ico_share"><span class="blind">SNS Share</span></a>
+						<div class="share_box" id="shareBox">
+	                      <h3 class="tit">SNS Share</h3>
+	                      <ul>
+	                        <li><a href="javascript:sendSns('facebook', 'GPU Procurement Project (First Supplementary Budget, KRW 1.46 Trillion) Selects Participants', document.location.href);" class="ico" title="새창열림" style="background-image: url(/images/user/sub/ico_share_sns_facebook.svg)">FaceBook</a></li>
+	                        <li><a href="javascript:sendSns('twitter', 'GPU Procurement Project (First Supplementary Budget, KRW 1.46 Trillion) Selects Participants', document.location.href);" class="ico"  title="새창열림" style="background-image: url(/images/user/sub/ico_share_sns_twitter.svg)">Twitter</a></li>
+	                        <li><a href="javascript:sendSns('url', 'GPU Procurement Project (First Supplementary Budget, KRW 1.46 Trillion) Selects Participants', document.location.href);" class="ico sns-link" title="URL복사하기" style="background-image: url(/images/user/sub/ico_share_sns_url.svg)">URL Copy</a></li>
+	                      </ul>
+	                      <button class="close_sharebox" onclick="shareToggle()"><span class="blind">Close</span></button>
+	                    </div>
+                  </li>
+                  <li class="print"><a href="javascript:printView();" class="ico ico_print"><span class="blind">Print</span></a></li>
+                </ul>
+              </div>
+                 <div class="sub_cont">
+
+			<!-- in_tab -->
+			<!-- //in_tab -->
+
+			<!-- 탭메뉴 -->
+			<script src="/cmm/js/send_sns.js"></script>
+<script>
+	$(function(){
+
+		$('body').attr('style','');
+
+		$('#btnModify').on('click', function(){
+			//$("#formMode").val("U");
+			$('form[name=actionForm]').attr('action', './form.do').submit();
+		});
+
+		// 목록 버튼
+		$('#btnList').on('click', function(){
+			$("#formMode").val("L");
+			$('form[name=actionForm]').attr('action', './list.do').submit();
+		});
+
+
+		// 파일 확장자 제한
+		$("#replyActionForm  input[type='file']").change(function(){
+			var ext = this.value.match(/\.([^\.]+)$/)[1];
+			var fileSize = this.files[0].size;
+			//용량 체크
+			if(!checkAllowFileByte(fileSize, 3)){		//mb기준
+				alert("허용 용량을 초과하였습니다.")
+				$(this).val('');
+				return false;
+			}
+
+			//기본 확장자 체크
+			if(!checkAllowFile(this.value, 'jpg@jpeg@gif@zip@doc@ppt@xls@hwp@pdf@docx@pptx@xlsx')){
+				alert("허용된 확장자가 아닙니다.")
+				$(this).val('');
+				return false;
+			}
+
+		});
+
+	});
+
+	function fn_download(atchFileNo , fileOrd){
+    	$("#atchFileNo").val(atchFileNo);
+    	$("#fileOrd").val(fileOrd);
+    	$("#fileBtn").val("A");
+    	$("#fileForm").attr("action", "/ssm/file/fileDown.do");
+    	$("#fileForm").submit();
+    }
+
+	function fn_move_view(nttSeqNo){
+		$("#nttSeqNo").val(nttSeqNo);
+		$('form[name=actionForm]').attr('method', 'get');
+		$('form[name=actionForm]').attr('action', './view.do').submit();
+	}
+
+
+	 function fn_replySave(){
+
+			if($("#cmntCn").val() == ''){
+				alert("의견을 입력해주세요.");
+				$("#cmntCn").focus();
+				return false;
+			}
+
+//	 		$("form[name='actionForm'] > input[id=cmntSeqNo]").val(cmntSeqNo);
+//	 		$("form[name='actionForm'] > input[id=upperCmntSeqNo]").val(upperCmntSeqNo);
+
+//	 		alert($("form[name='actionForm'] > input[id=cmntSeqNo]").val());
+//	 		alert($("form[name='actionForm'] > input[id=upperCmntSeqNo]").val());
+			var form = $("#replyActionForm")[0];
+			var formData = new FormData(form);
+			if(confirm("저장 하시겠습니까?")){
+				$.ajax({
+			        url:"./procBbsReplySave.do",
+			        type:"POST",
+			        dataType:"json",
+			        data:formData,
+			        async: false,
+			        contentType: false,
+			        processData: false,
+			        success: function(data){
+			        	if(data.message == "loginErr"){
+		      				alert("로그인 정보가 없습니다.");
+		      				document.location.href="/ssm/comm/account.do;jsessionid=8LdGHhKUv0RxSnynz8ZM4aA6znW8Kyg2iXeZ17-1.AP_msit_2";
+		      				return false;
+		      			}
+			        	if(data.message == "ok"){
+			        		$("#actionForm").attr("action", "./view.do");
+			        		$("#actionForm").submit();
+			        	}
+			        },
+			        error:function(request, status) {
+			        	alert("저장중에 오류가 발생 하였습니다.");
+			        }
+			    });
+			}
+			return false;
+
+	    }
+
+	 function fn_replyDel(cmntSeqNo){
+
+			$('#cmntSeqNo').val(cmntSeqNo);
+			var form = $("#replyActionForm")[0];
+			var formData = new FormData(form);
+			if(confirm("삭제 하시겠습니까?\n 삭제시 복구할 수 없습니다.")){
+				$.ajax({
+			        url:"./procBbsReplyDelete.do",
+			        type:"POST",
+			        dataType:"json",
+			        data:formData,
+			        contentType: false,
+			        processData: false,
+			        success: function(data){
+			        	if(data.message == "loginErr"){
+		      				alert("로그인 정보가 없습니다.");
+		      				document.location.href="/ssm/comm/account.do;jsessionid=8LdGHhKUv0RxSnynz8ZM4aA6znW8Kyg2iXeZ17-1.AP_msit_2";
+		      				return false;
+		      			}
+			        	if(data.message == "ok"){
+			        		$("#actionForm").attr("action", "./view.do");
+			        		$("#actionForm").submit();
+			        	}
+			        },
+			        error:function(request, status) {
+			        	alert("저장중에 오류가 발생 하였습니다.");
+			        }
+			    });
+			}else{
+				return false;
+
+			}
+
+	    }
+
+	 function fn_replyUpdate(cmntSeqNo){
+		 $('#cmntSeqNo').val(cmntSeqNo);
+			var form = $("#replyActionForm")[0];
+			var formData = new FormData(form);
+			$('#cmntSeqNo').val(cmntSeqNo);
+				$.ajax({
+			        url:"./getBbsReplyUpdate.do",
+			        type:"POST",
+			        dataType:"json",
+			        data:formData,
+			        contentType: false,
+			        processData: false,
+			        success: function(data){
+			        	//console.log(data);
+			        	if(data.message == "loginErr"){
+		      				alert("로그인 정보가 없습니다.");
+		      				document.location.href="/ssm/comm/account.do;jsessionid=8LdGHhKUv0RxSnynz8ZM4aA6znW8Kyg2iXeZ17-1.AP_msit_2";
+		      				return false;
+		      			}
+			        	if(data.message == "ok"){
+			        		$('#cmntCn').val(data.replyDetail.cmntCn);
+			        		$('#replyFormMode').val('U');
+			        		if(data.replyDetail.orgFileNm != null){
+			        			var sHtml = data.replyDetail.orgFileNm;
+			        			sHtml+='<button type="button" class="delete"';
+			        			sHtml+='onclick="return fn_replyFileDel('+data.replyDetail.atchFileNo+','+data.replyDetail.fileOrd+');"';
+			        			sHtml+='>삭제</button>';
+			        			$('#replyFi').html(sHtml +"*기존파일 삭제 후 등록 해 주십시오.");
+			        			$('#file_0').attr('disabled',true);
+			        		}
+
+
+			        	}
+			        },
+			        error:function(request, status) {
+			        	alert("통신중에 오류가 발생 하였습니다.");
+			        }
+			    });
+
+	    }
+
+	 function fn_replyFileDel(atchFileNo,fileOrd){
+			if(confirm("해당 파일을 삭제 하시겠습니까? 삭제한 첨부 파일은 복구 하실수가 없습니다.")){
+				var obj = $(this);
+
+				$.ajax({
+			        url:"/ssm/file/fileDelete.do",
+			        type:"POST",
+			        dataType:"json",
+			        data: {atchFileNo : atchFileNo, fileOrd : fileOrd, formMode : "D"},
+			        success: function(data){
+			        	if(data.flag == "success"){
+		      				alert("선택하신 파일이 삭제 되었습니다.");
+		      				$('#replyFi').html('');
+		      				$('#file_0').attr('disabled',false);
+			        	}else if(data.flag == "loginErr"){
+		      				alert("로그인정보가 없습니다.");
+			        	}
+			        },
+			        error:function(request, status) {
+			        	alert("저장중에 오류가 발생 하였습니다.");
+			        }
+			    });
+
+
+			}else{
+			return false
+
+			}
+	 }
+
+
+		function getExtension_path(atchFileNo, fileOrdr){
+			extension_path = encodeURI("/bbs/documentView.do?atchFileNo="+atchFileNo+"&fileOrdr="+fileOrdr);
+			// var encode_path = encodeURI(extension_path, "UTF-8");
+			// window.open(encode_path);
+			window.open(extension_path);
+			return;
+		}
+
+		function setIframePath(atchFileNo, fileOrdr){
+
+		    var fileName = '/NASDATA/jboss/filedata/150817 조간 (보도) 산학협력을 통해 새로운 중증 천식 치료제 개발 가시화.hwp';
+
+//	 		extension_path = encodeURI("/bbs/documentIframeView.do?atchFileNo="+atchFileNo +"&fileOrdr="+fileOrdr);
+//	 		var encode_path = encodeURI(extension_path, "UTF-8");
+//	 		var url = encode_path;
+
+			var url = "/bbs/documentIframeView.do?atchFileNo="+atchFileNo +"&fileOrdr="+fileOrdr;
+	        $.ajax({
+	            type: "POST",
+	            url: url,
+	            dataType: "html",
+	            success: function (data) {
+
+					console.log("iframePath success");
+					//console.log(data);
+
+					var parsed = $.parseJSON($.parseHTML(data)[5].innerText);
+
+
+		            $('#iframe01').attr('src',  parsed.result.url );
+		            $(".board_pc").attr("style", "display:block;");
+
+	            },
+	            error: function (err) {
+
+					console.log("iframePath err");
+
+					$('.board_pc').attr('style' , 'display:none;');
+					$('.board_notcon').attr('style' , 'display:block;');
+					$('.board_mobile').attr('style' , 'display:none;');
+
+					$('.content').attr('style' , 'min-height:320px;');
+
+	            }
+	        });
+		}
+
+
+</script>
+
+
+<form name="fileForm" id="fileForm" method="post">
+	<input type="hidden" name="atchFileNo" id="atchFileNo"/>
+	<input type="hidden" name="fileOrd" id="fileOrd"/>
+	<input type="hidden" name="fileBtn" id="fileBtn"/>
+</form>
+<form name="actionForm" id="actionForm" method="post" enctype="multipart/form-data">
+   	<input type="hidden" name="sCode" 	value="eng"/>
+	<input type="hidden" name="mId" 	value="4"/>
+	<input type="hidden" name="mPid" 	value="2"/>
+
+	<input type="hidden" name="bbsSeqNo" id="bbsSeqNo" value="42"/>
+	<input type="hidden" name="nttSeqNo" id="nttSeqNo" value="1155"/>
+
+	<input type="hidden" name="formMode" id="formMode" value=""/>
+
+
+	<input type="hidden" name="pageIndex" value="" />
+	<input type="hidden" name="searchCtgry1" id="searchCtgry1" value=""/>
+	<input type="hidden" name="searchCtgry2" id="searchCtgry2" value=""/>
+	<input type="hidden" name="searchCtgry3" id="searchCtgry3" value=""/>
+	<input type="hidden" name="RLS_YN" id="RLS_YN" value=""/>
+	<input type="hidden" name="searchOpt" id="searchOpt" value="ALL"/>
+	<input type="hidden" name="searchTxt" id="searchTxt" value=""/>
+</form>
+
+<!-- (공통)게시판 상세화면 s -->
+<form id="search-view-form">
+	<div class="board_view">
+    	<div class="view_head">
+        	<h2>GPU Procurement Project (First Supplementary Budget, KRW 1.46 Trillion) Selects Participants</h2>
+            <div class="meta">
+            	<dl class="tit_con">
+		                        	<dt class="tit"> 담당부서</dt>
+		                        	<dd class="con"></dd>
+                              </dl>
+	                		<dl class="tit_con">
+		                        	<dt class="tit"> 작성자</dt>
+		                        	<dd class="con"></dd>
+                              </dl>
+	                		<dl class="tit_con">
+		                        	<dt class="tit"> 연락처</dt>
+		                        	<dd class="con"></dd>
+                              </dl>
+	                		</div>
+            <!-- END meta -->
+
+			</div>
+        <!-- END view_head -->
+
+       <div id="cont-wrap" class="view_cont">
+	        				<p align="justify" style="text-align: justify; line-height: 1.3;"><span style="font-family: Times New Roman; font-size: 24pt;">- Competition among applicants and vendors and active negotiations leads to a plan to secure 13,000 cutting-edge GPUs, significantly exceeding the original plan<br>- Partner companies actively join efforts to build a thriving sovereign AI ecosystem in Korea<br>- Phased distribution to begin by the end of the year following rapid procurement of GPUs</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">The Ministry of Science and ICT (“MSIT”; Minister Bae Kyunghoon) has announced the selection of Naver Cloud, NHN Cloud, and Kakao as partners for a large-scale graphics processing units (GPUs) Procurement Project (First Supplementary Budget, KRW 1.46 trillion). In partnership with these companies, the MSIT will secure 13,000 advanced GPUs.</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">This initiative is expected to serve as an important starting point for a quantum leap in domestic GPU research and service development, and to revitalize the AI ecosystem by swiftly expanding domestic AI computing infrastructure and providing timely support to industry, academia, and research institutions in need of such resources.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;color: #002aff;"><b>【 Overview 】</b></span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">The Korean government allocated a supplementary budget of approximately KRW 1.46 trillion in May for the procurement of advanced GPUs. Following this, it issued a call for participation (May 23-June 23), conducted evaluations of proposals, carried out on-site inspections of data centers, and reviewed and coordinated project budgets. This came with the recognition that Korea’s AI ecosystem requires the maximum possible availability of GPU resources and stable service provision by companies with proven expertise and capabilities. To this end, the government engaged in close negotiations and active collaboration with stakeholders, leading to the selection of Naver Cloud, NHN Cloud, and Kakao as the project’s implementing partners.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;color: #002aff;"><b>【 GPU Procurement 】</b></span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">Through close public-private collaboration, the initiative will secure a total of 13,000 GPUs, comprising 10,080 B200 units and 3,056 H200 units.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 14pt;">* In terms of Floating Point (FP) 8 Tensor Core performance, the B200 delivers approximately 2.25 times the computational capacity of the H200.</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">A portion of this will be allocated for the partnering Cloud Service Providers’ (CSPs) for their own operational needs. More than 10,000 GPUs ― specifically, 8,160 B200 units and 2,296 H200 units ― will be available for government-led use.</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">The government’s GPU allocation will be organized into one B200 510-node cluster (4,080 units), two B200 255-node clusters (2,040 units each), and one H200 255-node cluster (2,040 units), enabling support for large-scale, cluster-based AI workloads.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 14pt;">* GPU clustering links multiple GPUs to function as a single, integrated computing system.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;color: #002aff;"><b>【 GPU Allocation by CSP 】</b></span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">The allocation of GPUs to be secured and deployed by each CSP is as follows:</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;"><span style="color:#0000ff;font-weight:bold;">Naver Cloud</span> - Naver Cloud will secure and deploy a total of 3,056 H200 units, configured entirely with the H200 (Hopper architecture), the current mainstream model on the market, ensuring stable GPU services within the year.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">Of these, 2,296 H200 units will be allocated for government use. These will be clustered into one 255-node (2,040 units) and one 32-node (256 units) and will be distributed to industry, academia, and research institutions starting this year.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;"><span style="color:#0000ff;font-weight:bold;">NHN Cloud</span> - NHN Cloud will secure and deploy a total of 7,656 B200 units, configured entirely with the B200 (Blackwell architecture) and operated using a liquid cooling system. This configuration is expected to enable the latest GPU clusters to run with superior performance, energy efficiency, and environmental sustainability.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 14pt;">* Liquid cooling offers higher energy efficiency and superior cooling performance compared to air cooling, enhancing GPU performance.</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;"> Of these, 6,120 B200 units will be allocated for government use. They will be clustered into one B200 510-node (4,080 units) and one B200 255-node (2,040 units). Some resources will be made available in beta service within the year.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 14pt;">* Clustering will begin with the 255-node in Q1 2026, followed by the completion of the 510-node cluster later in 2026.​</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;"><span style="color:#0000ff;font-weight:bold;">Kakao</span> - Kakao will secure and deploy a total of 2,424 B200 units, configured entirely with the B200, with a focus on operating a more efficient infrastructure.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">Of these, 2,040 B200 units will be allocated for government use and clustered into one B200 255-node (2,040 units). Some of these resources will also be made available in beta service within the year.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;color: #002aff;"><b>【 Partner Companies’ Plans for Domestic AI Ecosystem Development 】</b></span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">All partering companies have expressed strong commitment to advancing Korea’s sovereign AI ecosystem and to working closely with the government to maximize the availability of GPUs  for public allocation. They also plan to utilize their own GPU allocations―taking into account operational cost requirements―to drive their own AI development and capability enhancement, while offering GPUs at low cost to industry, academia, and research institutes.  In addition, some partners intend to increase investment in domestic AI infrastructure, thereby contributing to the ecosystem in multiple ways.</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">The partnering companies will also collaborate to build a tentatively named Online Platform for Integrated GPU Support. This platform will allow stakeholders from industry, academia, and research institutions to easily apply for GPU resources online, with allocation and distribution to follow an evaluation process.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 14pt;">* The platform will include a system to allocate idle GPU resources to standby users when they become available.</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;color: #002aff;"><b>【 Going Forward 】</b></span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">Going forward, the government plans to swiftly proceed with business agreements and GPU procurement orders as early as the beginning of August, following a series of procedures. It also plans to initiate phased GPU distribution** for national projects* and necessary industry-academia-research collaborations.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 14pt;">* e.g. Independent AI Foundation Model Project / ** Phased distribution of GPUs will start this year</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">This will facilitate 1) stronger domestic AI research and service development capabilities; 2) enhanced access to AI computing infrastructure for early-stage AI startups, small and medium-sized enterprises, and universities; and 3) faster development of large-scale AI models.</span></p> 
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;text-indent: 40pt;"><span style="font-family: Times New Roman; font-size: 18pt;">Minister Bae Kyunghoon of the MSIT stated, “The acquisition of these advanced GPUs serves as a catalyst for addressing the shortage of AI computing infrastructure in Korea, and marks the starting point for the new administration’s expansion of the sovereign AI ecosystem and the construction of an AI highway, which will accelerate innovation across the entire domestic AI ecosystem. Taking this as a starting point, we will devote our policy efforts to further strengthening AI computing infrastructure and propelling Korea into becoming a global AI leader.”​</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">For further information, please contact the Public Relations Division (Phone: +82-44-202-4034, E-mail:</span> <span style="font-family: Times New Roman; font-size: 18pt; color: #0c7bd7;">msitmedia@korea.kr</span><span style="font-family: Times New Roman; font-size: 18pt;">) of the Ministry of Science and ICT.</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: Times New Roman; font-size: 18pt;">​</span></p>	
+<p><span style="font-family: Times New Roman; font-size: 18pt;">Please refer to the attached PDF.</span></p></div>
+	        		<div class="view_file">
+			<div class="view_file_titbox">
+				<h3 class="view_file_tit">File</h3>
+			</div>
+			<ul class="down_file">
+				<li>
+								<!-- 동일한 확장자별 처리 -->
+								<a href="javascript:void(0);" class="ico_file_pdf" title="PDF file download">250728 즉시 (보도) GPU 확보 사업(1차 추경, 1.46조원 규모) 참여 사업자 선정 결과(수정).pdf</a>
+									<!-- 다운로드 및 바로보기 버튼 -->
+								<div class="down_btn">
+									<a href="javascript:void(0);" onclick="fn_download('50807', '1', 'pdf');" class="down" title="file download">DOWNLOAD</a>
+									<a href="javascript:void(0);" onclick="getExtension_path('50807', '1');" class="view" title="새창 열림">PREVIEW</a>
+								</div>
+							</li>
+
+							<!-- 기존 synap 뷰어 변환 관련 코드 -->
+							<li>
+								<!-- 동일한 확장자별 처리 -->
+								<a href="javascript:void(0);" class="ico_file_pdf" title="PDF file download">GPU Procurement Project (First Supplementary Budget, KRW 1.46 Trillion) Selects Participants.pdf</a>
+									<!-- 다운로드 및 바로보기 버튼 -->
+								<div class="down_btn">
+									<a href="javascript:void(0);" onclick="fn_download('50807', '2', 'pdf');" class="down" title="file download">DOWNLOAD</a>
+									<a href="javascript:void(0);" onclick="getExtension_path('50807', '2');" class="view" title="새창 열림">PREVIEW</a>
+								</div>
+							</li>
+
+							<!-- 기존 synap 뷰어 변환 관련 코드 -->
+							</ul>
+		</div>
+		<div class="open_mark">
+					<img src='/images/user/nuri-img04-eng.jpg;jsessionid=8LdGHhKUv0RxSnynz8ZM4aA6znW8Kyg2iXeZ17-1.AP_msit_2' alt="KOGL, Korea Open Government License, BY, NC, ND" style="width:168px; height:42px;"/>
+							<span><strong>Type 4 : Source Indication - Commercial Use Prohibition - Change Prohibition</strong> The works of the Ministry of Science and ICT can be used under the terms of "KOGL Type 4".</span>
+						</div>
+			<div class="view_nav">
+					<ul class="prev_next">
+						<li>
+							<a href="javascript:void(0);" onclick="fn_move_view(1154);" class="prev" title="prev">
+									<span class="lb">PREV</span>
+									<span class="txt">MSIT to Host the “International Streaming Festival 2025”</span>
+								</a>
+							</li>
+
+						<li>
+							<a href="javascript:void(0);" onclick="fn_move_view(1156);" class="next" title="next">
+									<span class="lb">NEXT</span>
+									<span class="txt">MSIT Holds APEC Digital Week Radio Wave Workshop</span>
+								</a>
+							</li>
+					</ul>
+
+					<a href="javascript:void(0);" class="btn_li" id="btnList" title="LIST">LIST</a>
+		        </div>
+
+			</div>
+</form>
+<!-- //(공통)게시판 상세화면 e -->
+
+</div>
+			</div>
+		</div>
+		        <!-- btn top -->
+		<div class="go_top">
+		<a href="#wrap" class="go_top_btn">TOP</a>
+		</div>
+        <!--// btn top -->
+	    <!-- //content e -->
+			</div>
+		</div>
+		<!-- footer s -->
+	    <!-- foot -->
+<footer id="footer">
+  <div class="inner_center">
+    <div class="foot_top_flex">
+      <div class="logo_txtbox">
+        <a href="/index.do" class="foot_logo"><span class="blind">Ministry of Science and ICT</span></a>
+        <div class="txt_box">
+          <p class="address">GOVERNMENT COMPLEX-SEJONG 4, 477 GALMAE-RO, Sejong-si, 30109, Republic of Korea</p>
+          
+        </div>
+      </div>
+      
+    </div>
+    <div class="foot_bottom_flex">
+      <div class="links_copyright">
+        
+        <p class="copyright">Copyright © Ministry of Science and ICT. All Rights Reserved.</p>
+      </div>
+      <div class="otherlogo">
+        <a href="http://www.kogl.or.kr" target="_blank" title="Opens new window" class="logo_open"><span class="blind">OPEN</span></a>
+        <a href="http://www.wa.or.kr/board/list.asp?search=total&SearchString=%B0%FA%C7%D0%B1%E2%BC%FA%C1%A4%BA%B8%C5%EB%BD%C5%BA%CE&BoardID=0006" target="_blank" title="Opens new window" class="logo_wa"><span class="blind">WA</span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--// foot end --><!-- //footer e -->
+	</div>
+
+
+</body>
+</html>

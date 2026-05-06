@@ -1,0 +1,8 @@
+{
+  "source_id": "mss_venture",
+  "url": "https://www.mss.go.kr/site/eng/ex/bbs/View.do?bcIdx=1067804&cbIdx=244",
+  "retrieved_at": "2026-05-03T04:50:07+00:00",
+  "status_code": null,
+  "file_path": "",
+  "notes": "Download failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+}

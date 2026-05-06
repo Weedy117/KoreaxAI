@@ -1,0 +1,177 @@
+Country,Percent Female,Group,Education level abbreviated
+AVERAGE,0.22,Bachelor’s,B
+AVERAGE,0.29,Master’s,M
+AVERAGE,0.2,Short-cycle,SC
+AVERAGE,0.29,PhD,PhD
+Australia,0.25,Short-cycle,SC
+Australia,0.32,PhD,PhD
+Australia,0.33,Master’s,M
+Australia,0.23,Bachelor’s,B
+Austria,0.22,PhD,PhD
+Austria,0.11,Short-cycle,SC
+Austria,0.2,Bachelor’s,B
+Austria,0.23,Master’s,M
+Belgium,0.27,PhD,PhD
+Belgium,0.19,Master’s,M
+Belgium,0.16,Bachelor’s,B
+Belgium,0.1,Short-cycle,SC
+Brazil,0.19,PhD,PhD
+Brazil,0.18,Master’s,M
+Brazil,,Short-cycle,SC
+Brazil,0.17,Bachelor’s,B
+Bulgaria,,Short-cycle,SC
+Bulgaria,0.44,PhD,PhD
+Bulgaria,0.37,Master’s,M
+Bulgaria,0.32,Bachelor’s,B
+Canada,0.24,PhD,PhD
+Canada,0.3,Short-cycle,SC
+Canada,0.22,Bachelor’s,B
+Canada,0.34,Master’s,M
+Chile,0.25,PhD,PhD
+Chile,0.2,Master’s,M
+Chile,0.13,Short-cycle,SC
+Chile,0.12,Bachelor’s,B
+Colombia,0.28,Master’s,M
+Colombia,0.17,Bachelor’s,B
+Colombia,0.27,Short-cycle,SC
+Colombia,0.21,PhD,PhD
+Costa Rica,0.22,Master’s,M
+Costa Rica,0.25,Short-cycle,SC
+Costa Rica,0.5,PhD,PhD
+Costa Rica,0.21,Bachelor’s,B
+Croatia,0.25,PhD,PhD
+Croatia,0.22,Bachelor’s,B
+Croatia,0.25,Master’s,M
+Croatia,,Short-cycle,SC
+Czech Republic,0.19,Bachelor’s,B
+Czech Republic,0.19,Master’s,M
+Czech Republic,0.17,PhD,PhD
+Czech Republic,,Short-cycle,SC
+Denmark,0.39,Master’s,M
+Denmark,0.13,Short-cycle,SC
+Denmark,,PhD,PhD
+Denmark,0.19,Bachelor’s,B
+Estonia,0.27,Bachelor’s,B
+Estonia,0.47,Master’s,M
+Estonia,0.36,PhD,PhD
+Estonia,,Short-cycle,SC
+Finland,,Short-cycle,SC
+Finland,0.28,PhD,PhD
+Finland,0.31,Master’s,M
+Finland,0.25,Bachelor’s,B
+France,0.09,Short-cycle,SC
+France,0.23,Master’s,M
+France,0.26,PhD,PhD
+France,0.18,Bachelor’s,B
+Germany,0.21,Bachelor’s,B
+Germany,0.21,PhD,PhD
+Germany,0.26,Master’s,M
+Germany,,Short-cycle,SC
+Greece,0.26,PhD,PhD
+Greece,0.45,Master’s,M
+Greece,0.33,Bachelor’s,B
+Greece,,Short-cycle,SC
+Hungary,0.17,Bachelor’s,B
+Hungary,0.13,PhD,PhD
+Hungary,0.21,Master’s,M
+Hungary,0.16,Short-cycle,SC
+Iceland,0.0,Short-cycle,SC
+Iceland,0.23,Master’s,M
+Iceland,0.18,Bachelor’s,B
+Iceland,0.2,PhD,PhD
+Ireland,0.29,Bachelor’s,B
+Ireland,0.37,Master’s,M
+Ireland,0.35,PhD,PhD
+Ireland,0.37,Short-cycle,SC
+Israel,0.24,Master’s,M
+Israel,0.31,Bachelor’s,B
+Israel,0.47,Short-cycle,SC
+Israel,0.26,PhD,PhD
+Italy,0.24,Master’s,M
+Italy,0.16,Bachelor’s,B
+Italy,0.25,PhD,PhD
+Italy,0.13,Short-cycle,SC
+Japan,,PhD,PhD
+Japan,,Short-cycle,SC
+Japan,,Master’s,M
+Japan,,Bachelor’s,B
+South Korea,0.32,Bachelor’s,B
+South Korea,0.24,Short-cycle,SC
+South Korea,0.19,PhD,PhD
+South Korea,0.26,Master’s,M
+Latvia,0.21,Bachelor’s,B
+Latvia,0.86,PhD,PhD
+Latvia,0.23,Short-cycle,SC
+Latvia,0.27,Master’s,M
+Lithuania,,Short-cycle,SC
+Lithuania,0.16,Bachelor’s,B
+Lithuania,0.4,PhD,PhD
+Lithuania,0.28,Master’s,M
+Luxembourg,0.36,Master’s,M
+Luxembourg,0.18,Bachelor’s,B
+Luxembourg,0.19,PhD,PhD
+Luxembourg,0.15,Short-cycle,SC
+Mexico,0.27,Bachelor’s,B
+Mexico,0.31,PhD,PhD
+Mexico,0.4,Master’s,M
+Mexico,0.27,Short-cycle,SC
+Netherlands,0.25,PhD,PhD
+Netherlands,0.1,Short-cycle,SC
+Netherlands,0.15,Bachelor’s,B
+Netherlands,0.3,Master’s,M
+New Zealand,0.41,Master’s,M
+New Zealand,0.32,PhD,PhD
+New Zealand,0.31,Bachelor’s,B
+New Zealand,0.36,Short-cycle,SC
+Norway,0.31,PhD,PhD
+Norway,0.25,Bachelor’s,B
+Norway,0.22,Short-cycle,SC
+Norway,0.27,Master’s,M
+Peru,,Master’s,M
+Peru,,PhD,PhD
+Peru,0.5,Short-cycle,SC
+Peru,0.28,Bachelor’s,B
+Poland,0.21,PhD,PhD
+Poland,0.18,Master’s,M
+Poland,0.0,Short-cycle,SC
+Poland,0.24,Bachelor’s,B
+Portugal,0.09,Short-cycle,SC
+Portugal,0.24,PhD,PhD
+Portugal,0.35,Master’s,M
+Portugal,0.21,Bachelor’s,B
+Romania,0.4,PhD,PhD
+Romania,,Short-cycle,SC
+Romania,0.42,Master’s,M
+Romania,0.32,Bachelor’s,B
+Slovakia,,Short-cycle,SC
+Slovakia,0.22,PhD,PhD
+Slovakia,0.18,Master’s,M
+Slovakia,0.17,Bachelor’s,B
+Slovenia,0.2,Bachelor’s,B
+Slovenia,0.25,Master’s,M
+Slovenia,0.08,Short-cycle,SC
+Slovenia,0.31,PhD,PhD
+Spain,0.21,Master’s,M
+Spain,0.12,Short-cycle,SC
+Spain,0.25,PhD,PhD
+Spain,0.15,Bachelor’s,B
+Sweden,0.4,Bachelor’s,B
+Sweden,0.44,Master’s,M
+Sweden,0.32,PhD,PhD
+Sweden,0.3,Short-cycle,SC
+Switzerland,0.18,Master’s,M
+Switzerland,0.08,Short-cycle,SC
+Switzerland,0.21,PhD,PhD
+Switzerland,0.15,Bachelor’s,B
+Turkey,0.3,PhD,PhD
+Turkey,0.34,Master’s,M
+Turkey,0.26,Short-cycle,SC
+Turkey,0.28,Bachelor’s,B
+United Kingdom,0.18,Bachelor’s,B
+United Kingdom,0.26,Short-cycle,SC
+United Kingdom,0.33,Master’s,M
+United Kingdom,0.26,PhD,PhD
+United States,0.27,PhD,PhD
+United States,0.25,Short-cycle,SC
+United States,0.35,Master’s,M
+United States,0.24,Bachelor’s,B

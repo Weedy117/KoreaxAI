@@ -1,0 +1,5 @@
+Model Name,Model Size,Model Performance,Year
+Enformer (250M),246000000,0.375,2021
+Borzoi (190M),186000000,0.4,2023
+Evo 2 (40B),40000000000,0.525,2025
+GPN-Star (200M),200000000,0.75,2025

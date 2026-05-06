@@ -1,0 +1,16 @@
+Model,Accuracy
+GPT 4.1,0.6594
+Kimi K2.5,0.6653
+Claude 3.7 Sonnet (Thinking),0.6685
+GPT 5 Mini,0.6689
+GPT 5.2,0.6713
+Gemini 2.5 Pro Exp,0.6717
+Claude Opus 4.5 (Thinking),0.6769
+Claude Sonnet 4.6,0.6773
+Claude Opus 4.6 (Thinking),0.6851999999999999
+Claude Opus 4.5 (Nonthinking),0.6868000000000001
+Claude 3.7 Sonnet (Nonthinking),0.6868000000000001
+Gemini 3 Flash (12/25),0.6872
+Gemini 2.5 Pro,0.6892
+Gemini 3 Pro (11/25),0.6908
+Gemini 3.1 Pro Preview,0.6940000000000001

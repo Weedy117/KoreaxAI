@@ -1,0 +1,8 @@
+{
+  "source_id": "msit_2026_work_plan",
+  "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1205&sCode=eng",
+  "retrieved_at": "2026-05-03T04:49:59+00:00",
+  "status_code": null,
+  "file_path": "",
+  "notes": "Download failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+}

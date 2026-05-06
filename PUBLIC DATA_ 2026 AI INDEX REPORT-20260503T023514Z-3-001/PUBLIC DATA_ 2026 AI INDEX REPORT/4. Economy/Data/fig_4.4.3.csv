@@ -1,0 +1,161 @@
+Year,AI job postings (% of all job postings),Label
+2010,3e-05,"AI ethics, governance, and regulations"
+2011,2.5e-05,"AI ethics, governance, and regulations"
+2012,2.9e-05,"AI ethics, governance, and regulations"
+2013,2.3e-05,"AI ethics, governance, and regulations"
+2014,4.5e-05,"AI ethics, governance, and regulations"
+2015,4.5e-05,"AI ethics, governance, and regulations"
+2016,3.9e-05,"AI ethics, governance, and regulations"
+2017,3.3e-05,"AI ethics, governance, and regulations"
+2018,3.8e-05,"AI ethics, governance, and regulations"
+2019,4e-05,"AI ethics, governance, and regulations"
+2020,4.3e-05,"AI ethics, governance, and regulations"
+2021,6.6e-05,"AI ethics, governance, and regulations"
+2022,7.6e-05,"AI ethics, governance, and regulations"
+2023,9e-05,"AI ethics, governance, and regulations"
+2024,0.000193,"AI ethics, governance, and regulations"
+2025,0.000503,"AI ethics, governance, and regulations"
+2010,0.000195,Robotics
+2011,0.000254,Robotics
+2012,0.000301,Robotics
+2013,0.00026,Robotics
+2014,0.00026,Robotics
+2015,0.000341,Robotics
+2016,0.00037,Robotics
+2017,0.000479,Robotics
+2018,0.000567,Robotics
+2019,0.000571,Robotics
+2020,0.000464,Robotics
+2021,0.000498,Robotics
+2022,0.00062,Robotics
+2023,0.000672,Robotics
+2024,0.000646,Robotics
+2025,0.00077,Robotics
+2010,0.000454,Visual image recognition
+2011,0.000459,Visual image recognition
+2012,0.000504,Visual image recognition
+2013,0.000391,Visual image recognition
+2014,0.000406,Visual image recognition
+2015,0.000525,Visual image recognition
+2016,0.000567,Visual image recognition
+2017,0.000764,Visual image recognition
+2018,0.000906,Visual image recognition
+2019,0.000944,Visual image recognition
+2020,0.000812,Visual image recognition
+2021,0.000941,Visual image recognition
+2022,0.001036,Visual image recognition
+2023,0.000821,Visual image recognition
+2024,0.000877,Visual image recognition
+2025,0.000939,Visual image recognition
+2010,0.000655,Autonomous driving
+2011,0.000669,Autonomous driving
+2012,0.000701,Autonomous driving
+2013,0.000564,Autonomous driving
+2014,0.000565,Autonomous driving
+2015,0.000754,Autonomous driving
+2016,0.000874,Autonomous driving
+2017,0.001054,Autonomous driving
+2018,0.001242,Autonomous driving
+2019,0.001341,Autonomous driving
+2020,0.001269,Autonomous driving
+2021,0.001256,Autonomous driving
+2022,0.001621,Autonomous driving
+2023,0.001646,Autonomous driving
+2024,0.001316,Autonomous driving
+2025,0.001393,Autonomous driving
+2010,9.4e-05,Neural networks
+2011,0.0001,Neural networks
+2012,0.000129,Neural networks
+2013,0.000119,Neural networks
+2014,0.000144,Neural networks
+2015,0.000211,Neural networks
+2016,0.000332,Neural networks
+2017,0.00072,Neural networks
+2018,0.001385,Neural networks
+2019,0.001562,Neural networks
+2020,0.001366,Neural networks
+2021,0.001511,Neural networks
+2022,0.00158,Neural networks
+2023,0.001165,Neural networks
+2024,0.001633,Neural networks
+2025,0.001953,Neural networks
+2010,0.001262,Natural language processing
+2011,0.001242,Natural language processing
+2012,0.001431,Natural language processing
+2013,0.001232,Natural language processing
+2014,0.001194,Natural language processing
+2015,0.001383,Natural language processing
+2016,0.001349,Natural language processing
+2017,0.001639,Natural language processing
+2018,0.002032,Natural language processing
+2019,0.001967,Natural language processing
+2020,0.001657,Natural language processing
+2021,0.001775,Natural language processing
+2022,0.001774,Natural language processing
+2023,0.001459,Natural language processing
+2024,0.001802,Natural language processing
+2025,0.002183,Natural language processing
+2010,2.9e-05,AI agent
+2011,2.7e-05,AI agent
+2012,3.4e-05,AI agent
+2013,3.1e-05,AI agent
+2014,3.6e-05,AI agent
+2015,3.8e-05,AI agent
+2016,6.4e-05,AI agent
+2017,0.000165,AI agent
+2018,0.000274,AI agent
+2019,0.000272,AI agent
+2020,0.000246,AI agent
+2021,0.00029,AI agent
+2022,0.000303,AI agent
+2023,0.00036,AI agent
+2024,0.000613,AI agent
+2025,0.002259,AI agent
+2010,3.8e-05,Generative AI
+2011,4e-05,Generative AI
+2012,3.1e-05,Generative AI
+2013,2.4e-05,Generative AI
+2014,2.8e-05,Generative AI
+2015,3.1e-05,Generative AI
+2016,2.6e-05,Generative AI
+2017,5.7e-05,Generative AI
+2018,5.3e-05,Generative AI
+2019,6.6e-05,Generative AI
+2020,6e-05,Generative AI
+2021,7.2e-05,Generative AI
+2022,0.000115,Generative AI
+2023,0.000553,Generative AI
+2024,0.002112,Generative AI
+2025,0.004104,Generative AI
+2010,0.00167,Machine learning
+2011,0.001729,Machine learning
+2012,0.002526,Machine learning
+2013,0.002096,Machine learning
+2014,0.002609,Machine learning
+2015,0.003003,Machine learning
+2016,0.003372,Machine learning
+2017,0.004663,Machine learning
+2018,0.006284,Machine learning
+2019,0.007206,Machine learning
+2020,0.006551,Machine learning
+2021,0.007434,Machine learning
+2022,0.008585,Machine learning
+2023,0.006369,Machine learning
+2024,0.007934,Machine learning
+2025,0.009885,Machine learning
+2010,0.000875,Artificial intelligence
+2011,0.00101,Artificial intelligence
+2012,0.001152,Artificial intelligence
+2013,0.000953,Artificial intelligence
+2014,0.001001,Artificial intelligence
+2015,0.001109,Artificial intelligence
+2016,0.001172,Artificial intelligence
+2017,0.00189,Artificial intelligence
+2018,0.003389,Artificial intelligence
+2019,0.004351,Artificial intelligence
+2020,0.004347,Artificial intelligence
+2021,0.005363,Artificial intelligence
+2022,0.006266,Artificial intelligence
+2023,0.005604,Artificial intelligence
+2024,0.008808,Artificial intelligence
+2025,0.016994,Artificial intelligence

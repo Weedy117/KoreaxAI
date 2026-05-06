@@ -1,0 +1,9 @@
+{
+  "source_id": "un_comtrade",
+  "url": "https://comtradeapi.un.org/data/v1/get/C/A/HS?reporterCode=410&period=2024&partnerCode=156&cmdCode=8542&flowCode=X",
+  "retrieved_at": "2026-05-03T04:50:18+00:00",
+  "status_code": 401,
+  "file_path": "C:\\Users\\ASUS\\Desktop\\SAIS Playground\\ROKxAI\\korea-ai-industry-dashboard\\data\\raw\\un_comtrade\\2026-05-03\\un_comtrade_exports_china.json",
+  "content_type": "application/json",
+  "notes": ""
+}

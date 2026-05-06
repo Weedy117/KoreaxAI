@@ -1,0 +1,15 @@
+Model Name,Parameters,Average Spearman,Release Year
+MSA-Transformer,100M,0.45,2021
+ESM-2,150M,0.387,2022
+ESM-2,3B,0.406,2022
+ESM-2,650M,0.414,2022
+PoET,200M,0.47,2023
+ESMC,600M,0.405,2024
+ESMC,300M,0.406,2024
+E1 (Single Sequence),150M,0.401,2025
+E1 (Single Sequence),300M,0.416,2025
+E1 (Single Sequence),600M,0.42,2025
+MSA Pairformer,111M,0.45,2025
+E1 (Retrieval Augmented),150M,0.473,2025
+E1 (Retrieval Augmented),300M,0.475,2025
+E1 (Retrieval Augmented),600M,0.477,2025

@@ -1,0 +1,30 @@
+Model,Year,Mean score
+Falcon3-7B-Instruct,2024,0.37
+Falcon3-10B-Instruct,2024,0.413
+Jais-adapted-7b-chat,2024,0.525
+Jais-adapted-13b-chat,2024,0.591
+AceGPT-v2-8B-Chat,2024,0.626
+SILMA 9B,2024,0.633
+Jais-family-30b-16k-chat,2024,0.638
+Qwen2.5 Instruct Turbo (7B),2024,0.65
+Jais-adapted-70b-chat,2024,0.663
+Mistral Large (2411),2024,0.706
+AceGPT-v2-32B-Chat,2024,0.708
+AceGPT-v2-70B-Chat,2024,0.737
+Llama 3.3 Instruct Turbo (70B),2024,0.755
+Qwen2.5 Instruct Turbo (72B),2024,0.759
+GPT-4.1 nano (2025-04-14),2025,0.695
+ALLaM-7B-Instruct-preview,2025,0.699
+Llama 4 Scout (17Bx16E) Instruct,2025,0.746
+GPT-4.1 mini (2025-04-14),2025,0.756
+Cohere Labs Command A,2025,0.767
+DeepSeek v3.1,2025,0.77
+Qwen3-Next 80B A3B Instruct,2025,0.773
+Llama 4 Maverick (17Bx128E)<br>Instruct FP8,2025,0.782
+Arabic.AI LLM-S,2025,0.784
+Gemini 2.5 Flash-Lite,2025,0.785
+Qwen3 235B A22B<br>Instruct 2507 FP8,2025,0.786
+GPT-4.1 (2025-04-14),2025,0.805
+GPT-5.1 (2025-11-13),2025,0.809
+Gemini 2.5 Flash,2025,0.817
+Arabic.AI LLM-X,2025,0.863

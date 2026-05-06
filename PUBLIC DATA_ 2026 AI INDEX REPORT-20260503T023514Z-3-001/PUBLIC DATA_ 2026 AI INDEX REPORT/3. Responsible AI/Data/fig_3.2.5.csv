@@ -1,0 +1,16 @@
+Model,Hallucination Rate
+qwen/qwen3-14b,0.054
+deepseek-ai/DeepSeek-V3.2-Exp,0.053
+ai21labs/jamba-mini-2,0.053
+ibm-granite/granite-4.0-h-small,0.052
+mistralai/mistral-small-2501,0.051
+amazon/nova-2-lite-v1:0,0.051
+amazon/nova-pro-v1:0,0.051
+qwen/qwen3-8b,0.048
+mistralai/mistral-large-2411,0.045
+google/gemma-3-12b-it,0.044
+snowflake/snowflake-arctic-instruct,0.043
+meta-llama/Llama-3.3-70B-Instruct-Turbo,0.041
+microsoft/Phi-4,0.037
+google/gemini-2.5-flash-lite,0.033
+antgroup/finix_s1_32b,0.018

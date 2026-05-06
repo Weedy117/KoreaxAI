@@ -1,0 +1,52 @@
+Year,Method,Perfomance relative to the human baseline,Benchmark,Task
+2024,OpenAI o1,0.9329999999999999,AIME,Mathematical reasoning
+2025,Gemini 3.1 Pro Preview,0.981,AIME,Mathematical reasoning
+2023,GPT-4 with search<br>(backoff to CoT on abstention),0.4778325123152709,GPQA Diamond,PhD-level science questions
+2024,o3,1.0800492610837438,GPQA Diamond,PhD-level science questions
+2025,gemini-3-pro-preview,1.145320197044335,GPQA Diamond,PhD-level science questions
+2012,AlexNet,0.8914646996838776,ImageNet Top-5,Image classification
+2013,OverFeat - 7 accurate models,0.9142255005268702,ImageNet Top-5,Image classification
+2014,VGG-19,0.9694415173867228,ImageNet Top-5,Image classification
+2015,Inception V3,0.9947312961011591,ImageNet Top-5,Image classification
+2016,ResNeXt-101  64x4,1.0073761854583771,ImageNet Top-5,Image classification
+2017,PNASNet-5,1.0136986301369864,ImageNet Top-5,Image classification
+2018,ResNeXt-101 32x48d,1.0284510010537407,ImageNet Top-5,Image classification
+2019,BiT-L (ResNet),1.037513171759747,ImageNet Top-5,Image classification
+2020,Meta Pseudo Labels (EfficientNet-L2),1.0410958904109588,ImageNet Top-5,Image classification
+2021,Florence-CoSwin-H,1.0434141201264489,ImageNet Top-5,Image classification
+2022,Top-k DiffSortNets (EfficientNet-L@),1.039831401475237,ImageNet Top-5,Image classification
+2021,GPT-2 (1.5B),0.07666666666666667,MATH,Competition-level mathematics
+2022,"GPT-4 model (w/ code, PAL)",0.5755555555555555,MATH,Competition-level mathematics
+2023,"GPT-4-code model (CSV, w/ code, SC, k=16)",0.9366666666666668,MATH,Competition-level mathematics
+2024,o3-mini high,1.0877777777777777,MATH,Competition-level mathematics
+2025,GPT-5 (High Effort):,1.0899999999999999,MATH,Competition-level mathematics
+2019,GPT-2 1.5B (fine-tuned),0.36080178173719374,MMLU,Multitask language understanding
+2020,GPT-3 (fine-tuned),0.6002227171492205,MMLU,Multitask language understanding
+2021,"Gopher (few-shot, k=5)",0.66815144766147,MMLU,Multitask language understanding
+2022,"Flan-PaLM (5-shot, finetuned, CoT + SC)",0.8374164810690423,MMLU,Multitask language understanding
+2023,GPT-4 ,0.9621380846325168,MMLU,Multitask language understanding
+2024,o1-preview,1.0278396436525612,MMLU,Multitask language understanding
+2023,Gemini 1.0 Ultra,0.7191283292978209,MMMU,Multimodal understanding and reasoning
+2024,o1,0.9467312348668283,MMMU,Multimodal understanding and reasoning
+2025,Gemini 3 Flash,1.0608958837772398,MMMU,Multimodal understanding and reasoning
+2024,GPT-4,0.05705808513066302,OSWorld,Agent multimodal computer use
+2025,Claude Opus 4.5 (no thinking),0.7565902088325916,OSWorld,Agent multimodal computer use
+2017,SAN (ensemble model),0.8235083798882681,SQuAD 2.0,Medium-level reading comprehension
+2018,PAML+BERT (ensemble model),0.9622569832402235,SQuAD 2.0,Medium-level reading comprehension
+2019,ALBERT + DAAF + Verifier (ensemble),1.03268156424581,SQuAD 2.0,Medium-level reading comprehension
+2020,SA-Net on Albert (ensemble),1.0392290502793295,SQuAD 2.0,Medium-level reading comprehension
+2021,IE-Net (ensemble),1.0414972067039105,SQuAD 2.0,Medium-level reading comprehension
+2024,Claude 3.5 Sonnet / GPT-4o,0.6426735218508998,SWE-bench Verified,Autonomous software engineering
+2025,Claude 4.5. Opus,0.987146529562982,SWE-bench Verified,Autonomous software engineering
+2019,Roberta,0.9420935412026725,SuperGLUE,English language understanding
+2020,T5 Team - Google,0.9944320712694877,SuperGLUE,English language understanding
+2021,Liam Fedus,1.0155902004454345,SuperGLUE,English language understanding
+2022,Vega v2,1.0167037861915367,SuperGLUE,English language understanding
+2024,Hairuo,1.0178173719376393,SuperGLUE,English language understanding
+2016,MCB,0.8009408269373608,VQA,Visual reasoning
+2017,"Image features from bottom-up attention (adaptive K, ensemble)",0.8649418172815053,VQA,Visual reasoning
+2018,BAN+Glove+Counter,0.8670462985887597,VQA,Visual reasoning
+2019,UNITER (Large),0.9066600643723693,VQA,Visual reasoning
+2020,Oscar,0.9138400594206486,VQA,Visual reasoning
+2021,VLMo,1.0247586036147562,VQA,Visual reasoning
+2022,PaLI,1.0435751423619708,VQA,Visual reasoning

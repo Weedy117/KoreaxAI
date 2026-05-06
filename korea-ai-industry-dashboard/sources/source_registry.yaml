@@ -1,0 +1,280 @@
+- source_id: top500
+  publisher: TOP500.org
+  title: TOP500 list statistics and current list
+  url: https://top500.org/statistics/list/
+  source_type: public_ranked_list
+  access_method: HTML and downloadable list files
+  confidence_tier: medium_high
+  update_cadence: semiannual
+  modules: [compute]
+  notes: Public benchmarked HPC systems only; private AI clusters are not comprehensively covered.
+- source_id: epoch_gpu_clusters
+  publisher: Epoch AI
+  title: Data on GPU Clusters
+  url: https://epoch.ai/data/gpu-clusters
+  source_type: public_dataset
+  access_method: CSV download if accessible
+  confidence_tier: medium
+  update_cadence: periodic
+  modules: [compute]
+  notes: Publicly known clusters; incomplete coverage and planned systems may be lower confidence.
+- source_id: epoch_ai_chip_owners
+  publisher: Epoch AI
+  title: Data on AI Chip Owners
+  url: https://epoch.ai/data/ai-chip-owners
+  source_type: public_dataset
+  access_method: ZIP download if accessible
+  confidence_tier: medium
+  update_cadence: periodic
+  modules: [compute]
+  notes: Estimates ownership or customer allocation, not physical location.
+- source_id: epoch_ai_models
+  publisher: Epoch AI
+  title: Data on AI Models
+  url: https://epoch.ai/data/ai-models
+  source_type: public_dataset
+  access_method: CSV download
+  confidence_tier: medium_high
+  update_cadence: periodic
+  modules: [models, research]
+  notes: Inclusion and classification criteria should be read before interpreting model counts.
+- source_id: msit_2026_work_plan
+  publisher: Ministry of Science and ICT, Republic of Korea
+  title: MSIT 2026 Work Plan
+  url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1205&sCode=eng
+  source_type: official_press_release
+  access_method: HTML press release
+  confidence_tier: high
+  update_cadence: annual/policy
+  modules: [compute, models, public_sector, governance, chaebols]
+  notes: Official target and budget values should not be interpreted as deployed capacity.
+- source_id: msit_gpu_procurement
+  publisher: Ministry of Science and ICT, Republic of Korea
+  title: GPU Procurement Project Selects Participants
+  url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1155&pageIndex=&sCode=eng&searchOpt=ALL&searchTxt=
+  source_type: official_press_release
+  access_method: HTML press release
+  confidence_tier: high
+  update_cadence: policy/event
+  modules: [compute]
+  notes: Procurement and allocation targets; achieved deployment requires later verification.
+- source_id: kisti_hangang
+  publisher: Korea Institute of Science and Technology Information
+  title: KISTI Begins Construction of Korea's 6th National Supercomputer
+  url: https://www.kisti.re.kr/eng/news/post/eng_news/6695
+  source_type: official_press_release
+  access_method: HTML press release
+  confidence_tier: high
+  update_cadence: project
+  modules: [compute]
+  notes: Named public research-compute system.
+- source_id: cbre_data_center_trends
+  publisher: CBRE
+  title: Global Data Center Trends 2025
+  url: https://www.cbre.com/insights/reports/global-data-center-trends-2025
+  source_type: market_report
+  access_method: HTML/report page
+  confidence_tier: medium
+  update_cadence: annual
+  modules: [compute]
+  notes: Market-estimate methodology varies; use only verified table values.
+- source_id: nvidia_korea_ai_infrastructure
+  publisher: NVIDIA
+  title: NVIDIA, South Korea Government and Industrial Giants Build AI Infrastructure
+  url: https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-South-Korea-Government-and-Industrial-Giants-Build-AI-Infrastructure-and-Ecosystem-to-Fuel-Korea-Innovation-Industries-and-Jobs/default.aspx
+  source_type: company_press_release
+  access_method: HTML press release
+  confidence_tier: medium
+  update_cadence: event
+  modules: [compute, chaebols]
+  notes: Company-announced deployment counts; not audited installed capacity.
+- source_id: openalex
+  publisher: OpenAlex
+  title: OpenAlex Works API
+  url: https://api.openalex.org
+  source_type: public_api
+  access_method: API
+  confidence_tier: medium_high
+  update_cadence: monthly
+  modules: [research, talent]
+  notes: First-pass AI topic counts depend on the selected OpenAlex AI concept/topic filter.
+- source_id: stanford_ai_index
+  publisher: Stanford HAI
+  title: AI Index Report Data
+  url: https://hai.stanford.edu/ai-index
+  source_type: annual_report_data
+  access_method: Public report/data; local public-data bundle if present
+  confidence_tier: medium_high
+  update_cadence: annual
+  modules: [research, funding, startups]
+  notes: Use published figure data and preserve source figure identifiers in notes.
+- source_id: un_comtrade
+  publisher: United Nations
+  title: UN Comtrade
+  url: https://comtrade.un.org
+  source_type: public_api
+  access_method: API/download
+  confidence_tier: high
+  update_cadence: annual/monthly
+  modules: [semiconductors]
+  notes: Requires careful HS-code selection; v0.1 uses a stub unless simple API access works.
+- source_id: opendart
+  publisher: Financial Supervisory Service, Republic of Korea
+  title: English DART / OpenDART filings
+  url: https://englishdart.fss.or.kr/
+  source_type: company_filings
+  access_method: API/manual filing
+  confidence_tier: high
+  update_cadence: quarterly/annual
+  modules: [semiconductors, chaebols]
+  notes: OpenDART API key optional; without key the collector records manual-review items.
+- source_id: mss_venture
+  publisher: Ministry of SMEs and Startups, Republic of Korea
+  title: Venture investment and new industry sector releases
+  url: https://www.mss.go.kr/site/eng/main.do
+  source_type: official_press_release
+  access_method: HTML press release/manual review
+  confidence_tier: high
+  update_cadence: annual/quarterly/event
+  modules: [funding, startups, semiconductors]
+  notes: New-industry categories include AI-adjacent sectors beyond AI alone.
+- source_id: mss_smart_manufacturing
+  publisher: Ministry of SMEs and Startups, Republic of Korea
+  title: 2026 Smart Manufacturing Innovation Support Program
+  url: https://www.mss.go.kr/site/eng/ex/bbs/View.do?bcIdx=1062921&cbIdx=244
+  source_type: official_press_release
+  access_method: HTML press release
+  confidence_tier: high
+  update_cadence: annual/program
+  modules: [adoption]
+  notes: Program support counts, not observed deployments.
+- source_id: ifr_robotics
+  publisher: International Federation of Robotics
+  title: IFR World Robotics press releases
+  url: https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas
+  source_type: press_release_report
+  access_method: HTML press release/report
+  confidence_tier: medium_high
+  update_cadence: annual
+  modules: [adoption]
+  notes: IFR methodology applies; public press pages expose selected country values.
+- source_id: bok_genai
+  publisher: Bank of Korea
+  title: AI's Rapid Spread and Productivity Effects Based on Household Surveys
+  url: https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=201150&menuNo=200433&nttId=10093071&oldMenuNo=201150&pageIndex=1&pageUnit=10&programType=newsData&searchCnd=1&searchKwd=
+  source_type: official_report
+  access_method: HTML report page/PDF
+  confidence_tier: medium_high
+  update_cadence: periodic
+  modules: [worker_adoption, productivity, talent, social_readiness]
+  notes: Survey-based metrics; interpret with survey methodology and date.
+- source_id: oecd_korea_ai_labor
+  publisher: OECD
+  title: Artificial Intelligence and the Labour Market in Korea
+  url: https://www.oecd.org/en/publications/artificial-intelligence-and-the-labour-market-in-korea_68ab1a5a-en.html
+  source_type: report
+  access_method: HTML/PDF report
+  confidence_tier: medium
+  update_cadence: periodic
+  modules: [firm_adoption, talent]
+  notes: Use report tables only when values are clearly extractable.
+- source_id: oecd_education
+  publisher: OECD
+  title: OECD GPS Education data
+  url: https://gpseducation.oecd.org/
+  source_type: data_portal
+  access_method: OECD data/manual review
+  confidence_tier: medium_high
+  update_cadence: annual
+  modules: [talent]
+  notes: STEM graduate categories require OECD definition mapping.
+- source_id: korea_moe
+  publisher: Ministry of Education, Republic of Korea
+  title: Official education data
+  url: https://english.moe.go.kr/
+  source_type: official_statistics
+  access_method: official data/manual review
+  confidence_tier: high
+  update_cadence: annual
+  modules: [talent]
+  notes: AI-relevant category mapping is manual in v0.1.
+- source_id: nia_ai_hub
+  publisher: National Information Society Agency
+  title: AI Hub public learning datasets
+  url: https://eng.nia.or.kr/
+  source_type: official_data_portal
+  access_method: site/manual review
+  confidence_tier: medium_high
+  update_cadence: periodic
+  modules: [public_sector]
+  notes: Current dataset count needs verification against AI Hub data portal.
+- source_id: un_egov
+  publisher: United Nations
+  title: UN E-Government Knowledgebase
+  url: https://publicadministration.un.org/egovkb/en-us/
+  source_type: index_data
+  access_method: HTML/report/data
+  confidence_tier: high
+  update_cadence: biennial
+  modules: [public_sector]
+  notes: Composite index and rank; v0.1 saves raw page and queues table extraction if needed.
+- source_id: oxford_ai_readiness
+  publisher: Oxford Insights
+  title: Government AI Readiness Index 2025
+  url: https://oxfordinsights.com/ai-readiness/government-ai-readiness-index-2025/
+  source_type: public_index
+  access_method: report/page
+  confidence_tier: medium
+  update_cadence: annual
+  modules: [governance]
+  notes: Composite ranking.
+- source_id: msit_ai_basic_act
+  publisher: Ministry of Science and ICT, Republic of Korea
+  title: AI Basic Act official context
+  url: https://www.msit.go.kr/eng/
+  source_type: official_release
+  access_method: official page/manual review
+  confidence_tier: high
+  update_cadence: event
+  modules: [governance]
+  notes: Legal status only; not an AI capability metric.
+- source_id: tradegov_unmanned_defense
+  publisher: International Trade Administration, U.S. Department of Commerce
+  title: South Korea Unmanned Defense Systems
+  url: https://www.trade.gov/market-intelligence/south-korea-unmanned-defense-systems
+  source_type: government_market_note
+  access_method: HTML page
+  confidence_tier: medium
+  update_cadence: event/periodic
+  modules: [defense]
+  notes: Partial public proxy for defense AI/autonomy investment.
+- source_id: mnd_dapa_public
+  publisher: Ministry of National Defense and DAPA, Republic of Korea
+  title: Public defense AI/autonomy pages
+  url: https://www.mnd.go.kr/mbshome/mbs/mndEN/
+  source_type: official_pages
+  access_method: official pages/manual review
+  confidence_tier: medium
+  update_cadence: event
+  modules: [defense]
+  notes: Manual event coding needed for public defense AI institutions and announcements.
+- source_id: kosis
+  publisher: Korean Statistical Information Service
+  title: KOSIS English
+  url: https://kosis.kr/eng/
+  source_type: official_statistics
+  access_method: official statistics/manual review
+  confidence_tier: high
+  update_cadence: annual
+  modules: [defense]
+  notes: Exact demographic table must be selected before observation creation.
+- source_id: pew_ai_views
+  publisher: Pew Research Center
+  title: How People Around the World View AI
+  url: https://www.pewresearch.org/global/2025/10/15/how-people-around-the-world-view-ai/
+  source_type: survey_report
+  access_method: HTML report/topline download
+  confidence_tier: medium_high
+  update_cadence: periodic
+  modules: [social_readiness]
+  notes: Survey margins of error and country coverage apply.

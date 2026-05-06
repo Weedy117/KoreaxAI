@@ -1,0 +1,8 @@
+﻿step,detail,rows_affected,notes
+input_read,Read existing silver observations and previous South Korea AI Index/OECD consolidated CSV.,840,"{""silver_observations"": 242, ""south_korea_ai_index_dashboard_data"": 598}"
+country_normalization,"Mapped country variants to KOR, USA, CHN, or UNKNOWN; North Korea/DPRK excluded from South Korea mapping.",836,
+period_normalization,"Created period_type, year, period_start, period_end, and period_label for annual, quarterly, monthly, and event-style dates.",836,
+unit_normalization,"Standardized common units including percent, count, PFLOP/s, OP/s, H100e, MW, KRW, USD, USD_billion, ranks, and indexes.",836,Currency values were not converted between KRW and USD.
+exact_duplicate_removal,Removed exact duplicates by indicator/country/period/value/unit/source.,4,Removed rows are preserved in duplicates_removed.csv.
+canonical_selection,"Selected one canonical row per indicator/country/period/unit using source hierarchy, confidence, indicator type, and recency.",713,
+timeseries_filter,Kept numeric rows with period_start and confidence above low/manual_review for time-series table.,650,

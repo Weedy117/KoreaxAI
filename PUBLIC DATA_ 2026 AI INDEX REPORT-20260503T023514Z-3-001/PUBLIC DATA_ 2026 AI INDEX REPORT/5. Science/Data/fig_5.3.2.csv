@@ -1,0 +1,19 @@
+Model,Agent Type,Avg. Score
+Gemini 2.5 Pro,Single-agent,36.1
+OpenAI o4-mini-high,Single-agent,33.93
+Claude Sonnet 4,Single-agent,34.18
+GPT-4.1,Single-agent,30.61
+Claude 3.5 Sonnet,Single-agent,24.62
+Qwen3-235B-Thinking,Single-agent,29.97
+GLM-4.5,Single-agent,27.17
+Qwen3-235B-Instruct,Single-agent,23.47
+Kimi-K2-Instruct,Single-agent,22.32
+Gemini 2.5 Pro,Multi-agent,38.78
+OpenAI o4-mini-high,Multi-agent,37.37
+Claude Sonnet 4,Multi-agent,36.73
+GPT-4.1,Multi-agent,34.57
+Claude 3.5 Sonnet,Multi-agent,29.34
+Qwen3-235B-Thinking,Multi-agent,34.31
+GLM-4.5,Multi-agent,30.74
+Qwen3-235B-Instruct,Multi-agent,28.83
+Kimi-K2-Instruct,Multi-agent,26.28

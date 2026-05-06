@@ -1,0 +1,93 @@
+Year,Number of notable AI models,Label
+2003,4.0,Academia
+2004,1.0,Academia
+2005,1.0,Academia
+2006,8.0,Academia
+2007,3.0,Academia
+2008,4.0,Academia
+2009,5.0,Academia
+2010,8.0,Academia
+2011,8.0,Academia
+2012,8.0,Academia
+2013,10.0,Academia
+2014,21.0,Academia
+2015,9.0,Academia
+2016,18.0,Academia
+2017,18.0,Academia
+2018,4.0,Academia
+2019,12.0,Academia
+2020,9.0,Academia
+2021,9.0,Academia
+2022,17.0,Academia
+2023,18.0,Academia
+2024,3.0,Academia
+2025,1.0,Academia
+2003,0.0,Other
+2004,1.0,Other
+2005,1.0,Other
+2006,0.0,Other
+2007,0.0,Other
+2008,0.0,Other
+2009,2.0,Other
+2010,0.0,Other
+2011,0.0,Other
+2012,0.0,Other
+2013,0.0,Other
+2014,1.0,Other
+2015,1.0,Other
+2016,2.0,Other
+2017,1.0,Other
+2018,2.0,Other
+2019,5.0,Other
+2020,3.0,Other
+2021,2.0,Other
+2022,4.0,Other
+2023,2.0,Other
+2024,2.0,Other
+2025,2.0,Other
+2003,0.0,Industry-academia collaboration
+2004,0.0,Industry-academia collaboration
+2005,0.0,Industry-academia collaboration
+2006,1.0,Industry-academia collaboration
+2007,0.0,Industry-academia collaboration
+2008,0.0,Industry-academia collaboration
+2009,0.0,Industry-academia collaboration
+2010,1.0,Industry-academia collaboration
+2011,3.0,Industry-academia collaboration
+2012,2.0,Industry-academia collaboration
+2013,2.0,Industry-academia collaboration
+2014,6.0,Industry-academia collaboration
+2015,6.0,Industry-academia collaboration
+2016,8.0,Industry-academia collaboration
+2017,10.0,Industry-academia collaboration
+2018,8.0,Industry-academia collaboration
+2019,21.0,Industry-academia collaboration
+2020,13.0,Industry-academia collaboration
+2021,22.0,Industry-academia collaboration
+2022,20.0,Industry-academia collaboration
+2023,30.0,Industry-academia collaboration
+2024,12.0,Industry-academia collaboration
+2025,5.0,Industry-academia collaboration
+2003,0.0,Industry
+2004,0.0,Industry
+2005,1.0,Industry
+2006,0.0,Industry
+2007,3.0,Industry
+2008,2.0,Industry
+2009,6.0,Industry
+2010,1.0,Industry
+2011,0.0,Industry
+2012,3.0,Industry
+2013,7.0,Industry
+2014,5.0,Industry
+2015,13.0,Industry
+2016,21.0,Industry
+2017,26.0,Industry
+2018,23.0,Industry
+2019,30.0,Industry
+2020,25.0,Industry
+2021,45.0,Industry
+2022,50.0,Industry
+2023,69.0,Industry
+2024,81.0,Industry
+2025,87.0,Industry

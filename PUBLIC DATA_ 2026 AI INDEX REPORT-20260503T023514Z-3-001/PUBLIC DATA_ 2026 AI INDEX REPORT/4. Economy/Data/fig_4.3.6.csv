@@ -1,0 +1,16 @@
+% of Respondents,Revenue in US dollars,Label
+0.09,<100M,Not using
+0.08,100M–499M,Not using
+0.05,500M–999M,Not using
+0.06,1B–4.9B,Not using
+0.01,5B+,Not using
+0.39,<100M,Experimenting
+0.33,100M–499M,Experimenting
+0.31,500M–999M,Experimenting
+0.22,1B–4.9B,Experimenting
+0.17,5B+,Experimenting
+0.22,<100M,Piloting
+0.32,100M–499M,Piloting
+0.32,500M–999M,Piloting
+0.31,1B–4.9B,Piloting
+0.31,5B+,Piloting

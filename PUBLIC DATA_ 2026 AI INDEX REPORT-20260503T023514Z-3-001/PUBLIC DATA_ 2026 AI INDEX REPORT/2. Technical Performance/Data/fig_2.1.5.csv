@@ -1,0 +1,10 @@
+Benchmark,Precision@50 (%)
+MMLU Math,0.02
+OpenBookQA,0.02
+MMLU Cli,0.06
+MMLU Med,0.06
+AIR-Bench,0.09
+MedQA,0.23
+ThaiExam,0.26
+MMLU 5Sub,0.31
+GSM8K,0.42

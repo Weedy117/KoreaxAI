@@ -1,0 +1,1206 @@
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    // 페이지 프린트 미리보기 호출 함수
+
+    function printView() {
+        var mode = "popup";
+        var selPA = ["area1"];
+        var close = mode == "popup" && $("input#closePop").is(":checked");
+        var extraCss = $("input[name='extraCss']").val();
+
+        var print = "";
+        $.each(selPA, function (idx, val) {
+            print += (print.length > 0 ? "," : "") + "div.PrintArea." + val;
+        });
+        var keepAttr = [];
+        $(".chkAttr").each(function () {
+            if ($(this).is(":checked") == false) {
+                return;
+            }
+            keepAttr.push($(this).val());
+        });
+
+        var headElements = $("input#addElements").is(":checked") ? '<meta charset="utf-8" />,<meta http-equiv="X-UA-Compatible" content="IE=edge"/>' : '';
+
+        var options = {
+            mode: mode,
+            popClose: close,
+            extraCss: extraCss,
+            retainAttr: keepAttr,
+            extraHead: headElements,
+            popWd: 1920,
+            popHt: 800
+        };
+        $(print).printArea(options);
+    }
+
+    //공유하기
+    function btn_copy() {
+        let currentUrl = window.document.location.href;
+        let t = document.createElement("textarea");
+        document.body.appendChild(t);
+        t.value = currentUrl;
+        t.select();
+        document.execCommand('copy');
+        document.body.removeChild(t);
+        alert('클립보드에 복사되었습니다.');
+    }
+</script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,  minimum-scale=1.0,  target-densitydpi=medium-dpi"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ministry of SMEs and Startups</title>
+    <link rel="stylesheet" href="/css/smba/eng/reset.css?version=1777783809116">
+    <link rel="stylesheet" type="text/css" href="/remixicon/remixicon-2.5.0.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/smba/np/common.css?version=1777783809116"/>
+    
+    <link rel="stylesheet" href="/css/smba/eng/tanaicon.min.css">
+    
+    <link rel="stylesheet" href="/css/smba/eng/board.css?version=1777783809116">
+
+
+    <!-- <link rel="stylesheet" href="common/css/board.css"> -->
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="../css/ie9.css">
+    <![endif]-->
+
+
+    <script src="/js/smba/eng/jquery-1.12.4.min.js"></script>
+    <script src="/js/smba/eng/menu.js"></script>
+    <script src="/js/smba/jquery.bxslider.min.js"></script>
+
+    
+        <script src="/js/smba/eng/common.js"></script>
+    
+    
+        <script src="/js/smba/eng/slick.min.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+
+        });
+    </script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73146338-2"></script> -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-73146338-2');
+    </script>
+    
+    <!-- libs -->
+    <script src="/libs/jquery/gioinfra-jquery-3.7.1.js?ver=1.00"></script>
+    <script src="/libs/swiper/swiper11.1.1.js?ver=1.00"></script>
+    <link rel="stylesheet" href="/libs/swiper/swiper11.1.1.css?ver=1.00">
+    <script src="/libs/scrollbar/scrollbar.js?ver=1.00"></script>
+    <link rel="stylesheet" href="/libs/scrollbar/scrollbar.css">
+    	<!--<script src="/libs/gioSelect/gioSelect-1.0.1.js"></script> -->
+    <link rel="stylesheet" href="/libs/gioSelect/gioSelect-1.0.1.css">
+    <script src="/js/jquery.printarea.js?ver=1.00"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/pattern_css_new.css" type="text/css" >
+    <link rel="stylesheet" href="/css/style_new.css?ver=1.00" >
+    <link rel="stylesheet" href="/css/board_new.css?ver=1.00" >
+    <link rel="stylesheet" href="/css/sub_new.css?ver=1.00" >
+
+    <link rel="stylesheet" href="/css/eng/main_new.css" >
+    <link rel="stylesheet" href="/css/eng/common_new.css" >
+
+
+    <!-- js -->
+    <script src="/js/common_new.js?ver=1.00"></script>
+    <script src="/js/sub_new.js?ver=1.00"></script>
+    <script src="/js/eng/main.js?ver=1.00"></script>
+    <script src="/js/sns.js?ver=1.00"></script>
+    
+    <script>
+		function setScreenSize() {
+			let vh = window.innerHeight * 0.01;
+		
+			document.documentElement.style.setProperty('--vh', vh + 'px' );
+		}
+		
+		setScreenSize();
+		window.addEventListener('resize', () => setScreenSize())
+	</script>
+
+</head>
+
+<body>
+<div class="main_notice_pop">
+</div>
+
+<div id="skip-nav">
+    <ul>
+        <li><a href="#contents">본문 바로가기</a></li>
+        <li><a href="#head-gnb">주메뉴 바로가기</a></li>
+    </ul>
+</div>
+<div id="wrap">
+    <div id="header-top">
+        <div class="toggle-wrap">
+            <div class="toggle-head">
+                <div class="inner">
+                    <span class="nuri-txt">This website is the official e-government website of Korea.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header id="header">
+        <!-- 메인화면 변경사항 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="menu-html-generator" src="/js/menuHTMLGenerator.js" data-context-path=""
+        data-site-id=""></script>
+
+<script>
+
+    function goToSearch(query) {
+        let form = document.createElement("form");
+        form.setAttribute("method", "POST");
+        form.setAttribute("action", "https://search.mss.go.kr/mssSearch/searchEng.do");
+        form.setAttribute("target", "_blank");
+
+        let hiddenField = document.createElement("input");
+        hiddenField.setAttribute("type", "hidden");
+        hiddenField.setAttribute("name", "query");
+        hiddenField.setAttribute("value", query);
+
+        form.appendChild(hiddenField);
+
+        document.body.appendChild(form);
+        form.submit();
+    }
+
+    $(document).ready(function () {
+        $("#BtnTotalSearchPC").click(function () {
+            var searchKeyword = $("#totalSearchPC").val();
+            if (searchKeyword === "") {
+                alert("검색어를 입력해주세요.");
+                return;
+            }
+            goToSearch(searchKeyword);
+        });
+
+        $("#BtnTotalSearchM").click(function () {
+            var searchKeyword = $("#totalSearchM").val();
+            if (searchKeyword === "") {
+                alert("검색어를 입력해주세요.");
+                return;
+            }
+            goToSearch(searchKeyword);
+
+        });
+
+        $("#totalSearchPC").keypress(function (e) {
+            if (e.keyCode === 13) {
+                $("#BtnTotalSearchPC").click();
+            }
+        });
+
+        $("#totalSearchM").keypress(function (e) {
+            if (e.keyCode === 13) {
+                $("#BtnTotalSearchM").click();
+            }
+        });
+    });
+</script>
+
+<div class="header-in">
+    <!-- 헤더 상단 기타메뉴 -->
+    <div class="head-body">
+        <div class="inner">
+            <div class="head-in">
+                <h1 class="logo">
+                    <a href="/site/eng/main.do">
+                        <img src="/images/eng/head_logo_eng.svg" class="logo-im" alt="Ministry of SMEs and Startups">
+                    </a>
+                </h1>
+                <div class="right">
+                    <div class="head-in-service">
+
+                        <ul class="pcView-list link">
+                            <li class="li">
+                                <div class="krds-drop-wrap">
+                                    <button type="button" class="btn btn-txt ico-arr-down xsm drop-btn">Language
+                                    </button>
+                                    <div class="drop-menu">
+                                        <div class="drop-in">
+                                            <ul class="drop-list">
+                                                
+                                                    
+                                                        <li><a href="/site/smba/main.do" class="item-link ico-go"
+                                                               target="_blank">한국어</a></li>
+                                                    
+                                                    
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pcView-list btn-list">
+                                    <div class="etc-sch">
+                                        
+                                        <span class="inputTextBtn">
+                                            <input type="text" name="totalSearch" id="totalSearchPC" placeholder="Please enter your search term." title="search">
+                                            <button id="BtnTotalSearchPC" type="button" class="tatalSearchBtn" title="totalSearch"><span class="sr-only">totalSearch</span></button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <ul class="mbView-list">
+                        <li class="li">
+                            
+                            <button type="button" class="btn-navi sch" onclick="totalsearchToggleMobile(event)"
+                                title="Search layer" title="search-total open" data-target="search-total">Search
+                            </button>
+                        </li>
+                        <li class="li">
+                            <button type="button" class="btn-navi all" id="m-gnb-open">Menu</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="totalSearchMobileBox" style="display: none;">
+            <span class="inputTextBtn">
+                <input type="text" name="totalSearch" id="totalSearchM" placeholder="Please enter your search term." title="mobile_search">
+                <button id="BtnTotalSearchM" type="button" class="tatalSearchBtn" title="search-total"><span
+                        class="sr-only">search-total</span></button>
+            </span>
+        </div>
+    </div>
+
+    <nav id="head-gnb" class="head-gnb"  aria-label="주메뉴">
+        <div class="inner">
+            
+
+            <ul class="gnb"><li class="li"><a class="mn" role="button" href="javascript:;">About MSS</a><div class="w-gnb-wrap depth_box"><div class="inner"><div class="depth_flex"><div class="depth_tit"><h2>About MSS</h2><p class="title_p">Ministry of SMEs and Startups</p></div><ul class="depth"><li><a href="/site/eng/contents/view.do?menuCd=20101000000002019110619&amp;siteCd=eng" target="_self">Mission</a></li><li><a href="/site/eng/contents/view.do?menuCd=20102000000002019110628&amp;siteCd=eng" target="_self">Policy Target</a></li><li><a href="/site/eng/contents/view.do?menuCd=20103010000002019110625&amp;siteCd=eng" target="_self">Organization</a><ul class="depth02"><li><a href="/site/eng/contents/view.do?menuCd=20103010000002019110625&amp;siteCd=eng" target="_self">Minister</a></li><li><a href="/site/eng/contents/view.do?menuCd=20103020000002019110631&amp;siteCd=eng" target="_self">1st Vice Minister</a></li><li><a href="/site/eng/contents/view.do?menuCd=20103060000002025100116&amp;siteCd=eng" target="_self">2nd Vice Minister</a></li><li><a href="/site/eng/contents/view.do?menuCd=20103030000002019110637&amp;siteCd=eng" target="_self">Headquarters</a></li><li><a href="/site/eng/contents/view.do?menuCd=20103040000002019110642&amp;siteCd=eng" target="_self">Regional Offices</a></li><li><a href="/site/eng/contents/view.do?menuCd=20103050000002019110651&amp;siteCd=eng" target="_self">Meister High Schools</a></li></ul></li><li><a href="/site/eng/contents/view.do?menuCd=20104000000002019110651&amp;siteCd=eng" target="_self">Affiliated Organization</a></li><li><a href="/site/eng/contents/view.do?menuCd=20106000000002019110604&amp;siteCd=eng" target="_self">Contact us</a></li><li><a href="https://www.safetyreport.go.kr/enApi?apiKey=14200000XY022UGD797MPMB6961#enIntroduction" target="_blank">Safety Report</a></li></ul></div></div></div></li><li class="li"><a class="mn" role="button" href="javascript:;">Korean SMEs</a><div class="w-gnb-wrap depth_box"><div class="inner"><div class="depth_flex"><div class="depth_tit"><h2>Korean SMEs</h2><p class="title_p">Ministry of SMEs and Startups</p></div><ul class="depth"><li><a href="/site/eng/contents/view.do?menuCd=20204000000002019110624&amp;siteCd=eng" target="_self">Scope of SME</a><ul class="depth02"><li><a href="/site/eng/contents/view.do?menuCd=20204000000002019110624&amp;siteCd=eng" target="_self">Statistics</a></li></ul></li><li><a href="/site/eng/contents/view.do?menuCd=20202000000002019110610&amp;siteCd=eng" target="_self">Status of Korean SMEs</a></li><li><a href="/site/eng/contents/view.do?menuCd=20203000000002019110618&amp;siteCd=eng" target="_self">Laws</a></li></ul></div></div></div></li><li class="li"><a class="mn" role="button" href="javascript:;">Major Policies</a><div class="w-gnb-wrap depth_box"><div class="inner"><div class="depth_flex"><div class="depth_tit"><h2>Major Policies</h2><p class="title_p">Ministry of SMEs and Startups</p></div><ul class="depth"><li><a href="/site/eng/contents/view.do?menuCd=20301020000002019110600&amp;siteCd=eng" target="_self">MSS Policies</a><ul class="depth02"><li><a href="/site/eng/contents/view.do?menuCd=20301020000002019110600&amp;siteCd=eng" target="_self">Removing Barriers</a></li><li><a href="/site/eng/contents/view.do?menuCd=20301030000002019110605&amp;siteCd=eng" target="_self">Business Environment</a></li><li><a href="/site/eng/contents/view.do?menuCd=20301040000002019110612&amp;siteCd=eng" target="_self">Startups</a></li><li><a href="/site/eng/contents/view.do?menuCd=20301050000002019110618&amp;siteCd=eng" target="_self">Venture Business</a></li><li><a href="/site/eng/contents/view.do?menuCd=20301060000002019110624&amp;siteCd=eng" target="_self">Tech Innovations</a></li><li><a href="/site/eng/contents/view.do?menuCd=20301070000002019110630&amp;siteCd=eng" target="_self">Human Resource</a></li><li><a href="/site/eng/contents/view.do?menuCd=20301080000002019110637&amp;siteCd=eng" target="_self">Micro Enterprise</a></li><li><a href="/site/eng/contents/view.do?menuCd=20301090000002019110643&amp;siteCd=eng" target="_self">Traditional Market</a></li><li><a href="/site/eng/contents/view.do?menuCd=20301100000002019110649&amp;siteCd=eng" target="_self">Shared Growth</a></li><li><a href="/site/eng/contents/view.do?menuCd=20301110000002019110655&amp;siteCd=eng" target="_self">Local Business</a></li><li><a href="/site/eng/contents/view.do?menuCd=20301120000002019110758&amp;siteCd=eng" target="_self">Export</a></li></ul></li></ul></div></div></div></li><li class="li"><a class="mn selected" role="button" href="javascript:;">MSS Newsroom</a><div class="w-gnb-wrap depth_box"><div class="inner"><div class="depth_flex"><div class="depth_tit"><h2>MSS Newsroom</h2><p class="title_p">Ministry of SMEs and Startups</p></div><ul class="depth"><li><a href="/site/eng/ex/bbs/List.do?cbIdx=244" target="_self">Press Releases</a></li><li><a href="/site/eng/ex/bbs/List.do?cbIdx=273" target="_self">Photo News</a></li><li><a href="/site/eng/ex/bbs/List.do?cbIdx=341" target="_self">Notice</a></li></ul></div></div></div></li></ul>
+        </div>
+    </nav>
+
+
+    <div id="m-gnb" class="m-gnb-wrap">
+        <div class="m-gnb-in">
+            <div class="m-gnb-head">
+                <div class="m-gnb-head-top">
+                    <h1 class="logo">
+                        <a href="/site/eng/main.do">
+                            <img src="/images/eng/head_logo_eng.svg" class="logo-im" alt="중소벤처기업부">
+                        </a>
+                    </h1>
+                    <button type="button" class="btn btn-ico ico-close">
+                        <span class="sr-only">전체메뉴 닫기</span>
+                    </button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="m-gnb-top-etc">
+                <ul class="etc-ul" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <li class="li">
+                        <div class="krds-drop-wrap">
+                            <button type="button" class="btn btn-txt ico-arr-down xsm drop-btn">Language</button>
+                            <div class="drop-menu">
+                                <div class="drop-in">
+                                    <ul class="drop-list">
+                                        <li><a href="/site/smba/main.do" class="item-link ico-go" target="_blank">한국어</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="m-gnb-body">
+                <div class="m-gnb-menu">
+                    <div class="menu-wrap">
+                        <ul class="ul">
+                            
+                            
+                            <li>
+                                <a href="#mGnb-anchor1" class="mn ">About MSS</a>
+                            </li>
+                            
+                            
+                            <li>
+                                <a href="#mGnb-anchor2" class="mn ">Korean SMEs</a>
+                            </li>
+                            
+                            
+                            <li>
+                                <a href="#mGnb-anchor3" class="mn ">Major Policies</a>
+                            </li>
+                            
+                            
+                            <li>
+                                <a href="#mGnb-anchor4" class="mn active">MSS Newsroom</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="submenu-wrap">
+                        
+                        
+                        <div class="dl " id="mGnb-anchor1">
+                            <dl>
+                                <dt class="dt">About MSS</dt>
+                                
+                                <dd class="dd">
+                                    <a href="/site/eng/contents/view.do?menuCd=20101000000002019110619&siteCd=eng" class="sm " target="_self">Mission</a>
+                                    
+                                </dd>
+                                
+                                <dd class="dd">
+                                    <a href="/site/eng/contents/view.do?menuCd=20102000000002019110628&siteCd=eng" class="sm " target="_self">Policy Target</a>
+                                    
+                                </dd>
+                                
+                                <dd class="dd">
+                                    <a href="#" class="sm off" target="_self">Organization</a>
+                                    
+                                    <ul class="sub-ul" style="display: none;">
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20103010000002019110625&siteCd=eng" class="subm" target="_self">Minister</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20103020000002019110631&siteCd=eng" class="subm" target="_self">1st Vice Minister</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20103060000002025100116&siteCd=eng" class="subm" target="_self">2nd Vice Minister</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20103030000002019110637&siteCd=eng" class="subm" target="_self">Headquarters</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20103040000002019110642&siteCd=eng" class="subm" target="_self">Regional Offices</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20103050000002019110651&siteCd=eng" class="subm" target="_self">Meister High Schools</a></li>
+                                        
+                                    </ul>
+                                    
+                                </dd>
+                                
+                                <dd class="dd">
+                                    <a href="/site/eng/contents/view.do?menuCd=20104000000002019110651&siteCd=eng" class="sm " target="_self">Affiliated Organization</a>
+                                    
+                                </dd>
+                                
+                                <dd class="dd">
+                                    <a href="/site/eng/contents/view.do?menuCd=20106000000002019110604&siteCd=eng" class="sm " target="_self">Contact us</a>
+                                    
+                                </dd>
+                                
+                                <dd class="dd">
+                                    <a href="https://www.safetyreport.go.kr/enApi?apiKey=14200000XY022UGD797MPMB6961#enIntroduction" class="sm " target="_blank">Safety Report</a>
+                                    
+                                </dd>
+                                
+                            </dl>
+                        </div>
+                        
+                        
+                        <div class="dl " id="mGnb-anchor2">
+                            <dl>
+                                <dt class="dt">Korean SMEs</dt>
+                                
+                                <dd class="dd">
+                                    <a href="#" class="sm off" target="_self">Scope of SME</a>
+                                    
+                                    <ul class="sub-ul" style="display: none;">
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20204000000002019110624&siteCd=eng" class="subm" target="_self">Statistics</a></li>
+                                        
+                                    </ul>
+                                    
+                                </dd>
+                                
+                                <dd class="dd">
+                                    <a href="/site/eng/contents/view.do?menuCd=20202000000002019110610&siteCd=eng" class="sm " target="_self">Status of Korean SMEs</a>
+                                    
+                                </dd>
+                                
+                                <dd class="dd">
+                                    <a href="/site/eng/contents/view.do?menuCd=20203000000002019110618&siteCd=eng" class="sm " target="_self">Laws</a>
+                                    
+                                </dd>
+                                
+                            </dl>
+                        </div>
+                        
+                        
+                        <div class="dl " id="mGnb-anchor3">
+                            <dl>
+                                <dt class="dt">Major Policies</dt>
+                                
+                                <dd class="dd">
+                                    <a href="#" class="sm off" target="_self">MSS Policies</a>
+                                    
+                                    <ul class="sub-ul" style="display: none;">
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301020000002019110600&siteCd=eng" class="subm" target="_self">Removing Barriers</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301030000002019110605&siteCd=eng" class="subm" target="_self">Business Environment</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301040000002019110612&siteCd=eng" class="subm" target="_self">Startups</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301050000002019110618&siteCd=eng" class="subm" target="_self">Venture Business</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301060000002019110624&siteCd=eng" class="subm" target="_self">Tech Innovations</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301070000002019110630&siteCd=eng" class="subm" target="_self">Human Resource</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301080000002019110637&siteCd=eng" class="subm" target="_self">Micro Enterprise</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301090000002019110643&siteCd=eng" class="subm" target="_self">Traditional Market</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301100000002019110649&siteCd=eng" class="subm" target="_self">Shared Growth</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301110000002019110655&siteCd=eng" class="subm" target="_self">Local Business</a></li>
+                                        
+                                        <li><a href="/site/eng/contents/view.do?menuCd=20301120000002019110758&siteCd=eng" class="subm" target="_self">Export</a></li>
+                                        
+                                    </ul>
+                                    
+                                </dd>
+                                
+                            </dl>
+                        </div>
+                        
+                        
+                        <div class="dl on" id="mGnb-anchor4">
+                            <dl>
+                                <dt class="dt">MSS Newsroom</dt>
+                                
+                                <dd class="dd">
+                                    <a href="/site/eng/ex/bbs/List.do?cbIdx=244" class="sm " target="_self">Press Releases</a>
+                                    
+                                </dd>
+                                
+                                <dd class="dd">
+                                    <a href="/site/eng/ex/bbs/List.do?cbIdx=273" class="sm " target="_self">Photo News</a>
+                                    
+                                </dd>
+                                
+                                <dd class="dd">
+                                    <a href="/site/eng/ex/bbs/List.do?cbIdx=341" class="sm " target="_self">Notice</a>
+                                    
+                                </dd>
+                                
+                            </dl>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    </header>
+    <main id="container">
+
+        
+        
+            <section class="sec subContent">
+                <div class="inner in-between">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="left-menu">
+	<div class="left-in">
+		
+		<h2 class="lnb-tit">MSS Newsroom</h2>
+		<ul class="acco-list lnb-list" data-action="accordion"><li class="li active"><div class="acco-head" onclick="location.href='/site/eng/ex/bbs/List.do?cbIdx=244'"><span class="tit">Press Releases</span><button class="btn btn-ico acco-btn" style="display: none;"><span class="sr-only">접기</span></button></div><div class="acco-body" style="display: block; height: auto;"><div class="acco-in"><ul class="sub-ul"></ul></div></div></li><li class="li"><div class="acco-head" onclick="location.href='/site/eng/ex/bbs/List.do?cbIdx=273'"><span class="tit">Photo News</span><button class="btn btn-ico acco-btn" style="display: none;"><span class="sr-only">펼치기</span></button></div><div class="acco-body" style="display: none;"><div class="acco-in"><ul class="sub-ul"></ul></div></div></li><li class="li"><div class="acco-head" onclick="location.href='/site/eng/ex/bbs/List.do?cbIdx=341'"><span class="tit">Notice</span><button class="btn btn-ico acco-btn" style="display: none;"><span class="sr-only">펼치기</span></button></div><div class="acco-body" style="display: none;"><div class="acco-in"><ul class="sub-ul"></ul></div></div></li></ul>
+	</div>
+</div>
+
+                    <div id="contents" class="contents">
+                        <div class="content_top">
+                            <div class="page-title-wrap">
+                                <h2 class="h-tit">Press Releases</h2>
+                                <!-- breadcrumb -->
+                                <div class="breadcrumb-wrap">
+                                    <ol class="breadcrumb">
+                                        <li>
+                                            <a href="/site/eng/main.do" class="txt home">HOME</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="/site/eng/ex/bbs/List.do?cbIdx=244" class="txt">MSS Newsroom</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="/site/eng/ex/bbs/List.do?cbIdx=244" class="txt">Press Releases</a>
+                                        </li>
+                                        
+                                    </ol>
+                                </div>
+                                <!-- breadcrumb -->
+                            </div>
+                            <ul class="btnList">
+                                <li class="share">
+                                    <button type="button" class="btn_share" id="share_open" class="btn_share"><span class="sr-only">공유</span></button>
+                                    <div id="share_option">
+                                        <div class="box">
+                                            <h6>share</h6>
+                                            <button type="button" id="share_close" class="close ri-close-line"><span class="sr-only">share close</span></button>
+                                            <ul class="share-sns-list">
+                                                <li class="fb"><a href="javascript:facebookOpen('HOME > 페이지 제목');" title="새 창 열림" ><span class="sr-only">facebook share</span></a></li>
+                                                <li class="tw"><a href="javascript:twitterOpen('HOME > 페이지제목');" title="새 창 열림" ><span class="sr-only">X share</span></a></li>
+                                                <li class="nb"><a href="javascript:naverBlogOpen('HOME > 페이지제목')" title="새 창 열림"><span class="sr-only">naverblog share</span></a></li>
+                                                <li class="nd"><a href="javascript:naverBandOpen('HOME > 페이지제목');" title="새 창 열림"><span class="sr-only">naverband share</span></a></li>
+                                                <li class="url"><a href="javascript:btn_copy();"><span class="sr-only">URL share</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="print"><button type="button" class="btn_print" onclick="printView()" title="새 창 열림"><span class="sr-only">프린트</span></button></li>
+                            </ul>
+                        </div>
+                        <div class="content PrintArea area1">
+                            <script src="/ckeditor/ckeditor.js"></script>
+	
+		
+	<meta id="mtTitle" property="og:title" content="2026 Smart Manufacturing Innovation Support Program">
+	<meta property="og:description" content="2026 Smart Manufacturing Innovation Support Program 에 대한 상세내용입니다.">
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+<script>
+//이전글 다음글
+function doPrevNext(cbIdx, bcIdx){
+	document.bbsFVo.action = "/site/eng/ex/bbs/View.do?cbIdx="+cbIdx+"&bcIdx="+bcIdx;
+	document.bbsFVo.action = "/site/eng/ex/bbs/View.do?cbIdx="+cbIdx+"&bcIdx="+bcIdx;
+	document.bbsFVo.submit();
+}
+
+//수정페이지
+function doBbsFMod(cbIdx, bcIdx, gbn){
+	$("#clobCont").val(CKEDITOR.instances.clobCont.getData());
+	document.bbsFVo.action = "/site/eng/ex/bbs/Regist.do?cbIdx="+cbIdx+"&bcIdx="+bcIdx;
+	document.bbsFVo.mode.value = "U";
+	document.bbsFVo.submit();
+}
+
+//답변
+function doBbsFAnSwer(cbIdx, answerStep, parentSeq, answerDepth, gbn){
+	document.bbsFVo.answerStep.value = answerStep;
+	document.bbsFVo.parentSeq.value = parentSeq;
+	document.bbsFVo.answerDepth.value = answerDepth;
+	document.bbsFVo.action = "/site/eng/ex/bbs/Regist.do?cbIdx="+cbIdx;
+	document.bbsFVo.mode.value = "R";
+	document.bbsFVo.submit();
+}
+
+//목록
+function doBbsFList(cbIdx){
+	document.bbsFVo.action = "/site/eng/ex/bbs/List.do?cbIdx="+cbIdx;
+	document.bbsFVo.submit();
+}
+
+ //삭제
+function doBbsFRmv(cbIdx, bcIdx){
+	if (!confirm("삭제하시겠습니까?")) {
+		return;
+	}
+	document.bbsFVo.action = "/site/eng/ex/bbs/Delete.do?cbIdx="+cbIdx+"&bcIdx="+bcIdx;
+	document.bbsFVo.submit();
+}
+
+</script>
+
+
+<!-- S: .content  -->
+ <div class="content" id="content">
+
+
+
+	<!-- S: .boardWrap -->
+	<div class="board_view">
+
+		 
+
+		 <h4 id="sj">
+		 
+			 
+				 
+						 
+						 2026 Smart Manufacturing Innovation Support Program
+				 
+			 
+		 
+			 
+				 
+			 
+		 
+			 
+				 
+			 
+		 
+			 
+				 
+			 
+		 
+			 
+				 
+			 
+		 
+			 
+				 
+			 
+		 
+			 
+				 
+			 
+		 
+			 
+				 
+			 
+		 
+			 
+				 
+			 
+		 
+		 </h4>
+
+		 
+			<!-- Subject -->
+			
+		
+			<!-- Division -->
+			
+
+				
+					
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+			
+		
+			<!-- File -->
+			
+		
+			<!-- Date -->
+			
+
+				
+
+				
+					
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+			
+		
+			<!-- views -->
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+			
+		
+			<!-- Writer -->
+			
+
+				
+
+				
+
+				
+					
+				
+
+				
+
+				
+
+				
+
+				
+
+			
+		
+			<!-- Date Posted -->
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+			
+		
+			<!-- Headline -->
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+					
+				
+
+				
+
+			
+		
+			<!-- Content -->
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+			
+		
+
+		<table>
+			<caption>
+				Subject, Division, File, Date, views, Writer, Date Posted, Headline, Content, 
+			</caption>
+			<colgroup>
+				<col style="width:20%">
+				<col style="width:30%">
+				<col style="width:20%">
+				<col style="width:30%">
+			</colgroup>
+			<tbody>
+				<tr class="web">
+					<th scope="row">Division</th>
+					<td scope="division">Spokesperson&#039;s Office</td>
+				</tr>
+				<tr class="web">
+					<th scope="row">Date</th>
+					<td scope="created">2025.10.31</td>
+				</tr>
+				<tr class="web">
+					<th scope="row">Writer</th>
+					<td scope="writer">Foreign Media Spokesperson</td>
+				</tr>
+				
+				<tr class="web">
+					<th class="headline">Headline</th>
+					<td></td>
+				</tr>
+				
+				<tr class="m-block">
+					<td colspan="4" class="contents_box">
+						<div class="view_contents">
+							
+								
+									
+									
+									
+								
+							
+								
+									
+									
+									
+								
+							
+								
+									
+									
+									
+								
+							
+								
+									
+									
+									
+								
+							
+								
+									
+									
+									
+								
+							
+								
+									
+									
+									
+								
+							
+								
+									
+									
+									
+								
+							
+								
+									
+									
+									
+								
+							
+								
+									
+	
+										
+	
+										<div class="txt-area">
+											
+												
+													
+														<br />
+<strong>2026 Smart Manufacturing Innovation Support Program</strong><br />
+&nbsp;<br />
+As part of Korea&rsquo;s national initiative to advance AI-driven industrial innovation, the Ministry of SMEs and Startups (MSS, Minister Han Seong-sook) announced the 2026 Smart Manufacturing Innovation Support Program on Friday, October 31, 2025.<br />
+&nbsp;<br />
+The notice outlines detailed plans and funding schedules under the government&rsquo;s AI-based Smart Manufacturing Innovation 3.0 Strategy, helping small and medium-manufacturers prepare early for digital transformation and the integration of artificial intelligence in production.<br />
+&nbsp;<br />
+The 2026 program will encompass 12 key projects in the smart manufacturing innovation domain, with the most significant change being a major expansion of AI-related support initiatives compared to this year.<br />
+&nbsp;<br />
+A primary focus will be supporting the establishment of AI-integrated smart factories, where decision-making and execution &ndash; such as defect detection and real-time process control &ndash; are autonomously managed.<br />
+&nbsp;<br />
+Specific project categories include:<br />
+&nbsp;- Autonomous Factories (30 projects)<br />
+&nbsp;- AI-specialized Smart Factories (400 projects)<br />
+&nbsp;- Large-SME Cooperation Projects &ndash; AI Tracks (20 projects)<br />
+In total, approximately 450 projects will be supported. MSS will also strengthen AI transformation (AX) consulting by leveraging experts to help SMEs plan and adopt AI technologies in manufacturing processes.<br />
+&nbsp;<br />
+To address shared challenges faced by SMEs &ndash; such as workplace safety and labor shortages &ndash; MSS will introduce the &ldquo;Accelerated Commercialization Program for AI Solutions,&rdquo; which aims to accelerate the development and deployment of AI-based solutions and equipment tailored to industry needs.<br />
+&nbsp;<br />
+In addition, the ministry plans to expand R&amp;D initiatives related to AI, digital transformation, and core process optimization. A new track will also be established to support the application of outstanding research outcomes in smart factory settings.<br />
+&nbsp;<br />
+For SMEs that lack the capacity to adopt smart technologies, MSS will increase support for manufacturing robot adoption and automate labor-intensive manual processes to enhance productivity and workplace safety.<br />
+&nbsp;<br />
+Furthermore, MSS will continue to foster technology providers by advancing cloud-based manufacturing solutions and supplier capability assessments. The scale of support for manufacturing data standardization will also be expanded, accelerating the construction of standard-based smart factories and revitalizing the broader smart manufacturing ecosystem. 	
+														
+													
+													
+												
+											
+		
+											
+										</div>
+	
+									
+									
+								
+							
+						</div>
+					</td>
+				</tr>
+				
+				<tr>
+					<th scope="row">File</th>
+					<td class="file_list">
+						<ul>
+							
+								<li>
+									<div class="info">
+									
+										
+										
+										
+										
+										
+										
+										
+										
+											<span class="file_icon pdf">PDF 파일</span>
+										
+										
+									
+									<span class="name">
+										(2025_Oct_31)_2026_Smart_Manufacturing_Innovation_Support_Program.pdf  
+										[224.5 KB]
+									</span>
+									</div>
+									<div class="link">
+										<a href="/common/board/Download.do?bcIdx=1062921&amp;cbIdx=244&amp;streFileNm=5be52a48-17ad-490c-8589-298f026e9b7d.pdf" class="btn type_down" title="파일 내려받기" style="width: 118px;">Download</a>
+									</div>
+								</li>
+							
+						</ul>
+					</td>
+				</tr>
+				
+			</tbody>
+		</table>
+
+		
+		
+		
+
+		
+		<ul class="prev_next_view">
+			
+				<li class="prev"><a href="#next" onclick="doPrevNext('244', '1062814');return false;" ><span>Prev</span>MSS Hosts 2025 Youth Bizcool Festival to Foster Korea’s Next Generation of Entrepreneurs </a></li>
+			
+			
+				<li class="next"><a href="#prev" onclick="doPrevNext('244', '1063023');return false;" ><span>Next</span>MSS’s  Roundtable  with  Regional  Innovators  to  Shape  Global  Venture  Powerhouse  Strategy</a></li>
+			
+		</ul>
+		<div class="btn_box">
+			<a href="#list" class="go_list" onclick="doBbsFList('244', '1062921');return false;"><span>List</span></a>
+		</div>
+
+		
+		
+	</div>
+	 <!-- E: //.boardWrap -->
+
+	<form id="bbsFVo" name="bbsFVo" action="/site/eng/ex/bbs/View.do" method="post">
+		<input id="searchKey" name="searchKey" type="hidden" value=""/>
+		<input id="pageIndex" name="pageIndex" type="hidden" value="1"/>
+		<input id="tgtTypeCd" name="tgtTypeCd" type="hidden" value=""/>
+		<input id="mode" name="mode" type="hidden" value=""/>
+		<input id="parentSeq" name="parentSeq" type="hidden" value="0"/>
+		<input id="answerDepth" name="answerDepth" type="hidden" value="0"/>
+		<input id="answerStep" name="answerStep" type="hidden" value="0"/>
+		<input id="fileMaxSize" name="fileMaxSize" type="hidden" value="10"/>
+	</form>
+
+ </div>
+ <!-- E: //.content  -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        
+        <div class="viewList">
+            <a href="#" class="viewTop" role="button" title="위로 스크롤 올리기">TOP</a>
+        </div>
+    </main>
+    <footer id="footer">
+        
+
+
+
+
+
+
+
+
+
+<div class="inner">
+    <div class="f-logo">
+        <img src="/images/eng/foot_logo_eng.svg" class="logo-im" alt="Ministry of SMEs and Startups">
+    </div>
+    <div class="f-cnt">
+        <div class="f-info">
+            <p class="info-addr">
+                SEJONG FINANCE CENTER, 180, Gareum-ro, Sejong-si, Republic of Korea<br/>
+                Mail to msskorea@korea.kr
+            </p>
+        </div>
+        <p class="f-copy">Copyright (c) Ministry of SMEs and Startups. All Rights reserved.</p>
+    </div>
+</div>
+
+    </footer>
+</div>
+</body>
+<script src="/js/pattern/ui-pattern-script.js"></script>
+<script src="/js/component/ui-script.js"></script>
+<script src="/libs/gioSelect/gioSelect-1.0.1_new.js"></script>
+
+</html>
+
+    
+    
+
