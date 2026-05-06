@@ -1,0 +1,13 @@
+pandas
+openpyxl
+requests
+beautifulsoup4
+pyarrow
+duckdb
+plotly
+streamlit
+pyyaml
+python-dotenv
+pdfplumber
+lxml
+
